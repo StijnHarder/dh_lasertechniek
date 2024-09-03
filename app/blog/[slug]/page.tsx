@@ -2,7 +2,12 @@ import { getPostBySlug, getPosts } from "@/lib/server";
 import Image from "next/image";
 
 export async function generateStaticParams() {
-  const posts = await getPosts() || "Posts not found";
+  const posts = await getPosts();
+
+  if (!posts || posts.length === 0) {
+    return [];  // Return an empty array if there are no posts
+  }
+
   const postSlugs = posts.map((post: { slug: string }) => ({
     slug: post.slug,
   }));
