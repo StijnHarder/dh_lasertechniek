@@ -1,14 +1,14 @@
-import { getPostBySlug } from "@/lib/server";
+import { getPostBySlug, getPosts } from "@/lib/server";
 import Image from "next/image";
 
-// export async function generateStaticParams() {
-//   const posts = await getPosts();
-//   const postSlugs = posts.map((post: { slug: string }) => ({
-//     slug: post.slug,
-//   }));
+export async function generateStaticParams() {
+  const posts = await getPosts();
+  const postSlugs = posts.map((post: { slug: string }) => ({
+    slug: post.slug,
+  }));
 
-//   return postSlugs;
-// }
+  return postSlugs;
+}
 
 export default async function PostDetails({ params }: { params: any }) {
   const post = await getPostBySlug(params.slug);

@@ -7,7 +7,7 @@ import { getPosts } from "@/lib/server";
 export default function BlogOverview() {
   // const posts = await getPosts();
 
-  const [posts, setPost] = useState<any>(null);
+  const [posts, setPost] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
