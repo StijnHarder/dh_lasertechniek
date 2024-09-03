@@ -1,0 +1,4908 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Title: LOGO DNH lasER nw ONTWERP
+%%Creator: SignLab DesignPro - LOGO DNH lasER nw ONTWERP.CDL
+%%CreationDate: Tue Aug 27 14:06:21 2024
+%%BoundingBox: -1 566 485 842
+%%LanguageLevel: 3
+%%DocumentCustomColors:
+%%+ (Black)
+%%RGBCustomColor:
+%%+ 0.000000 0.000000 0.000000 (Black)
+%%EndComments
+%%BeginResource: procset Signlab5Dict 5.0 0
+%%BeginProlog
+% Copyright (C) 1992-2014
+% Cadlink Technology Corporation
+% Ottawa, CANADA
+% All Rights Reserved
+/Signlab5Dict 100 dict def
+Signlab5Dict begin
+/bdf {bind def} bind def
+/ldf {load def} bdf
+/xdf {exch def} bdf
+/w /setlinewidth ldf
+/N {newpath} bdf
+/n {newpath} bdf
+/Cp {closepath} bdf
+/u {} bdf
+/U {} bdf
+/w {setlinewidth} bdf
+/k {/FType 1 def dup 3 1 roll add 1 exch sub 4 1 roll
+dup 3 1 roll add 1 exch sub 4 1 roll add 1 exch sub 3 1 roll /RedFill xdf /GreenFill xdf /BlueFill xdf} bdf
+/K {dup 3 1 roll add 1 exch sub 4 1 roll
+dup 3 1 roll add 1 exch sub 4 1 roll add 1 exch sub 3 1 roll /RedLine xdf /GreenLine xdf /BlueLine xdf} bdf
+/m /moveto ldf
+/l /lineto ldf
+/L /lineto ldf
+/rl /rlineto ldf
+/c /curveto ldf
+/C /curveto ldf
+/J {setlinecap} bdf
+/j {setlinejoin} bdf
+/M {setmiterlimit} bdf
+/Cn { Cp clip n} bdf
+/PRset { /PR xdf } bdf
+/HsbToRgb
+{
+3 -1 roll dup floor sub 3 1 roll sethsbcolor currentrgbcolor
+} bdf
+/RgbToHsb
+{
+setrgbcolor currenthsbcolor
+} bdf
+/NewGNextCol
+{
+GDir 1 eq
+{
+GDeltaBL add 3 1 roll
+GDeltaGR add 3 1 roll
+GDeltaRD add 3 1 roll
+}
+{
+GDeltaB add 3 1 roll
+GDeltaS add 3 1 roll
+GDeltaH add 3 1 roll
+} ifelse
+} bdf
+/NewGSetCol
+{
+GDir 1 eq
+{
+3 copy setrgbcolor
+}
+{
+3 copy HsbToRgb setrgbcolor
+} ifelse
+} bdf
+/NewGCalcCols
+{
+GDir 1 eq
+{
+4 -1 roll sub GNumSegSteps dup 1 gt {1 sub} if dup 0 gt {div}{pop pop 0} ifelse /GDeltaBL xdf
+3 -1 roll sub GNumSegSteps dup 1 gt {1 sub} if dup 0 gt {div}{pop pop 0} ifelse /GDeltaGR xdf
+exch sub GNumSegSteps dup 1 gt {1 sub} if dup 0 gt {div}{pop pop 0} ifelse /GDeltaRD xdf
+}
+{
+4 -1 roll sub GNumSegSteps dup 1 gt {1 sub} if dup 0 gt {div}{pop pop 0} ifelse /GDeltaB xdf
+3 -1 roll sub GNumSegSteps dup 1 gt {1 sub} if dup 0 gt {div}{pop pop 0} ifelse /GDeltaS xdf
+exch sub GAdjHue GNumSegSteps dup 1 gt {1 sub} if dup 0 gt {div}{pop pop 0} ifelse /GDeltaH xdf
+} ifelse
+} bdf
+/NewGFStart
+{
+SCP
+GColArray 0 3 getinterval aload pop setrgbcolor
+GType 1 eq
+{
+GNewLinearType 0 eq
+{
+pathbbox
+dup 3 index sub GNumSteps div /GStepSize xdf
+dup 3 index sub 2 index 5 index sub Max dup /GWidth xdf /GPadHeight xdf
+3 index 3 index translate
+exch 4 -1 roll sub GOriginX mul 3 1 roll exch sub GOriginY mul
+2 copy abs exch abs Max dup GPadHeight add /GPadHeight xdf
+GWidth add /GWidth xdf translate
+/GPadHeight GPadHeight GScaleY mul 2 mul def
+/GWidth GWidth GScaleY mul 2 mul def
+GAng neg rotate 1.0 GScaleY scale
+}
+{
+[ Gr11 Gr12 Gr21 Gr22 Gtx Gty ] matrix currentmatrix matrix concatmatrix setmatrix
+/GStepSize 1 256 div def
+pathbbox abs 3 -1 roll abs Max /GPadHeight xdf
+abs exch abs Max /GWidth xdf
+}ifelse
+fill
+}
+{
+[ Gr11 Gr12 Gr21 Gr22 Gtx Gty ] matrix currentmatrix matrix concatmatrix setmatrix
+GType 2 ne
+{
+/GRadius GRepNum def
+/GStepSize GRadius GNumSteps div GRepNum div def
+}
+{
+/GRadius GRtConicalRadius def
+/GCurAng 0 def
+/GDeltaAng 360 GNumSteps div GRepNum div def
+} ifelse
+fill
+} ifelse
+} bdf
+/NewGFEnd
+{
+GType 1 eq
+{
+GColArray dup length 4 idiv 1 sub 4 mul 3 getinterval aload pop
+setrgbcolor
+n GWidth neg 0 m GWidth 0 l GWidth GPadHeight l
+GWidth neg GPadHeight l Cp fill
+} if
+GType 3 eq
+{
+n
+n 0 0 m 0 0 GRadius 0 360 arc fill
+}if
+GType 4 eq
+{
+n GRadius dup neg dup m
+2 mul dup 0 rl dup 0 exch rl neg 0 rl Cp fill
+}if
+} bdf
+/NewGFSmooth
+{
+NewGFStart
+GIsRadialOrSquare
+{
+GSwitchHSBDir
+} if
+1 1 GRepNum
+{
+/GRepIndex xdf
+GIsWave
+{
+GIsRadialOrSquare GRepNum 2 mod 0 eq and
+{/GRepIndex GRepIndex 1 add def} if
+GRepIndex 2 mod 0 eq {GSwitchHSBDir} if
+} if
+1 1 GColArray length 4 idiv 1 sub
+GIsWave
+{
+GRepIndex 2 mod 0 eq {3 1 roll neg exch} if
+} if
+{
+dup GColArray exch 4 mul 3 add get /GNumSegSteps xdf
+dup 1 sub
+GIsWave
+{
+GRepIndex 2 mod 0 eq {exch} if
+} if
+GColArray exch 4 mul 3 getinterval
+aload pop
+GDir 1 eq {3 copy}{RgbToHsb 3 copy} ifelse
+GColArray 8 -1 roll 4 mul 3 getinterval
+aload pop
+GDir 1 ne {RgbToHsb} if
+NewGCalcCols
+GNumSegSteps
+{
+NewGSetCol
+GFillStep
+NewGNextCol
+} repeat
+pop pop pop
+} for
+GIsWave
+{
+GRepIndex 2 mod 0 eq {GSwitchHSBDir} if
+} if
+} for
+NewGFEnd
+} bdf
+/NewGFStripes
+{
+NewGFStart
+1 1 GRepNum
+{
+/GRepIndex xdf
+0 1 GColArray length 4 idiv 1 sub dup /GLoopMax xdf
+GIsWave
+{
+GRepIndex 2 mod 0 eq {3 1 roll neg exch} if
+} if
+{
+dup
+GIsLinearOrConical
+{
+dup /GLoopIndex xdf
+GLoopIndex GLoopMax eq
+{pop 0}{1 add} ifelse
+} if
+GColArray exch 4 mul 3 add get /GNumSegSteps xdf
+GColArray exch 4 mul 3 getinterval
+aload pop
+NewGSetCol
+pop pop pop
+GNumSegSteps
+{
+GFillStep
+} repeat
+} for
+} for
+NewGFEnd
+} bdf
+/NewF
+{
+FType 1 eq
+{
+BlueFill GreenFill RedFill setrgbcolor
+PR 1 eq
+{fill} {eofill} ifelse
+}
+{
+GbSmooth 1 eq {NewGFSmooth}{NewGFStripes} ifelse
+} ifelse
+} bdf
+/HsbToCmyk
+{
+3 -1 roll dup floor sub 3 1 roll sethsbcolor currentcmykcolor
+} bdf
+/CmykToHsb
+{
+setcmykcolor currenthsbcolor
+} bdf
+/SCP
+{
+PR 1 eq
+{clip} {eoclip} ifelse
+} bdf
+/Min
+{
+2 copy gt {exch pop}{pop} ifelse
+} bdf
+/Max
+{
+2 copy lt {exch pop}{pop} ifelse
+} bdf
+/GNextCol
+{
+GDir 1 eq
+{
+GDeltaK add 4 1 roll
+GDeltaY add 4 1 roll
+GDeltaM add 4 1 roll
+GDeltaC add 4 1 roll
+}
+{
+GDeltaB add 3 1 roll
+GDeltaS add 3 1 roll
+GDeltaH add 3 1 roll
+} ifelse
+} bdf
+/GSetCol
+{
+GDir 1 eq
+{
+4 copy setcmykcolor
+}
+{
+3 copy HsbToCmyk setcmykcolor
+} ifelse
+} bdf
+/GAdjHue
+{
+dup 0 eq
+{
+pop GDir 3 eq
+{.99}
+{-.99} ifelse
+} if
+dup GDir 3 eq exch 0 lt and
+{1 add} if
+dup GDir 2 eq exch 0 gt and
+{1 sub} if
+} bdf
+/GCalcCols
+{
+GDir 1 eq
+{
+5 -1 roll sub GNumSegSteps dup 1 gt {1 sub} if dup 0 gt {div}{pop pop 0} ifelse /GDeltaK xdf
+4 -1 roll sub GNumSegSteps dup 1 gt {1 sub} if dup 0 gt {div}{pop pop 0} ifelse /GDeltaY xdf
+3 -1 roll sub GNumSegSteps dup 1 gt {1 sub} if dup 0 gt {div}{pop pop 0} ifelse /GDeltaM xdf
+exch sub GNumSegSteps dup 1 gt {1 sub} if dup 0 gt {div}{pop pop 0} ifelse /GDeltaC xdf
+}
+{
+4 -1 roll sub GNumSegSteps dup 1 gt {1 sub} if dup 0 gt {div}{pop pop 0} ifelse /GDeltaB xdf
+3 -1 roll sub GNumSegSteps dup 1 gt {1 sub} if dup 0 gt {div}{pop pop 0} ifelse /GDeltaS xdf
+exch sub GAdjHue GNumSegSteps dup 1 gt {1 sub} if dup 0 gt {div}{pop pop 0} ifelse /GDeltaH xdf
+} ifelse
+} bdf
+/GPostHighlight
+{
+[{
+%%BeginFeature: *Inverse Prime
+$breaklink
+%%EndFeature
+} stopped cleartomark
+} bdf
+/GHfill
+{
+GHighlight {GPreHighlightColorspace fill GPreHighlightLinkPlanes} if
+fill
+GHighlight {GPostHighlight} if
+} bdf
+/GHeofill
+{
+GHighlight {GPreHighlightColorspace eofill GPreHighlightLinkPlanes} if
+eofill
+GHighlight {GPostHighlight} if
+} bdf
+/GFillStep
+{
+GType 1 eq
+{
+n GWidth neg 0 m GWidth 0 l GWidth GStepSize 1.05 mul l
+GWidth neg GStepSize 1.05 mul l Cp GHfill
+0 GStepSize translate
+}
+{
+GType 2 eq
+{
+n 0 0 m 0 0 GRadius GCurAng dup GDeltaAng 1.05 mul add arc GHfill
+/GCurAng GCurAng GDeltaAng add def
+}
+{
+GType 3 eq
+{
+n 0 0 m 0 0 GRadius 0 360 arc
+/GNewRadius GRadius GStepSize 1.1 mul sub def
+GNewRadius 0 le
+{
+GHfill
+}
+{
+0 0 GNewRadius 0 360 arc
+GHeofill
+}ifelse
+}
+{
+n GRadius dup neg dup m
+2 mul dup 0 rl dup 0 exch rl neg 0 rl Cp
+/GNewRadius GRadius GStepSize 1.1 mul sub def
+GNewRadius 0 le
+{
+GHfill
+}
+{
+GNewRadius dup neg dup m
+2 mul dup 0 rl dup 0 exch rl neg 0 rl Cp
+GHeofill
+}ifelse
+} ifelse
+/GRadius GRadius GStepSize sub def
+} ifelse
+} ifelse
+} bdf
+/GFStart
+{
+SCP
+GColArray 0 4 getinterval aload pop setcmykcolor
+GType 1 eq
+{
+GNewLinearType 0 eq
+{
+pathbbox
+dup 3 index sub GNumSteps div /GStepSize xdf
+dup 3 index sub 2 index 5 index sub Max dup /GWidth xdf /GPadHeight xdf
+3 index 3 index translate
+exch 4 -1 roll sub GOriginX mul 3 1 roll exch sub GOriginY mul
+2 copy abs exch abs Max dup GPadHeight add /GPadHeight xdf
+GWidth add /GWidth xdf translate
+/GPadHeight GPadHeight GScaleY mul 2 mul def
+/GWidth GWidth GScaleY mul 2 mul def
+GAng neg rotate 1.0 GScaleY scale
+}
+{
+[ Gr11 Gr12 Gr21 Gr22 Gtx Gty ] matrix currentmatrix matrix concatmatrix setmatrix
+/GStepSize 1 256 div def
+pathbbox abs 3 -1 roll abs Max /GPadHeight xdf
+abs exch abs Max /GWidth xdf
+}ifelse
+GHfill
+}
+{
+[ Gr11 Gr12 Gr21 Gr22 Gtx Gty ] matrix currentmatrix matrix concatmatrix setmatrix
+GType 2 ne
+{
+/GRadius GRepNum def
+/GStepSize GRadius GNumSteps div GRepNum div def
+}
+{
+/GRadius GRtConicalRadius def
+/GCurAng 0 def
+/GDeltaAng 360 GNumSteps div GRepNum div def
+} ifelse
+GHfill
+} ifelse
+} bdf
+/GFEnd
+{
+GType 1 eq
+{
+GColArray dup length 5 idiv 1 sub 5 mul 4 getinterval aload pop
+setcmykcolor
+n GWidth neg 0 m GWidth 0 l GWidth GPadHeight l
+GWidth neg GPadHeight l Cp GHfill
+} if
+} bdf
+/GF
+{
+GFStart
+1 1 GColArray length 5 idiv 1 sub
+{
+dup GColArray exch 5 mul 4 add get /GNumSegSteps xdf
+1 1 GRepNum
+{
+exch dup dup 1 sub 4 -1 roll
+GRepType 3 eq
+{
+GType 3 eq GType 4 eq or {GRepNum 1 add add} if
+2 mod 0 eq {exch} if
+}
+{
+pop
+} ifelse
+GColArray exch 5 mul 4 getinterval
+aload pop
+GDir 1 eq {4 copy}{CmykToHsb 3 copy} ifelse
+GColArray GDir 1 eq {10}{8} ifelse -1 roll 5 mul 4 getinterval
+aload pop
+GDir 1 ne {CmykToHsb} if
+GCalcCols
+GNumSegSteps
+{
+GSetCol
+GFillStep
+GNextCol
+} repeat
+pop pop pop
+GDir 1 eq {pop} if
+} for
+pop
+} for
+GFEnd
+} bdf
+/GIsWave
+{
+GRepNum 1 gt GRepType 3 eq and
+} bdf
+/GIsRadialOrSquare
+{
+GType 3 eq GType 4 eq or
+} bdf
+/GIsLinearOrConical
+{
+GType 1 eq GType 2 eq or
+} bdf
+/GSwitchHSBDir
+{
+GDir 1 ne {GDir 2 eq { /GDir 3 def}{/GDir 2 def} ifelse} if
+} bdf
+/GFSmooth
+{
+GFStart
+GIsRadialOrSquare
+{
+GSwitchHSBDir
+} if
+1 1 GRepNum
+{
+/GRepIndex xdf
+GIsWave
+{
+GIsRadialOrSquare GRepNum 2 mod 0 eq and
+{/GRepIndex GRepIndex 1 add def} if
+GRepIndex 2 mod 0 eq {GSwitchHSBDir} if
+} if
+1 1 GColArray length 5 idiv 1 sub
+GIsWave
+{
+GRepIndex 2 mod 0 eq {3 1 roll neg exch} if
+} if
+{
+dup GColArray exch 5 mul 4 add get /GNumSegSteps xdf
+dup 1 sub
+GIsWave
+{
+GRepIndex 2 mod 0 eq {exch} if
+} if
+GColArray exch 5 mul 4 getinterval
+aload pop
+GDir 1 eq {4 copy}{CmykToHsb 3 copy} ifelse
+GColArray GDir 1 eq {10}{8} ifelse -1 roll 5 mul 4 getinterval
+aload pop
+GDir 1 ne {CmykToHsb} if
+GCalcCols
+GNumSegSteps
+{
+GSetCol
+GFillStep
+GNextCol
+} repeat
+pop pop pop
+GDir 1 eq {pop} if
+} for
+GIsWave
+{
+GRepIndex 2 mod 0 eq {GSwitchHSBDir} if
+} if
+} for
+GFEnd
+} bdf
+/GFStripes
+{
+GFStart
+1 1 GRepNum
+{
+/GRepIndex xdf
+0 1 GColArray length 5 idiv 1 sub dup /GLoopMax xdf
+GIsWave
+{
+GRepIndex 2 mod 0 eq {3 1 roll neg exch} if
+} if
+{
+dup
+GIsLinearOrConical
+{
+dup /GLoopIndex xdf
+GLoopIndex GLoopMax eq
+{pop 0}{1 add} ifelse
+} if
+GColArray exch 5 mul 4 add get /GNumSegSteps xdf
+GColArray exch 5 mul 4 getinterval
+aload pop
+GSetCol
+pop pop pop pop
+GNumSegSteps
+{
+GFillStep
+} repeat
+} for
+} for
+GFEnd
+} bdf
+/F
+{
+FType 1 eq
+{
+BlueFill GreenFill RedFill setrgbcolor
+PR 1 eq
+{fill} {eofill} ifelse
+}
+{
+GbSmooth 1 eq {GFSmooth}{GFStripes} ifelse
+} ifelse
+} bdf
+
+/SpotGF_Duotone_Data
+{
+/SLColorSpace xdf
+dup length 1 eq {0 get /SFoilNames xdf /NFoil 1 def }{/SFoilNames xdf /NFoil SFoilNames length def}ifelse
+/STintValues xdf
+/SpectraFlag xdf
+/SAlternateCMYK xdf
+/SToMarkers xdf
+/SFromMarkers xdf
+/NMarkers SFromMarkers length 2 div def
+}bdf
+
+%/SpotGF_Duotone_Data
+%{
+%/SFoilNames xdf
+%/STintValues xdf
+%/SpectraFlag xdf
+%/SAlternateCMYK xdf
+%/SToMarkers xdf
+%/SFromMarkers xdf
+%/NFoil SFoilNames length def
+%/NMarkers SFromMarkers length 2 div def
+%}bdf
+
+/SpotGF_LN
+{
+dup 0 le{ pop 0 }if
+dup 1 ge{ pop 1 }if
+}bdf
+
+/SpotGF_SetColorSpace
+{
+[NFoil 1 eq {/Separation}{/DeviceN}ifelse SFoilNames
+SLColorSpace 0 eq {/DeviceCMYK }{/DeviceRGB }ifelse
+{
+/SAltC 0.0 def
+/SAltM 0.0 def
+/SAltY 0.0 def
+/SAltK 0.0 def
+0 1 NFoil 1 sub{
+/SCurIter xdf
+/SCurTint xdf
+SLColorSpace 0 eq {
+/SAltSubArray SAlternateCMYK NFoil SCurIter sub 1 sub 4 mul 4 getinterval def
+/SAltK SAltK SCurTint SAltSubArray 3 get mul add def
+/SAltY SAltY SCurTint SAltSubArray 2 get mul add def
+/SAltM SAltM SCurTint SAltSubArray 1 get mul add def
+/SAltC SAltC SCurTint SAltSubArray 0 get mul add def
+}{
+/SAltSubArray SAlternateCMYK NFoil SCurIter sub 1 sub 3 mul 3 getinterval def
+/SAltY SAltY SCurTint SAltSubArray 2 get 1 exch sub mul add def
+/SAltM SAltM SCurTint SAltSubArray 1 get 1 exch sub mul add def
+/SAltC SAltC SCurTint SAltSubArray 0 get 1 exch sub mul add def
+}ifelse
+} for
+SLColorSpace 1 eq {
+SAltY SpotGF_LN /SAltY exch 1 exch sub def
+SAltM SpotGF_LN /SAltM exch 1 exch sub def
+SAltC SpotGF_LN /SAltC exch 1 exch sub def
+}if
+SAltC SpotGF_LN SAltM SpotGF_LN SAltY SpotGF_LN  SLColorSpace 0 eq{SAltK SpotGF_LN}if
+}] setcolorspace
+} bdf
+
+%/SpotGF_SetColorSpace
+%{
+%[/DeviceN SFoilNames /DeviceCMYK {
+%/SAltC 0.0 def
+%/SAltM 0.0 def
+%/SAltY 0.0 def
+%/SAltK 0.0 def
+%0 1 NFoil 1 sub{
+%/SCurIter xdf
+%/SCurTint xdf
+%/SAltSubArray SAlternateCMYK NFoil SCurIter sub 1 sub 4 mul 4 getinterval def
+%/SAltK SAltK SCurTint SAltSubArray 3 get mul add def
+%/SAltY SAltY SCurTint SAltSubArray 2 get mul add def
+%/SAltM SAltM SCurTint SAltSubArray 1 get mul add def
+%/SAltC SAltC SCurTint SAltSubArray 0 get mul add def
+%} for
+%SAltC SpotGF_LN SAltM SpotGF_LN SAltY SpotGF_LN SAltK SpotGF_LN 
+%}] setcolorspace
+%} bdf
+
+/SpotGF_Duotone_SetStartColor
+{
+0 1 NFoil 1 sub
+{
+/FoilIndex xdf
+/Mo
+FoilIndex SpectraFlag lt
+{
+SFromMarkers 1 get
+}
+{
+SToMarkers 1 get
+}ifelse
+def
+STintValues FoilIndex get Mo mul
+} for
+setcolor
+} bdf
+/SpotGF_Duotone_SetEndColor
+{
+0 1 NFoil 1 sub
+{
+/FoilIndex xdf
+/Mf
+FoilIndex SpectraFlag lt
+{
+SFromMarkers dup length 1 sub get
+}
+{
+SToMarkers dup length 1 sub get
+}ifelse
+def
+STintValues FoilIndex get Mf mul
+} for
+setcolor
+} bdf
+/SpotGF_Duotone_GetTintInfo
+{
+/NTintSteps SFromMarkers MarkerIndex 1 add 2 mul get def
+/StartEndTints
+[
+0 1 NFoil 1 sub
+{
+/FoilIndex xdf
+/MStart
+FoilIndex SpectraFlag lt
+{
+SFromMarkers MarkerIndex 2 mul 1 add get
+}
+{
+SToMarkers MarkerIndex 2 mul 1 add get
+}ifelse
+def
+/MEnd
+FoilIndex SpectraFlag lt
+{
+SFromMarkers MarkerIndex 1 add 2 mul 1 add get
+}
+{
+SToMarkers MarkerIndex 1 add 2 mul 1 add get
+}ifelse
+def
+STintValues FoilIndex get dup MStart mul exch MEnd mul
+}for
+] def
+} bdf
+/SpotGF_Duotone_CalcDeltaTint
+{
+/DeltaTints
+[
+0 1 NFoil 1 sub
+{
+2 mul StartEndTints exch 2 getinterval aload pop sub NTintSteps div
+}for
+] def
+}bdf
+/SpotGF_Duotone_SetTint
+{
+0 1 NFoil 1 sub
+{
+/FoilIndex xdf
+StartEndTints FoilIndex 2 mul get
+DeltaTints FoilIndex get
+TintStepsIndex mul sub
+}for
+setcolor
+} bdf
+/SpotGF_Duotone_Smooth
+{
+SpotGF_SetColorSpace
+SpotGF_Duotone_SetStartColor
+SpotGF_Start
+0 1 NMarkers 2 sub
+{
+/MarkerIndex xdf
+SpotGF_Duotone_GetTintInfo
+SpotGF_Duotone_CalcDeltaTint
+0 1 NTintSteps 1 sub
+{
+/TintStepsIndex xdf
+SpotGF_Duotone_SetTint
+SpotGF_FillStep
+SpotGF_TranslateStep
+} for
+} for
+SpotGF_Duotone_SetEndColor
+SpotGF_End
+} bdf
+
+/SpotGF_Monotone_Data
+{
+/SLColorSpace xdf
+dup length 1 eq {0 get /SFoilNames xdf /NFoil 1 def }{/SFoilNames xdf /NFoil SFoilNames length def}ifelse
+/STintValues xdf
+/SAlternateCMYK xdf
+/SMarkers xdf
+/NMarkers SMarkers length 2 div def
+}bdf
+
+%/SpotGF_Monotone_Data
+%{
+%/SFoilNames xdf
+%/STintValues xdf
+%/SAlternateCMYK xdf
+%/SMarkers xdf
+%/NFoil SFoilNames length def
+%/NMarkers SMarkers length 2 div def
+%}bdf
+
+/SpotGF_Monotone_SetStartColor
+{
+/Mo SMarkers 1 get def
+0 1 NFoil 1 sub
+{
+STintValues exch get Mo mul
+}for
+setcolor
+}bdf
+/SpotGF_Monotone_SetEndColor
+{
+/Mf SMarkers dup length 1 sub get def
+0 1 NFoil 1 sub
+{
+STintValues exch get Mf mul
+}for
+setcolor
+}bdf
+/SpotGF_Monotone_GetTintInfo
+{
+/NTintSteps SMarkers MarkerIndex 1 add 2 mul get def
+/MStart SMarkers MarkerIndex 2 mul 1 add get def
+/MEnd SMarkers MarkerIndex 1 add 2 mul 1 add get def
+/StartEndTints
+[
+0 1 NFoil 1 sub
+{
+STintValues exch get dup MStart mul exch MEnd mul
+}for
+]def
+}bdf
+/SpotGF_Monotone_CalcDeltaTint
+{
+/DeltaTints
+[
+0 1 NFoil 1 sub
+{
+2 mul StartEndTints exch 2 getinterval aload pop sub NTintSteps div
+}for
+]def
+}bdf
+/SpotGF_Monotone_SetTint
+{
+0 1 NFoil 1 sub
+{
+/FoilIndex xdf
+StartEndTints FoilIndex 2 mul get
+DeltaTints FoilIndex get
+TintStepsIndex mul sub
+}for
+setcolor
+} bdf
+/SpotGF_Monotone_Smooth
+{
+SpotGF_SetColorSpace
+SpotGF_Monotone_SetStartColor
+SpotGF_Start
+0 1 NMarkers 2 sub
+{
+/MarkerIndex xdf
+SpotGF_Monotone_GetTintInfo
+SpotGF_Monotone_CalcDeltaTint
+0 1 NTintSteps 1 sub
+{
+/TintStepsIndex xdf
+SpotGF_Monotone_SetTint
+SpotGF_FillStep
+SpotGF_TranslateStep
+}for
+}for
+SpotGF_Monotone_SetEndColor
+SpotGF_End
+}bdf
+/SpotGF_TM_Data
+{
+/SGFType xdf
+/Sty xdf
+/Stx xdf
+/Sr22 xdf
+/Sr21 xdf
+/Sr12 xdf
+/Sr11 xdf
+/SNumSteps xdf
+}bdf
+/SpotGF_FillStep
+{
+SGFType 1 eq
+{
+n
+SWidth neg 0 m
+SWidth 0 l
+SWidth SStepSize 1.1 mul l
+SWidth neg SStepSize 1.1 mul l
+Cp
+GHfill
+}if
+SGFType 3 eq
+{
+n
+0 0 m
+0 0 SRadius 0 360 arc
+/SNewRadius SRadius SStepSize 1.1 mul sub def
+SNewRadius 0 le
+{
+GHfill
+}
+{
+0 0 SNewRadius 0 360 arc
+GHeofill
+}ifelse
+}if
+SGFType 4 eq
+{
+n
+SRadius dup neg dup m
+2 mul dup 0 rl
+dup 0 exch rl
+neg 0 rl
+Cp
+/SNewRadius SRadius SStepSize 1.1 mul sub def
+SNewRadius 0 le
+{
+GHfill
+}
+{
+SNewRadius dup neg dup m
+2 mul dup 0 rl
+dup 0 exch rl
+neg 0 rl
+Cp
+GHeofill
+}ifelse
+GHfill
+}if
+}bdf
+/SpotGF_TranslateStep
+{
+SGFType 1 eq
+{
+0 SStepSize translate
+}if
+SGFType 3 eq SGFType 4 eq or
+{
+/SRadius SRadius SStepSize sub def
+}if
+}bdf
+/SpotGF_End
+{
+SGFType 1 eq
+{
+n
+SWidth neg 0 m
+SWidth 0 l
+SWidth SPadHeight l
+SWidth neg SPadHeight l
+Cp
+GHfill
+}if
+SGFType 3 eq
+{
+n
+0 0 m
+0 0 SRadius 0 360 arc
+GHfill
+}if
+SGFType 4 eq
+{
+n
+SRadius dup neg dup m
+2 mul dup 0 rl
+dup 0 exch rl
+neg 0 rl
+Cp
+GHfill
+}if
+}bdf
+/SpotGF_Start
+{
+SCP
+SGFType 1 eq
+{
+[Sr11 Sr12 Sr21 Sr22 Stx Sty] matrix currentmatrix matrix concatmatrix setmatrix
+/SStepSize 1 SNumSteps div def
+pathbbox abs 3 -1 roll abs Max /SPadHeight xdf
+abs exch abs Max /SWidth xdf
+GHfill
+}if
+SGFType 3 eq SGFType 4 eq or
+{
+[Sr11 Sr12 Sr21 Sr22 Stx Sty] matrix currentmatrix matrix concatmatrix setmatrix
+/SRadius 1 def
+/SStepSize SRadius SNumSteps div def
+GHfill
+}if
+}bdf
+/SpotGF_Multitone_Data
+{
+/SLColorSpace xdf
+/STotalFoils xdf %array of triplets [ bool string string] =>  [ bSpectratone topfoil bottomfoil]
+/STotalTintValues xdf %array of pairs [double double] => [toptint bottomtint]
+/SFoilPositions xdf %array of integers [int] => [position]
+/SAlternateCMYK xdf %array
+/SAltStartCMYK xdf %array
+/SAltEndCMYK xdf %array
+/SBoostPos xdf %double
+/NTotalFoils STotalFoils length 3 div cvi def
+}bdf
+/SpotGF_Multitone_CurAlt
+{
+SLColorSpace 0 eq {/SLIndex4 4 def /SLIndex8 8 def}{/SLIndex4 3 def /SLIndex8 6 def}ifelse
+SGFType 1 eq
+{
+/ArrayIndex MarkerIndex def
+}
+{
+/ArrayIndex NTotalFoils MarkerIndex sub 1 sub def
+}ifelse
+ArrayIndex NTotalFoils 1 sub eq %only one foil left
+{
+STotalFoils ArrayIndex 3 mul get 0 eq
+{ % monotone spot color
+/SCurAltCMYK [ SAlternateCMYK ArrayIndex SLIndex8 mul SLIndex4 getinterval aload pop ] def
+}
+{ % Spectratone spot color
+/SCurAltCMYK [ SAlternateCMYK ArrayIndex SLIndex8 mul SLIndex8 getinterval aload pop ] def
+}ifelse
+}
+{
+/SubArray STotalFoils ArrayIndex 3 mul 6 getinterval def
+[
+SubArray 0 get 0 eq
+{ % 1st monotone spot color
+SAlternateCMYK ArrayIndex SLIndex8 mul SLIndex4 getinterval aload pop
+}
+{ % 1st Spectratone spot color
+SAlternateCMYK ArrayIndex SLIndex8 mul SLIndex8 getinterval aload pop
+}ifelse
+SubArray 3 get 0 eq
+{ % 2nd monotone spot color
+SAlternateCMYK ArrayIndex SLIndex8 mul SLIndex8 add SLIndex4 getinterval aload pop
+}
+{ % 2nd Spectratone spot color
+SAlternateCMYK ArrayIndex SLIndex8 mul SLIndex8 add SLIndex8 getinterval aload pop
+}ifelse
+]  /SCurAltCMYK xdf
+}ifelse
+}bdf
+%/SpotGF_Multitone_CurAlt
+%{
+%SGFType 1 eq
+%{
+%/ArrayIndex MarkerIndex def
+%}
+%{
+%/ArrayIndex NTotalFoils MarkerIndex sub 1 sub def
+%}ifelse
+%ArrayIndex NTotalFoils 1 sub eq %only one foil left
+%{
+%STotalFoils ArrayIndex 3 mul get 0 eq
+%{ % monotone spot color
+%/SCurAltCMYK [ SAlternateCMYK ArrayIndex 8 mul 4 getinterval aload pop ] def
+%}
+%{ % Spectratone spot color
+%/SCurAltCMYK [ SAlternateCMYK ArrayIndex 8 mul 8 getinterval aload pop ] def
+%}ifelse
+%}
+%{
+%/SubArray STotalFoils ArrayIndex 3 mul 6 getinterval def
+%[
+%SubArray 0 get 0 eq
+%{ % 1st monotone spot color
+%SAlternateCMYK ArrayIndex 8 mul 4 getinterval aload pop
+%}
+%{ % 1st Spectratone spot color
+%SAlternateCMYK ArrayIndex 8 mul 8 getinterval aload pop
+%}ifelse
+%SubArray 3 get 0 eq
+%{ % 2nd monotone spot color
+%SAlternateCMYK ArrayIndex 8 mul 8 add 4 getinterval aload pop
+%}
+%{ % 2nd Spectratone spot color
+%SAlternateCMYK ArrayIndex 8 mul 8 add 8 getinterval aload pop
+%}ifelse
+%] /SCurAltCMYK xdf
+%}ifelse
+%}bdf
+/SpotGF_Multitone_SetColorSpace
+{
+SGFType 1 eq
+{
+/ArrayIndex MarkerIndex def
+}
+{
+/ArrayIndex NTotalFoils MarkerIndex sub 1 sub def
+}ifelse
+ArrayIndex NTotalFoils 1 sub eq %only one foil left
+{
+/SubArray STotalFoils ArrayIndex 3 mul 3 getinterval def
+SubArray 0 get 0 eq
+{ % monotone spot color
+/SFoilNames [ SubArray 1 get ] def
+/NFoil 1 def
+}
+{ % Spectratone spot color
+/SFoilNames [ SubArray 1 get SubArray 2 get ] def
+/NFoil 2 def
+}ifelse
+}
+{
+/SubArray STotalFoils ArrayIndex 3 mul 6 getinterval def
+/NFoil 0 def
+[
+SubArray 0 get 0 eq
+{ % 1st monotone spot color
+SubArray 1 get
+/NFoil NFoil 1 add def
+}
+{ % 1st Spectratone spot color
+SubArray 1 get SubArray 2 get
+/NFoil NFoil 2 add def
+}ifelse
+SubArray 3 get 0 eq
+{ % 2nd monotone spot color
+SubArray 4 get
+/NFoil NFoil 1 add def
+}
+{ % 2nd Spectratone spot color
+SubArray 4 get SubArray 5 get
+/NFoil NFoil 2 add def
+}ifelse
+] /SFoilNames xdf
+}ifelse
+[/DeviceN SFoilNames SLColorSpace 0 eq {/DeviceCMYK }{/DeviceRGB }ifelse {
+/SAltC 0.0 def
+/SAltM 0.0 def
+/SAltY 0.0 def
+/SAltK 0.0 def
+0 1 NFoil 1 sub{
+/SCurIter xdf
+/SCurTint xdf
+SLColorSpace 0 eq {
+/SAltSubArray SCurAltCMYK NFoil SCurIter sub 1 sub 4 mul 4 getinterval def
+/SAltK SAltK SCurTint SAltSubArray 3 get mul add def
+/SAltY SAltY SCurTint SAltSubArray 2 get mul add def
+/SAltM SAltM SCurTint SAltSubArray 1 get mul add def
+/SAltC SAltC SCurTint SAltSubArray 0 get mul add def
+}{
+/SAltSubArray SCurAltCMYK NFoil SCurIter sub 1 sub 3 mul 3 getinterval def
+/SAltY SAltY SCurTint SAltSubArray 2 get 1 exch sub mul add def
+/SAltM SAltM SCurTint SAltSubArray 1 get 1 exch sub mul add def
+/SAltC SAltC SCurTint SAltSubArray 0 get 1 exch sub mul add def
+}ifelse
+} for
+SLColorSpace 1 eq {
+SAltY SpotGF_LN /SAltY exch 1 exch sub def
+SAltM SpotGF_LN /SAltM exch 1 exch sub def
+SAltC SpotGF_LN /SAltC exch 1 exch sub def
+}if
+SAltC SpotGF_LN SAltM SpotGF_LN SAltY SpotGF_LN SLColorSpace 0 eq{SAltK }if
+}] setcolorspace
+} bdf
+%/SpotGF_Multitone_SetColorSpace
+%{
+%SGFType 1 eq
+%{
+%/ArrayIndex MarkerIndex def
+%}
+%{
+%/ArrayIndex NTotalFoils MarkerIndex sub 1 sub def
+%}ifelse
+%ArrayIndex NTotalFoils 1 sub eq %only one foil left
+%{
+%/SubArray STotalFoils ArrayIndex 3 mul 3 getinterval def
+%SubArray 0 get 0 eq
+%{ % monotone spot color
+%/SFoilNames [ SubArray 1 get ] def
+%/NFoil 1 def
+%}
+%{ % Spectratone spot color
+%/SFoilNames [ SubArray 1 get SubArray 2 get ] def
+%/NFoil 2 def
+%}ifelse
+%}
+%{
+%/SubArray STotalFoils ArrayIndex 3 mul 6 getinterval def
+%/NFoil 0 def
+%[
+%SubArray 0 get 0 eq
+%{ % 1st monotone spot color
+%SubArray 1 get
+%/NFoil NFoil 1 add def
+%}
+%{ % 1st Spectratone spot color
+%SubArray 1 get SubArray 2 get
+%/NFoil NFoil 2 add def
+%}ifelse
+%SubArray 3 get 0 eq
+%{ % 2nd monotone spot color
+%SubArray 4 get
+%/NFoil NFoil 1 add def
+%}
+%{ % 2nd Spectratone spot color
+%SubArray 4 get SubArray 5 get
+%/NFoil NFoil 2 add def
+%}ifelse
+%] /SFoilNames xdf
+%}ifelse
+%[/DeviceN SFoilNames /DeviceCMYK {
+%/SAltC 0.0 def
+%/SAltM 0.0 def
+%/SAltY 0.0 def
+%/SAltK 0.0 def
+%0 1 NFoil 1 sub{
+%/SCurIter xdf
+%/SCurTint xdf
+%/SAltSubArray SCurAltCMYK NFoil SCurIter sub 1 sub 4 mul 4 getinterval def
+%/SAltK SAltK SCurTint SAltSubArray 3 get mul add def
+%/SAltY SAltY SCurTint SAltSubArray 2 get mul add def
+%/SAltM SAltM SCurTint SAltSubArray 1 get mul add def
+%/SAltC SAltC SCurTint SAltSubArray 0 get mul add def
+%} for
+%SAltC SAltM SAltY SAltK
+%}] setcolorspace
+%} bdf
+/SpotGF_Multitone_GetStepsInfo
+{
+SGFType 1 eq
+{
+/ArrayIndex MarkerIndex def
+}
+{
+/ArrayIndex NTotalFoils MarkerIndex sub 1 sub def
+}ifelse
+ArrayIndex NTotalFoils 1 sub eq %only one foil left
+{
+100 SFoilPositions ArrayIndex get sub SNumSteps mul 100 div
+/NMultiSteps xdf
+}
+{
+SFoilPositions ArrayIndex get
+SFoilPositions ArrayIndex 1 add get
+exch sub SNumSteps mul 100 div
+/NMultiSteps xdf
+}ifelse
+} bdf
+/SpotGF_Multitone_SetStepColor
+{
+SGFType 1 eq
+{
+/MultiToStep MultiStepsIndex NMultiSteps div def
+/MultiFromStep 1 MultiToStep sub def
+/ArrayIndex MarkerIndex def
+}
+{
+/MultiFromStep MultiStepsIndex NMultiSteps div def
+/MultiToStep 1 MultiFromStep sub def
+/ArrayIndex NTotalFoils MarkerIndex sub 1 sub def
+}ifelse
+MultiToStep SBoostPos ge
+{
+/MultiToStep 1.0 def
+}
+{
+/MultiToStep MultiToStep SBoostPos div def
+}ifelse
+MultiFromStep SBoostPos ge
+{
+/MultiFromStep 1.0 def
+}
+{
+/MultiFromStep MultiFromStep SBoostPos div def
+}ifelse
+ArrayIndex NTotalFoils 1 sub eq %only one foil left
+{
+/SubArray STotalFoils ArrayIndex 3 mul 3 getinterval def
+SubArray 0 get 0 eq
+{ % monotone spot color
+STotalTintValues ArrayIndex 2 mul get MultiFromStep mul
+}
+{ % Spectratone spot color
+STotalTintValues ArrayIndex 2 mul get MultiFromStep mul
+STotalTintValues ArrayIndex 2 mul 1 add get MultiFromStep mul
+}ifelse
+}
+{
+/SubArray STotalFoils ArrayIndex 3 mul 6 getinterval def
+SubArray 0 get 0 eq
+{ % 1st monotone spot color
+STotalTintValues ArrayIndex 2 mul get MultiFromStep mul
+}
+{ % 1st Spectratone spot color
+STotalTintValues ArrayIndex 2 mul get MultiFromStep mul
+STotalTintValues ArrayIndex 2 mul 1 add get MultiFromStep mul
+}ifelse
+SubArray 3 get 0 eq
+{ % 2nd monotone spot color
+STotalTintValues ArrayIndex 2 mul 2 add get MultiToStep mul
+}
+{ % 2nd Spectratone spot color
+STotalTintValues ArrayIndex 2 mul 2 add get MultiToStep mul
+STotalTintValues ArrayIndex 2 mul 3 add get MultiToStep mul
+}ifelse
+}ifelse
+setcolor       
+}bdf
+/SpotGF_Multitone_SetStartColor
+{
+SGFType 1 eq
+{
+/SubArray STotalFoils 0 3 getinterval def
+SubArray 0 get 0 eq
+{% monotone color
+[/DeviceN [ SubArray 1 get ] SLColorSpace 0 eq {/DeviceCMYK }{/DeviceRGB }ifelse {pop SAltStartCMYK aload pop}] setcolorspace
+STotalTintValues 0 get setcolor
+}
+{ %duotone color
+[/DeviceN [ SubArray 1 get SubArray 2 get ] SLColorSpace 0 eq {/DeviceCMYK }{/DeviceRGB }ifelse {pop pop SAltStartCMYK aload pop}] setcolorspace
+STotalTintValues 0 get
+STotalTintValues 1 get
+setcolor
+}ifelse
+}
+{
+/StartColor SFoilPositions length 1 sub def
+SFoilPositions StartColor get 100 eq
+{
+/SubArray STotalFoils StartColor 3 mul 3 getinterval def
+SubArray 0 get 0 eq
+{% monotone color
+[/DeviceN [ SubArray 1 get ] SLColorSpace 0 eq {/DeviceCMYK }{/DeviceRGB }ifelse {pop SAltStartCMYK aload pop}] setcolorspace
+STotalTintValues StartColor 2 mul get setcolor
+}
+{ %duotone color
+[/DeviceN [ SubArray 1 get SubArray 2 get ] SLColorSpace 0 eq {/DeviceCMYK }{/DeviceRGB }ifelse {pop pop SAltStartCMYK aload pop}] setcolorspace
+STotalTintValues StartColor 2 mul get
+STotalTintValues StartColor 2 mul 1 add get
+setcolor
+}ifelse
+}
+{%last color is white
+1.0 1.0 1.0 setrgbcolor
+}ifelse
+}ifelse
+}bdf
+%/SpotGF_Multitone_SetStartColor
+%{
+%SGFType 1 eq
+%{
+%/SubArray STotalFoils 0 3 getinterval def
+%SubArray 0 get 0 eq
+%{% monotone color
+%[/DeviceN [ SubArray 1 get ] /DeviceCMYK {pop SAltStartCMYK aload pop}] setcolorspace
+%STotalTintValues 0 get setcolor
+%}
+%{ %duotone color
+%[/DeviceN [ SubArray 1 get SubArray 2 get ] /DeviceCMYK {pop pop SAltStartCMYK aload pop}] setcolorspace
+%STotalTintValues 0 get
+%STotalTintValues 1 get
+%setcolor
+%}ifelse
+%}
+%{
+%/StartColor SFoilPositions length 1 sub def
+%SFoilPositions StartColor get 100 eq
+%{
+%/SubArray STotalFoils StartColor 3 mul 3 getinterval def
+%SubArray 0 get 0 eq
+%{% monotone color
+%[/DeviceN [ SubArray 1 get ] /DeviceCMYK {pop SAltStartCMYK aload pop}] setcolorspace
+%STotalTintValues StartColor 2 mul get setcolor
+%}
+%{ %duotone color
+%[/DeviceN [ SubArray 1 get SubArray 2 get ] /DeviceCMYK {pop pop SAltStartCMYK aload pop}] setcolorspace
+%STotalTintValues StartColor 2 mul get
+%STotalTintValues StartColor 2 mul 1 add get
+%setcolor
+%}ifelse
+%}
+%{%last color is white
+%1.0 1.0 1.0 setrgbcolor
+%}ifelse
+%}ifelse
+%}bdf
+/SpotGF_Mulitione_SetEndColor
+{
+SGFType 1 eq
+{
+/EndColor SFoilPositions length 1 sub def
+SFoilPositions EndColor get 100 eq
+{
+/SubArray STotalFoils EndColor 3 mul 3 getinterval def
+SubArray 0 get 0 eq
+{% monotone color
+[/DeviceN [ SubArray 1 get ] SLColorSpace 0 eq {/DeviceCMYK }{/DeviceRGB }ifelse {pop SAltEndCMYK aload pop}] setcolorspace
+STotalTintValues EndColor 2 mul get setcolor
+}
+{ %duotone color
+[/DeviceN [ SubArray 1 get SubArray 2 get ] SLColorSpace 0 eq {/DeviceCMYK }{/DeviceRGB }ifelse {pop pop SAltEndCMYK aload pop}] setcolorspace
+STotalTintValues EndColor 2 mul get
+STotalTintValues EndColor 2 mul 1 add get
+setcolor
+}ifelse
+}
+{%last color is white
+1.0 1.0 1.0 setrgbcolor
+}ifelse
+}
+{
+/SubArray STotalFoils 0 3 getinterval def
+SubArray 0 get 0 eq
+{% monotone color
+[/DeviceN [ SubArray 1 get ] SLColorSpace 0 eq {/DeviceCMYK }{/DeviceRGB }ifelse {pop SAltEndCMYK aload pop}] setcolorspace
+STotalTintValues 0 get setcolor
+}
+{ %duotone color
+[/DeviceN [ SubArray 1 get SubArray 2 get ] SLColorSpace 0 eq {/DeviceCMYK }{/DeviceRGB }ifelse {pop pop SAltEndCMYK aload pop}] setcolorspace
+STotalTintValues 0 get
+STotalTintValues 1 get
+setcolor
+}ifelse
+}ifelse
+}bdf
+%/SpotGF_Mulitione_SetEndColor
+%{
+%SGFType 1 eq
+%{
+%/EndColor SFoilPositions length 1 sub def
+%SFoilPositions EndColor get 100 eq
+%{
+%/SubArray STotalFoils EndColor 3 mul 3 getinterval def
+%SubArray 0 get 0 eq
+%{% monotone color
+%[/DeviceN [ SubArray 1 get ] /DeviceCMYK {pop SAltEndCMYK aload pop}] setcolorspace
+%STotalTintValues EndColor 2 mul get setcolor
+%}
+%{ %duotone color
+%[/DeviceN [ SubArray 1 get SubArray 2 get ] /DeviceCMYK {pop pop SAltEndCMYK aload pop}] setcolorspace
+%STotalTintValues EndColor 2 mul get
+%STotalTintValues EndColor 2 mul 1 add get
+%setcolor
+%}ifelse
+%}
+%{%last color is white
+%1.0 1.0 1.0 setrgbcolor
+%}ifelse
+%}
+%{
+%/SubArray STotalFoils 0 3 getinterval def
+%SubArray 0 get 0 eq
+%{% monotone color
+%[/DeviceN [ SubArray 1 get ] /DeviceCMYK {pop SAltEndCMYK aload pop}] setcolorspace
+%STotalTintValues 0 get setcolor
+%}
+%{ %duotone color
+%[/DeviceN [ SubArray 1 get SubArray 2 get ] /DeviceCMYK {pop pop SAltEndCMYK aload pop}] setcolorspace
+%STotalTintValues 0 get
+%STotalTintValues 1 get
+%setcolor
+%}ifelse
+%}ifelse
+%}bdf
+/SpotGF_Multitone_Smooth
+{
+/MarkerIndex 0 def
+SpotGF_Multitone_SetStartColor
+SpotGF_Start
+0 1 NTotalFoils 1 sub
+{
+/MarkerIndex xdf
+SpotGF_Multitone_CurAlt
+SpotGF_Multitone_SetColorSpace
+SpotGF_Multitone_GetStepsInfo
+0 1 NMultiSteps 1 sub
+{
+/MultiStepsIndex xdf
+SpotGF_Multitone_SetStepColor
+SpotGF_FillStep
+SpotGF_TranslateStep
+} for
+} for
+SpotGF_Mulitione_SetEndColor
+SpotGF_End
+} bdf
+/WF {BlueFill GreenFill RedFill setrgbcolor eofill} bdf
+/f {closepath F} bdf
+/Wf {closepath WF} bdf
+/B {gsave F grestore} bdf
+/NewB {gsave NewF grestore} bdf
+/WB {gsave WF grestore} bdf
+/b {closepath B} bdf
+/Wb {closepath WB} bdf
+/S {BlueLine GreenLine RedLine setrgbcolor stroke} bdf
+/s {closepath S} bdf
+2 PRset
+/GOldLinearSet
+{
+/FType 2 def
+/GbSmooth xdf
+/GRepNum xdf
+/GRepType xdf
+/GDir xdf
+/GSlant xdf
+/GAng xdf
+/GScaleY xdf
+/GScaleX xdf
+/GOriginY xdf
+/GOriginX xdf
+/GNewLinearType xdf
+/GType xdf
+/GNumSteps xdf
+/GColArray xdf
+GRepType 1 eq {/GRepNum 1 def} if
+} bdf
+/G
+{
+/FType 2 def
+/GbSmooth xdf
+/GRepNum xdf
+/GRepType xdf
+/GDir xdf
+/Gty xdf
+/Gtx xdf
+/Gr22 xdf
+/Gr21 xdf
+/Gr12 xdf
+/Gr11 xdf
+/GNewLinearType xdf
+/GType xdf
+/GNumSteps xdf
+/GColArray xdf
+GRepType 1 eq {/GRepNum 1 def} if
+} bdf
+/DistBtwPts
+{
+3 -1 roll
+2 1 roll
+sub
+dup
+mul
+3 1 roll
+sub
+dup
+mul
+add
+sqrt
+ceiling
+cvi
+} bdf
+/GRtConicalRadius
+{
+pathbbox
+0 0 DistBtwPts
+3 1 roll
+0 0 DistBtwPts
+Max
+pathbbox
+exch
+3 -1 roll
+0 0 DistBtwPts
+3 1 roll
+0 0 DistBtwPts
+Max
+Max
+} bdf
+/SepTintProc
+{
+/blue xdf
+/green xdf
+/red xdf
+/tint xdf
+/1-t 1 tint sub def
+red tint mul 1-t add
+green tint mul 1-t add
+blue tint mul 1-t add
+}bdf
+/SepCMYKTintProc
+{
+/slblack xdf
+/slyellow xdf
+/slmagenta xdf
+/slcyan xdf
+/tint xdf
+slcyan tint mul
+slmagenta tint mul 
+slyellow tint mul 
+slblack tint mul 
+}bdf
+/SLLandscape
+{
+%userdict /InitRIP known
+false
+{
+userdict begin
+statusdict begin
+[{
+userdict /DefaultCTM.rotation get 0 eq {1}{2}ifelse
+printer_desc begin
+0 BBoxInches 3 -1 roll get 72 mul translate
+end
+} stopped cleartomark
+end
+end
+270 rotate
+}
+{
+0 -1 1 0 0 6 -1 roll 6 array astore concat
+%old code 0 currentpagedevice /PageSize get 1 get translate
+%old code 270 rotate
+} ifelse
+}bdf
+/PaintAllPlanes
+{
+/$op$ exch def
+currentoverprint
+true setoverprint
+[ {
+1 1 statusdict begin printer_desc begin numplanes end end
+{
+statusdict begin printer_desc begin planes end end exch get /$Sep$ exch def
+save
+[/Separation null /DeviceGray {}] dup $Sep$ 1 exch put
+setcolorspace
+$op$ load exec
+restore
+} for
+} stopped cleartomark
+setoverprint
+}bdf
+end %Signlab5Dict
+%%EndProlog
+%%EndResource
+%%BeginSetup
+/setflat {pop} def
+Signlab5Dict begin userdict begin
+/SL_XT 0 def
+/SL_YT 0 def
+SL_XT SL_YT translate
+1.000000 /SL_XS exch def
+1.000000 /SL_YS exch def
+SL_XS SL_YS scale
+%%BeginFeature: *SetClearColor
+/numplanes where
+{
+pop
+/setclearcolor
+{
+/numplanes where pop begin
+planes numplanes get
+end
+/clearspot exch def
+[/Separation clearspot /DeviceRGB {1 1 1 SepTintProc} ] setcolorspace
+0 setcolor
+} def
+}
+{
+/setclearcolor {0 0 0 0 setcmykcolor} def
+} ifelse
+%%EndFeature
+n
+/SL_WIDTH 484.645760 def
+/SL_HEIGHT 274.898982 def
+/SL_XTILE -0.000000 def
+/SL_YTILE 841.889764 def
+gsave %For clipping to the tile
+-0.000000 566.990782 m
+-0.000000 841.889764 l
+484.645760 841.889764 l
+484.645760 566.990782 l
+-0.000000 566.990782  l
+closepath
+clip %to the tile
+n
+%%EndSetup
+false setoverprint
+9.48206072299 585.058395453 m
+11.158751676 590.711626688 l
+12.7674686715 585.058395453 l
+9.48206072299 585.058395453 l
+closepath
+18.6812029787 576.08140515 m
+18.7718349221 575.768914981 18.9077828372 575.428016615 19.2703106108 575.428016615 c
+20.1313140732 575.428016615 20.1992880307 575.456424812 20.2672619883 575.172342841 c
+20.2899199741 575.087118249 20.2672619883 574.916669066 20.1992880307 574.717811686 c
+19.7234703279 573.098544448 l
+13.288602346 573.098544448 l
+12.6315207563 573.098544448 12.4049408978 573.070136251 12.2916509686 573.268993631 c
+12.2010190252 573.439442814 12.3143089544 573.751932983 12.5182308271 574.405321517 c
+12.8127846432 575.428016615 l
+14.1949217801 575.428016615 14.4668176103 575.399608418 14.8973193415 575.712098587 c
+15.3957950302 576.08140515 15.3051630868 576.734793685 14.5801075396 579.121082246 c
+13.5151822046 582.615290497 l
+8.75700517574 582.615290497 l
+7.78271178413 579.518797006 l
+7.21626213784 577.78589698 6.87639235007 576.337078924 7.3748680388 575.712098587 c
+7.55613192562 575.484833009 7.91865969924 575.428016615 8.41713538797 575.428016615 c
+9.27813885033 575.428016615 9.34611280788 575.456424812 9.41408676544 575.172342841 c
+9.43674475129 575.087118249 9.41408676544 574.916669066 9.34611280788 574.717811686 c
+8.870295105 573.098544448 l
+2.77529691095 573.098544448 l
+2.11821532126 573.098544448 1.89163546275 573.070136251 1.77834553349 573.268993631 c
+1.68771359008 573.439442814 1.80100351934 573.751932983 2.004925392 574.405321517 c
+2.29947920807 575.428016615 l
+3.13782468458 575.428016615 3.25111461383 575.428016615 3.61364238746 575.797323178 c
+3.99882814693 576.223446136 4.40667189226 576.87683467 4.85983160929 578.38246912 c
+9.41408676544 592.89905787 l
+10.1844582844 595.342162826 l
+12.0650711101 595.342162826 12.4502568695 595.370571023 12.6088627705 595.256938234 c
+12.9487325583 595.029672657 13.1979704026 594.461508714 13.605814148 593.126323447 c
+17.8881734739 578.609734697 l
+18.1374113183 577.842713374 l
+18.2280432617 577.501815008 18.5452550636 576.535936304 18.6812029787 576.08140515 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+26.5602343337 577.814305177 m
+26.5602343337 575.854139573 26.5375763479 575.797323178 26.7641562064 575.285975629 c
+26.8547881498 575.087118249 27.12668398 575.001893658 27.4438957819 575.001893658 c
+28.6221110462 575.001893658 28.7354009755 575.001893658 28.8940068764 574.945077263 c
+29.0979287491 574.859852672 29.1885606925 574.632587095 29.0752707632 574.291688729 c
+28.7127429896 573.098544448 l
+22.7310347248 573.098544448 l
+22.5044548663 573.098544448 22.3005329936 573.070136251 22.1645850785 573.268993631 c
+21.9833211917 573.524667405 22.096611121 573.808749377 22.4591388946 575.001893658 c
+23.6600121447 575.115526446 23.7959600598 575.456424812 23.7959600598 577.388182219 c
+23.7959600598 585.711783988 l
+22.2552170219 585.711783988 22.096611121 585.740192185 22.0059791776 585.910641368 c
+21.8700312625 586.166315142 21.9606632059 586.336764325 22.3458489653 587.700357789 c
+23.0709045126 587.927623366 23.4787482579 588.183297141 23.6826701306 589.120767647 c
+24.0225399184 590.79685128 23.3428003428 592.387710321 24.8608853949 594.120610348 c
+26.1070746167 595.512612009 28.8940068764 595.5978366 30.1628540841 595.171713643 c
+30.5706978294 595.029672657 31.0691735182 594.80240708 31.2051214333 594.319467728 c
+31.2957533767 594.006977559 31.1824634474 593.722895587 30.5027238719 591.279790631 c
+29.7776683246 591.279790631 l
+29.4377985369 591.279790631 29.25653465 591.336607026 29.1659027066 591.620688997 c
+29.0299547915 592.075220152 29.4377985369 592.70020049 28.9166648623 593.239956236 c
+28.6221110462 593.524038207 27.8743975131 593.609262799 27.3532638385 593.239956236 c
+26.4696023903 592.586567701 26.5602343337 591.19456604 26.5602343337 589.632115196 c
+26.5602343337 587.927623366 l
+30.5253818577 587.927623366 l
+29.8909582539 585.569743002 29.8456422822 585.569743002 29.5057724944 585.512926608 c
+29.1659027066 585.456110213 28.2822412584 585.711783988 26.5602343337 585.711783988 c
+26.5602343337 577.814305177 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+38.1109214898 578.212019937 m
+38.1109214898 584.916354467 l
+39.4704006409 585.910641368 41.1470915939 586.365172522 42.3932808157 585.427702016 c
+43.9340238536 584.29137413 44.2285776697 582.103942948 44.2059196838 580.711941287 c
+44.183261698 578.97904126 43.8207339243 576.649569093 42.1213849855 575.456424812 c
+41.3056974948 574.888260869 39.3117947399 574.660995292 38.5867391927 575.200751038 c
+38.0429475322 575.626873995 38.1109214898 576.564344502 38.1109214898 578.212019937 c
+closepath
+35.3466472159 591.507056209 m
+35.3466472159 592.245669335 35.3013312442 592.728608687 34.8481715272 592.955874264 c
+34.4856437535 593.154731644 33.8965361214 593.012690658 33.7152722346 593.353589024 c
+33.6246402912 593.524038207 33.6019823053 593.666079193 33.805904178 594.291059531 c
+33.8965361214 594.603549699 34.0324840365 595.058080854 34.0324840365 595.058080854 c
+38.1109214898 595.39897922 l
+38.1109214898 587.473092212 l
+40.1954561881 588.552603704 42.6651766459 588.808277478 44.7043953726 587.018561057 c
+46.5850081982 585.399293819 47.0381679153 582.5868823 46.9928519436 580.655124893 c
+46.9475359719 578.496101909 46.2904543822 575.655282192 43.9793398253 573.893973968 c
+41.6229092968 572.047441153 36.0037288056 572.644013293 34.5309597252 573.439442814 c
+34.1231159799 573.666708391 33.9871680648 573.695116588 33.9418520931 574.007606757 c
+33.8965361214 574.234872334 33.9871680648 574.518954306 34.259063895 575.456424812 c
+35.1880413149 575.541649404 35.3466472159 575.768914981 35.3466472159 576.962059262 c
+35.3466472159 591.507056209 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+60.8723552079 582.359616723 m
+60.9176711796 582.160759343 60.9176711796 581.791452779 60.9176711796 581.791452779 c
+53.1686400184 581.791452779 l
+52.5115584287 581.791452779 52.1943466268 581.819860977 51.9904247541 581.308513428 c
+51.7638448956 580.768757682 51.7865028815 579.319939626 52.466242457 577.871121571 c
+53.531167792 575.541649404 55.5703865187 575.143934644 57.2697354575 575.314383826 c
+58.8104784954 575.456424812 60.0340097314 575.825731375 60.8723552079 576.308670727 c
+60.2379316041 574.036014954 60.2379316041 573.467851011 59.2183222407 573.126952645 c
+57.2244194858 572.445155913 53.8030636222 572.27470673 51.6278969805 574.604178897 c
+49.8152581124 576.507528107 49.3394404095 579.518797006 49.566020268 581.677819991 c
+49.8152581124 584.09251675 50.6762615747 586.223131537 52.9420601599 587.671949592 c
+54.3468552827 588.552603704 56.884549698 588.609420098 58.3799767642 587.473092212 c
+60.0566677173 586.19472334 60.4871694484 584.518639707 60.8723552079 582.359616723 c
+closepath
+58.2440288491 584.717497087 m
+58.4932666935 584.29137413 58.6745305803 583.865251172 58.7651625237 583.467536412 c
+52.307636556 583.467536412 l
+53.1686400184 585.399293819 54.14293341 586.223131537 55.8422823489 586.223131537 c
+56.3860740093 586.223131537 56.9751816415 585.995865959 57.5416312877 585.541334805 c
+57.8361851038 585.314069227 58.0854229482 585.001579059 58.2440288491 584.717497087 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+74.2190417737 582.359616723 m
+74.2643577454 582.160759343 74.2643577454 581.791452779 74.2643577454 581.791452779 c
+66.5153265842 581.791452779 l
+65.8582449945 581.791452779 65.5410331926 581.819860977 65.3371113199 581.308513428 c
+65.1105314614 580.768757682 65.1331894473 579.319939626 65.8129290228 577.871121571 c
+66.8778543578 575.541649404 68.9170730845 575.143934644 70.6164220233 575.314383826 c
+72.1571650612 575.456424812 73.3806962972 575.825731375 74.2190417737 576.308670727 c
+73.5846181699 574.036014954 73.5846181699 573.467851011 72.5650088066 573.126952645 c
+70.5711060516 572.445155913 67.1497501881 572.27470673 64.9745835463 574.604178897 c
+63.1619446782 576.507528107 62.6861269753 579.518797006 62.9127068338 581.677819991 c
+63.1619446782 584.09251675 64.0229481406 586.223131537 66.2887467257 587.671949592 c
+67.6935418485 588.552603704 70.2312362639 588.609420098 71.7266633301 587.473092212 c
+73.4033542831 586.19472334 73.8338560142 584.518639707 74.2190417737 582.359616723 c
+closepath
+71.5907154149 584.717497087 m
+71.8399532593 584.29137413 72.0212171461 583.865251172 72.1118490895 583.467536412 c
+65.6543231219 583.467536412 l
+66.5153265842 585.399293819 67.4896199758 586.223131537 69.1889689147 586.223131537 c
+69.7327605751 586.223131537 70.3218682073 585.995865959 70.8883178536 585.541334805 c
+71.1828716696 585.314069227 71.432109514 585.001579059 71.5907154149 584.717497087 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+80.217106272 595.39897922 m
+80.217106272 580.88239047 l
+80.217106272 577.814305177 l
+80.217106272 575.854139573 80.1944482862 575.797323178 80.4210281447 575.285975629 c
+80.5116600881 575.087118249 80.7835559183 575.001893658 81.0781097344 575.001893658 c
+81.3726635505 575.001893658 81.5539274373 575.001893658 81.7125333382 574.945077263 c
+81.9164552109 574.859852672 82.0070871543 574.632587095 81.8937972251 574.291688729 c
+81.5312694514 573.098544448 l
+76.3879066631 573.098544448 l
+76.1613268046 573.098544448 75.957404932 573.070136251 75.8214570169 573.268993631 c
+75.64019313 573.524667405 75.7534830593 573.808749377 76.1160108329 575.001893658 c
+77.3168840831 575.115526446 77.4528319982 575.456424812 77.4528319982 577.388182219 c
+77.4528319982 591.507056209 l
+77.4528319982 592.245669335 77.4075160265 592.728608687 76.9543563094 592.955874264 c
+76.5918285358 593.154731644 76.0027209037 593.012690658 75.8214570169 593.353589024 c
+75.7308250735 593.524038207 75.7081670876 593.666079193 75.9120889603 594.291059531 c
+76.0027209037 594.603549699 76.1386688188 595.058080854 76.1386688188 595.058080854 c
+80.217106272 595.39897922 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+91.7681474591 587.842398775 m
+91.7681474591 591.507056209 l
+91.7681474591 592.245669335 91.7228314874 592.757016884 91.2923297562 592.955874264 c
+90.9524599685 593.154731644 90.3633523363 593.012690658 90.1820884495 593.353589024 c
+90.0914565061 593.524038207 90.0687985203 593.666079193 90.2727203929 594.291059531 c
+90.3633523363 594.603549699 90.4993002514 595.058080854 90.4993002514 595.058080854 c
+94.5777377047 595.39897922 l
+94.5777377047 580.88239047 l
+94.5777377047 577.814305177 l
+94.5777377047 575.854139573 94.5550797189 575.797323178 94.7816595774 575.285975629 c
+94.8722915208 575.087118249 95.144187351 575.001893658 95.4387411671 575.001893658 c
+95.7106369973 575.001893658 95.8919008841 575.001893658 96.0505067851 574.945077263 c
+96.2544286577 574.888260869 96.3450606011 574.689403489 96.2317706719 574.291688729 c
+95.8692428982 573.098544448 l
+91.9720693318 573.098544448 l
+91.790805445 573.098544448 91.7001735016 573.268993631 91.7001735016 573.524667405 c
+91.7001735016 574.064423151 91.790805445 575.342792024 91.790805445 577.388182219 c
+91.790805445 585.370885622 l
+90.4313262939 586.166315142 88.3921075673 586.279947931 87.1459183454 585.200436439 c
+85.8770711377 584.09251675 85.4918853783 582.018718357 85.4918853783 580.711941287 c
+85.4918853783 579.348347823 85.8090971802 577.189324839 87.2365502888 576.024588756 c
+88.4600815248 575.001893658 90.1367724778 575.314383826 91.2696717704 575.655282192 c
+90.6805641383 573.524667405 90.6579061524 573.098544448 89.7289287325 572.814462476 c
+88.3014756239 572.388339519 85.8770711377 572.842870673 84.3363280998 574.916669066 c
+82.7049531185 577.104100248 82.4103993025 580.371042921 83.0221649205 582.842556074 c
+83.7245624819 585.654967593 85.3332794773 587.444684015 87.5990780625 588.041256155 c
+88.890583256 588.410562718 90.4539842797 588.268521732 91.7681474591 587.842398775 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+102.94533188 588.325338127 m
+102.94533188 577.814305177 l
+102.94533188 575.854139573 102.922673894 575.797323178 103.149253752 575.285975629 c
+103.239885696 575.087118249 103.511781526 575.001893658 103.806335342 575.001893658 c
+104.100889158 575.001893658 104.282153045 575.001893658 104.440758946 574.945077263 c
+104.644680819 574.859852672 104.735312762 574.632587095 104.622022833 574.291688729 c
+104.259495059 573.098544448 l
+99.1161322708 573.098544448 l
+98.8895524122 573.098544448 98.6856305396 573.070136251 98.5496826245 573.268993631 c
+98.3684187377 573.524667405 98.4817086669 573.808749377 98.8442364405 575.001893658 c
+100.045109691 575.115526446 100.181057606 575.456424812 100.181057606 577.388182219 c
+100.181057606 584.433415115 l
+100.181057606 585.172028242 100.135741634 585.654967593 99.6825819171 585.882233171 c
+99.3200541434 586.052682354 98.7309465113 585.910641368 98.5496826245 586.251539734 c
+98.4590506811 586.421988917 98.4363926952 586.564029903 98.6403145679 587.18901024 c
+98.7309465113 587.529908606 98.8668944264 587.984439761 98.8668944264 587.984439761 c
+102.94533188 588.325338127 l
+closepath
+102.94533188 590.853667674 m
+102.650778064 590.825259477 l
+100.656875309 590.626402097 100.339663507 590.626402097 100.135741634 590.882075871 c
+99.9091617756 591.166157843 99.9544777473 591.109341449 99.9544777473 593.410405419 c
+99.9544777473 593.921752968 l
+100.045109691 593.921752968 100.566243365 593.978569362 100.566243365 593.978569362 c
+102.492172163 594.149018545 102.628120078 594.149018545 102.786725979 593.950161165 c
+102.967989866 593.722895587 102.94533188 593.779711982 102.94533188 591.336607026 c
+102.94533188 590.853667674 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+119.222333272 577.814305177 m
+119.222333272 575.854139573 119.199675286 575.797323178 119.426255145 575.285975629 c
+119.516887088 575.087118249 119.788782918 575.001893658 120.083336734 575.001893658 c
+120.355232565 575.001893658 120.536496451 574.945077263 120.695102352 574.945077263 c
+120.899024225 574.945077263 120.989656168 574.632587095 120.876366239 574.291688729 c
+120.513838465 573.098544448 l
+115.393133663 573.098544448 l
+115.166553805 573.098544448 114.962631932 573.070136251 114.826684017 573.268993631 c
+114.64542013 573.524667405 114.758710059 573.808749377 115.121237833 575.001893658 c
+116.299453097 575.115526446 116.435401012 575.456424812 116.435401012 577.388182219 c
+116.435401012 582.103942948 l
+116.435401012 583.240270835 116.571348927 584.68908889 115.597055536 585.456110213 c
+114.849342003 586.052682354 113.535178823 585.768600382 112.674175361 585.172028242 c
+111.835829884 584.603864298 111.427986139 583.808434778 111.427986139 582.5868823 c
+111.427986139 577.814305177 l
+111.427986139 575.854139573 111.405328153 575.797323178 111.631908012 575.285975629 c
+111.722539955 575.087118249 111.994435785 575.001893658 112.288989601 575.001893658 c
+112.583543417 575.001893658 112.764807304 574.945077263 112.923413205 574.945077263 c
+113.127335078 574.945077263 113.217967021 574.632587095 113.104677092 574.291688729 c
+112.742149318 573.098544448 l
+107.59878653 573.098544448 l
+107.372206672 573.098544448 107.168284799 573.070136251 107.032336884 573.268993631 c
+106.851072997 573.524667405 106.964362926 573.808749377 107.3268907 575.001893658 c
+108.52776395 575.115526446 108.663711865 575.456424812 108.663711865 577.388182219 c
+108.663711865 584.433415115 l
+108.663711865 585.172028242 108.618395893 585.654967593 108.165236176 585.882233171 c
+107.802708403 586.052682354 107.213600771 585.910641368 107.032336884 586.251539734 c
+106.94170494 586.421988917 106.919046955 586.564029903 107.122968827 587.18901024 c
+107.213600771 587.529908606 107.349548686 587.984439761 107.349548686 587.984439761 c
+111.427986139 588.325338127 l
+111.427986139 586.848111874 l
+113.149993064 588.041256155 116.208821154 589.09235945 118.112091965 587.558316803 c
+119.290307229 586.564029903 119.222333272 584.68908889 119.222333272 583.38231182 c
+119.222333272 577.814305177 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+134.573543524 587.927623366 m
+134.573543524 587.927623366 134.460253594 587.529908606 134.256331722 586.762887283 c
+134.052409849 586.024274157 133.961777906 585.711783988 133.621908118 585.740192185 c
+132.285086953 585.825416776 l
+132.692930698 584.547047904 132.806220627 583.098229849 132.08116508 581.763044582 c
+131.288135575 580.200593738 129.792708509 579.717654387 128.841073103 579.575613401 c
+128.297281443 579.490388809 127.889437697 579.490388809 127.277672079 579.575613401 c
+126.847170348 578.638142894 126.665906461 578.240428134 126.779196391 577.98475436 c
+126.937802292 577.643855994 127.322988051 577.700672388 128.09335957 577.700672388 c
+129.883340452 577.700672388 l
+131.310793561 577.700672388 132.851536599 577.757488782 133.871145962 576.052996953 c
+134.596201509 574.803036278 134.641517481 572.871278871 134.233673736 571.450869012 c
+133.531276174 569.064580451 132.262428967 567.985068959 130.268526212 567.331680424 c
+128.3652554 566.706700086 125.125163423 566.820332875 123.471130456 568.581641099 c
+122.655442966 569.462295211 122.315573178 570.683847689 122.383547135 571.67813459 c
+122.542153036 573.325810025 123.085944697 573.893973968 124.513397805 575.257567432 c
+124.014922117 575.570057601 123.652394343 576.166629741 123.652394343 576.791610079 c
+123.652394343 577.189324839 123.856316216 577.359774022 124.649345721 578.297244528 c
+125.238453353 579.007449458 125.397059254 579.263123232 125.759587027 580.001736358 c
+124.558713777 580.825574076 123.765684272 581.848269174 123.675052329 583.666393792 c
+123.607078371 584.68908889 123.924290173 586.109498748 124.830609607 587.103785649 c
+126.190088758 588.552603704 128.229307485 588.49578731 129.838024481 588.041256155 c
+130.336500169 587.927623366 l
+134.573543524 587.927623366 l
+closepath
+126.371352645 583.240270835 m
+126.280720702 584.035700355 126.303378688 585.797008579 127.300330065 586.450397114 c
+127.730831796 586.706070888 128.410571372 586.762887283 128.931705047 586.365172522 c
+129.67941858 585.825416776 129.838024481 584.859538073 129.860682466 584.007292158 c
+129.883340452 583.325495426 129.724734551 582.103942948 129.02233699 581.507370808 c
+128.614493245 581.166472442 127.912095683 581.109656048 127.413619994 581.365329822 c
+126.824512362 581.706228188 126.484642575 582.38802492 126.371352645 583.240270835 c
+closepath
+125.011873494 572.984911659 m
+125.170479395 573.411034617 125.465033211 573.922382166 126.258062716 574.660995292 c
+128.999679004 574.660995292 l
+130.087262325 574.660995292 131.333451547 574.831444475 131.922559179 573.695116588 c
+132.217112995 573.126952645 132.149139037 572.303114927 131.831927236 571.536093604 c
+131.174845646 569.97364276 129.475496707 569.490703408 128.478545329 569.405478817 c
+127.730831796 569.348662422 125.827560985 569.405478817 125.102505438 570.797480478 c
+124.76263565 571.450869012 124.694661692 572.161073942 125.011873494 572.984911659 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+146.598278227 582.359616723 m
+146.643594199 582.160759343 146.643594199 581.791452779 146.643594199 581.791452779 c
+138.894563038 581.791452779 l
+138.237481448 581.791452779 137.920269646 581.819860977 137.716347774 581.308513428 c
+137.489767915 580.768757682 137.512425901 579.319939626 138.192165476 577.871121571 c
+139.257090811 575.541649404 141.296309538 575.143934644 142.995658477 575.314383826 c
+144.536401515 575.456424812 145.759932751 575.825731375 146.598278227 576.308670727 c
+145.963854623 574.036014954 145.963854623 573.467851011 144.94424526 573.126952645 c
+142.950342505 572.445155913 139.528986642 572.27470673 137.35382 574.604178897 c
+135.541181132 576.507528107 135.065363429 579.518797006 135.291943287 581.677819991 c
+135.541181132 584.09251675 136.402184594 586.223131537 138.667983179 587.671949592 c
+140.072778302 588.552603704 142.610472717 588.609420098 144.105899784 587.473092212 c
+145.782590737 586.19472334 146.213092468 584.518639707 146.598278227 582.359616723 c
+closepath
+143.969951869 584.717497087 m
+144.219189713 584.29137413 144.4004536 583.865251172 144.491085543 583.467536412 c
+138.033559575 583.467536412 l
+138.894563038 585.399293819 139.868856429 586.223131537 141.568205368 586.223131537 c
+142.111997029 586.223131537 142.701104661 585.995865959 143.267554307 585.541334805 c
+143.562108123 585.314069227 143.811345968 585.001579059 143.969951869 584.717497087 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+160.633201113 577.814305177 m
+160.633201113 575.854139573 160.610543128 575.797323178 160.837122986 575.285975629 c
+160.927754929 575.087118249 161.19965076 575.001893658 161.494204576 575.001893658 c
+161.766100406 575.001893658 161.947364293 574.945077263 162.105970194 574.945077263 c
+162.309892066 574.945077263 162.40052401 574.632587095 162.287234081 574.291688729 c
+161.924706307 573.098544448 l
+156.804001504 573.098544448 l
+156.577421646 573.098544448 156.373499773 573.070136251 156.237551858 573.268993631 c
+156.056287971 573.524667405 156.169577901 573.808749377 156.532105674 575.001893658 c
+157.710320939 575.115526446 157.846268854 575.456424812 157.846268854 577.388182219 c
+157.846268854 582.103942948 l
+157.846268854 583.240270835 157.982216769 584.68908889 157.007923377 585.456110213 c
+156.260209844 586.052682354 154.946046665 585.768600382 154.085043202 585.172028242 c
+153.246697726 584.603864298 152.83885398 583.808434778 152.83885398 582.5868823 c
+152.83885398 577.814305177 l
+152.83885398 575.854139573 152.816195995 575.797323178 153.042775853 575.285975629 c
+153.133407797 575.087118249 153.405303627 575.001893658 153.699857443 575.001893658 c
+153.994411259 575.001893658 154.175675146 574.945077263 154.334281047 574.945077263 c
+154.538202919 574.945077263 154.628834863 574.632587095 154.515544933 574.291688729 c
+154.15301716 573.098544448 l
+149.009654372 573.098544448 l
+148.783074513 573.098544448 148.57915264 573.070136251 148.443204725 573.268993631 c
+148.261940838 573.524667405 148.375230768 573.808749377 148.737758541 575.001893658 c
+149.938631791 575.115526446 150.074579707 575.456424812 150.074579707 577.388182219 c
+150.074579707 584.433415115 l
+150.074579707 585.172028242 150.029263735 585.654967593 149.576104018 585.882233171 c
+149.213576244 586.052682354 148.624468612 585.910641368 148.443204725 586.251539734 c
+148.352572782 586.421988917 148.329914796 586.564029903 148.533836669 587.18901024 c
+148.624468612 587.529908606 148.760416527 587.984439761 148.760416527 587.984439761 c
+152.83885398 588.325338127 l
+152.83885398 586.848111874 l
+154.560860905 588.041256155 157.619688995 589.09235945 159.522959807 587.558316803 c
+160.701175071 586.564029903 160.633201113 584.68908889 160.633201113 583.38231182 c
+160.633201113 577.814305177 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+175.415271083 588.211705338 m
+177.159935993 588.552603704 179.720288395 588.240113535 181.60090122 585.512926608 c
+183.005696343 583.495944609 183.209618216 580.143777344 182.711142527 578.013162557 c
+182.144692881 575.541649404 180.989135602 573.837157574 178.813968961 573.041728054 c
+177.114620022 572.416747716 174.169081861 572.445155913 172.356442993 574.320096926 c
+170.634436068 576.109813347 170.090644408 579.717654387 170.249250309 581.422146216 c
+170.453172181 583.780026581 171.291517658 586.081090551 173.398710342 587.444684015 c
+174.078449918 587.870806972 174.780847479 588.098072549 175.415271083 588.211705338 c
+closepath
+173.35339437 582.842556074 m
+173.670606172 584.234557735 174.327687762 585.48451841 175.528561012 586.024274157 c
+176.366906489 586.39358072 177.884991541 586.308356128 178.836626946 585.143620045 c
+180.218764083 583.467536412 180.12813214 580.115369147 179.85623631 578.524510106 c
+179.58434048 576.990467459 178.904600904 575.655282192 177.477147795 575.172342841 c
+176.593486347 574.888260869 175.075401295 574.973485461 174.214397833 576.138221544 c
+172.945550625 577.842713374 172.968208611 581.109656048 173.35339437 582.842556074 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+188.194091878 579.433572415 m
+188.194091878 584.802721679 l
+189.553571029 586.024274157 191.162288025 586.365172522 192.363161275 585.598151199 c
+194.017194242 584.575456101 194.379722016 582.245983934 194.35706403 580.598308499 c
+194.334406044 579.007449458 194.130484171 576.621160896 192.476451204 575.513241207 c
+191.434183855 574.831444475 189.780150888 574.973485461 188.964463397 575.598465798 c
+188.126117921 576.28026253 188.194091878 577.587039599 188.194091878 579.433572415 c
+closepath
+188.194091878 573.325810025 m
+188.194091878 571.706542787 l
+188.194091878 569.746377183 188.171433892 569.689560788 188.398013751 569.17821324 c
+188.488645694 568.979355859 188.760541525 568.894131268 189.055095341 568.894131268 c
+190.255968591 568.894131268 190.323942548 568.837314874 190.482548449 568.837314874 c
+190.709128308 568.723682085 190.75444428 568.496416508 190.663812336 568.183926339 c
+190.301284562 566.990782058 l
+184.364892269 566.990782058 l
+184.138312411 566.990782058 183.934390538 566.962373861 183.798442623 567.161231241 c
+183.617178736 567.416905015 183.730468666 567.700986987 184.092996439 568.894131268 c
+185.293869689 569.007764057 185.429817604 569.348662422 185.429817604 571.280419829 c
+185.429817604 584.433415115 l
+185.429817604 585.172028242 185.384501633 585.654967593 184.931341916 585.882233171 c
+184.568814142 586.052682354 183.97970651 585.910641368 183.798442623 586.251539734 c
+183.70781068 586.421988917 183.685152694 586.564029903 183.889074567 587.18901024 c
+183.97970651 587.529908606 184.115654425 587.984439761 184.115654425 587.984439761 c
+188.194091878 588.325338127 l
+188.194091878 587.359459423 l
+190.255968591 588.410562718 192.49910919 588.865093873 194.515669931 587.331051226 c
+196.373624771 585.882233171 197.008048375 583.495944609 197.121338304 581.478962611 c
+197.234628233 579.547205204 196.804126502 576.28026253 194.968829648 574.348505123 c
+193.314796681 572.615605096 191.02634011 572.388339519 189.123069298 572.956503462 c
+188.919147426 573.013319856 188.488645694 573.183769039 188.194091878 573.325810025 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+218.483740524 572.700829688 m
+216.308573883 572.700829688 l
+216.331231868 574.831444475 216.036678052 576.507528107 214.337329113 578.97904126 c
+214.337329113 578.97904126 212.77392809 581.422146216 210.802683321 584.149333144 c
+207.834487174 588.268521732 207.018799683 589.035543056 207.018799683 589.035543056 c
+207.018799683 577.871121571 l
+207.018799683 576.251854333 207.086773641 576.08140515 207.336011485 575.740506784 c
+207.517275372 575.513241207 208.287646891 575.428016615 208.78612258 575.428016615 c
+209.647126042 575.428016615 209.851047915 575.456424812 209.896363887 575.172342841 c
+209.896363887 575.172342841 209.919021872 574.945077263 209.851047915 574.717811686 c
+209.375230212 573.098544448 l
+203.574785834 573.098544448 l
+202.895046258 573.098544448 202.6684664 573.070136251 202.555176471 573.268993631 c
+202.464544527 573.439442814 202.577834457 573.751932983 202.781756329 574.405321517 c
+203.076310145 575.428016615 l
+203.914655622 575.428016615 204.027945551 575.371200221 204.390473325 575.797323178 c
+204.707685127 576.28026253 204.662369155 577.018875656 204.662369155 577.871121571 c
+204.662369155 590.200279139 l
+204.662369155 591.819546378 204.594395197 591.989995561 204.345157353 592.302485729 c
+204.163893466 592.529751307 204.027945551 592.614975898 203.529469862 592.614975898 c
+202.645808414 592.614975898 202.577834457 592.614975898 202.509860499 592.870649673 c
+202.509860499 592.870649673 202.532518485 593.154731644 202.577834457 593.353589024 c
+203.053652159 594.972856263 l
+206.497666009 594.972856263 l
+206.497666009 594.972856263 207.879803146 593.438813616 211.18786908 589.035543056 c
+214.745172859 584.29137413 216.081994024 582.132351145 216.081994024 582.132351145 c
+216.081994024 590.200279139 l
+216.081994024 591.819546378 216.014020066 591.989995561 215.764782222 592.302485729 c
+215.583518335 592.529751307 215.44757042 592.614975898 214.949094731 592.614975898 c
+213.498983637 592.614975898 213.340377736 592.586567701 213.272403778 592.870649673 c
+213.249745793 592.955874264 213.272403778 593.154731644 213.340377736 593.353589024 c
+213.816195439 594.972856263 l
+219.571323845 594.972856263 l
+220.228405435 594.972856263 220.454985293 595.00126446 220.568275223 594.80240708 c
+220.658907166 594.631957897 220.545617237 594.319467728 220.341695364 593.666079193 c
+220.047141548 592.614975898 l
+219.231454057 592.614975898 219.118164128 592.671792292 218.755636354 592.245669335 c
+218.438424553 591.79113818 218.483740524 591.052525054 218.483740524 590.200279139 c
+218.483740524 575.68369039 l
+218.483740524 572.700829688 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+233.245843144 574.717811686 m
+233.313817101 574.518954306 233.223185158 574.17805594 233.1552112 573.865565771 c
+233.109895229 573.78034118 232.928631342 573.098544448 232.928631342 573.098544448 c
+231.02536053 573.098544448 l
+229.416643535 573.098544448 229.054115761 573.013319856 228.782219931 573.411034617 c
+228.532982087 573.78034118 228.736903959 574.973485461 228.736903959 576.564344502 c
+228.736903959 579.944919964 l
+227.558688695 580.172185541 225.02099428 580.314226527 224.159990817 579.149490443 c
+223.7068311 578.524510106 223.525567213 577.814305177 223.638857143 577.160916642 c
+223.752147072 576.450711713 224.09201686 575.797323178 224.794414421 575.456424812 c
+225.791365799 574.945077263 227.42274078 575.285975629 228.261086256 575.626873995 c
+227.513372723 572.956503462 227.468056752 573.098544448 226.539079332 572.814462476 c
+225.315548096 572.445155913 222.868485624 572.729237885 221.690270359 574.746219883 c
+220.897240855 576.166629741 220.851924883 578.126795346 221.418374529 579.490388809 c
+222.50595785 582.047126554 225.383522053 582.473249511 227.377424808 582.359616723 c
+228.736903959 582.274392131 l
+228.736903959 583.865251172 228.759561945 585.48451841 227.989190426 586.137906945 c
+227.354766822 586.677662691 226.289841487 586.5924381 225.632759898 586.251539734 c
+224.726440464 585.768600382 224.250622761 584.774313481 223.97872693 583.893659369 c
+223.231013397 583.893659369 l
+222.981775553 583.893659369 222.687221737 583.922067567 222.551273822 584.234557735 c
+222.460641878 584.433415115 222.460641878 584.518639707 222.596589794 585.001579059 c
+223.344303327 587.700357789 l
+224.975678308 588.410562718 228.827535903 588.779869281 230.390936926 587.331051226 c
+231.546494205 586.251539734 231.523836219 584.547047904 231.523836219 583.013005257 c
+231.523836219 577.672264191 l
+231.523836219 576.024588756 231.455862261 575.513241207 231.863706007 575.143934644 c
+232.022311908 575.001893658 232.407497667 575.001893658 232.679393497 575.001893658 c
+232.837999398 575.001893658 233.1552112 575.030301855 233.245843144 574.717811686 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+238.316346346 591.649097195 m
+238.316346346 587.927623366 l
+242.304151856 587.927623366 l
+241.715044224 585.967457762 241.715044224 585.853824974 240.922014719 585.910641368 c
+239.471903625 586.024274157 239.993037299 586.052682354 238.67887412 586.052682354 c
+238.316346346 586.052682354 l
+238.316346346 579.007449458 l
+238.316346346 577.160916642 238.248372389 576.337078924 238.769506063 575.910955967 c
+239.811773412 575.115526446 241.511122351 575.740506784 242.190861927 576.138221544 c
+241.488464365 573.78034118 241.533780337 573.609891997 240.672776875 573.268993631 c
+239.698483483 572.871278871 237.47800087 572.842870673 236.481049492 573.751932983 c
+235.438782143 574.717811686 235.552072072 576.791610079 235.552072072 577.842713374 c
+235.552072072 586.081090551 l
+234.623094652 586.081090551 l
+233.898039105 586.081090551 233.626143275 586.081090551 233.784749176 586.564029903 c
+234.192592921 587.927623366 l
+235.89194186 588.438970915 235.484098115 589.262808633 236.27712762 590.825259477 c
+236.594339422 591.450239814 236.82091928 591.365015223 238.316346346 591.649097195 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+253.942992738 584.433415115 m
+253.942992738 585.172028242 253.897676767 585.654967593 253.44451705 585.882233171 c
+253.104647262 586.052682354 252.51553963 585.910641368 252.334275743 586.251539734 c
+252.2436438 586.421988917 252.220985814 586.564029903 252.424907686 587.18901024 c
+252.51553963 587.529908606 252.651487545 587.984439761 252.651487545 587.984439761 c
+256.729924998 588.325338127 l
+256.729924998 577.814305177 l
+256.729924998 575.854139573 256.707267012 575.797323178 256.933846871 575.285975629 c
+257.024478814 575.087118249 257.296374644 575.001893658 257.59092846 575.001893658 c
+257.862824291 575.001893658 258.044088178 575.001893658 258.202694078 574.945077263 c
+258.406615951 574.859852672 258.497247895 574.632587095 258.383957965 574.291688729 c
+258.021430192 573.098544448 l
+254.690706271 573.098544448 l
+254.328178498 573.098544448 254.078940654 573.098544448 254.010966696 573.240585434 c
+253.942992738 573.382626419 253.942992738 573.467851011 253.942992738 574.17805594 c
+252.085037899 572.644013293 248.890261894 572.07584935 247.236228926 573.439442814 c
+246.058013662 574.405321517 246.171303591 576.308670727 246.171303591 577.757488782 c
+246.171303591 584.433415115 l
+246.171303591 585.172028242 246.12598762 585.654967593 245.672827903 585.882233171 c
+245.310300129 586.052682354 244.721192497 585.910641368 244.53992861 586.251539734 c
+244.449296667 586.421988917 244.426638681 586.564029903 244.630560553 587.18901024 c
+244.721192497 587.529908606 244.857140412 587.984439761 244.857140412 587.984439761 c
+248.935577865 588.325338127 l
+248.935577865 579.149490443 l
+248.935577865 577.018875656 248.935577865 576.109813347 249.796581328 575.513241207 c
+250.566952847 575.001893658 251.85845804 575.285975629 252.674145531 575.88254777 c
+254.010966696 576.87683467 253.942992738 578.410877317 253.942992738 580.48467571 c
+253.942992738 584.433415115 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+268.57835225 584.433415115 m
+268.57835225 585.172028242 268.533036278 585.654967593 268.079876561 585.882233171 c
+267.740006773 586.052682354 267.150899141 585.910641368 266.969635254 586.251539734 c
+266.879003311 586.421988917 266.856345325 586.564029903 267.060267197 587.18901024 c
+267.150899141 587.529908606 267.286847056 587.984439761 267.286847056 587.984439761 c
+271.365284509 588.325338127 l
+271.365284509 577.814305177 l
+271.365284509 575.854139573 271.342626523 575.797323178 271.569206382 575.285975629 c
+271.659838325 575.087118249 271.931734156 575.001893658 272.226287972 575.001893658 c
+272.498183802 575.001893658 272.679447689 575.001893658 272.83805359 574.945077263 c
+273.041975462 574.859852672 273.132607406 574.632587095 273.019317476 574.291688729 c
+272.656789703 573.098544448 l
+269.326065783 573.098544448 l
+268.963538009 573.098544448 268.714300165 573.098544448 268.646326207 573.240585434 c
+268.57835225 573.382626419 268.57835225 573.467851011 268.57835225 574.17805594 c
+266.72039741 572.644013293 263.525621405 572.07584935 261.871588437 573.439442814 c
+260.693373173 574.405321517 260.806663102 576.308670727 260.806663102 577.757488782 c
+260.806663102 584.433415115 l
+260.806663102 585.172028242 260.761347131 585.654967593 260.308187414 585.882233171 c
+259.94565964 586.052682354 259.356552008 585.910641368 259.175288121 586.251539734 c
+259.084656178 586.421988917 259.061998192 586.564029903 259.265920065 587.18901024 c
+259.356552008 587.529908606 259.492499923 587.984439761 259.492499923 587.984439761 c
+263.570937376 588.325338127 l
+263.570937376 579.149490443 l
+263.570937376 577.018875656 263.570937376 576.109813347 264.431940839 575.513241207 c
+265.202312358 575.001893658 266.493817551 575.285975629 267.309505042 575.88254777 c
+268.646326207 576.87683467 268.57835225 578.410877317 268.57835225 580.48467571 c
+268.57835225 584.433415115 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+279.476206188 583.637985595 m
+279.476206188 577.814305177 l
+279.476206188 575.854139573 279.453548202 575.797323178 279.680128061 575.285975629 c
+279.770760004 575.087118249 280.042655835 575.001893658 280.337209651 575.001893658 c
+281.515424915 575.001893658 281.628714844 574.945077263 281.787320745 574.945077263 c
+281.991242618 574.945077263 282.081874561 574.632587095 281.968584632 574.291688729 c
+281.606056858 573.098544448 l
+275.647006579 573.098544448 l
+275.420426721 573.098544448 275.216504848 573.070136251 275.080556933 573.268993631 c
+274.899293046 573.524667405 275.012582975 573.808749377 275.375110749 575.001893658 c
+276.575983999 575.115526446 276.711931914 575.456424812 276.711931914 577.388182219 c
+276.711931914 584.433415115 l
+276.711931914 585.172028242 276.666615943 585.654967593 276.213456226 585.882233171 c
+275.873586438 586.052682354 275.26182082 585.910641368 275.080556933 586.251539734 c
+274.98992499 586.421988917 274.967267004 586.564029903 275.171188876 587.18901024 c
+275.26182082 587.529908606 275.397768735 587.984439761 275.397768735 587.984439761 c
+279.476206188 588.325338127 l
+279.476206188 587.132193846 l
+280.699737424 587.813990578 283.396037741 588.836685676 284.143751274 588.041256155 c
+284.43830509 587.728765986 284.460963076 587.245826635 284.257041203 586.564029903 c
+284.189067245 586.365172522 283.486669684 584.035700355 283.486669684 584.035700355 c
+282.920220038 584.035700355 l
+282.58035025 584.035700355 282.512376292 584.007292158 282.30845442 584.120924947 c
+282.081874561 584.234557735 282.104532547 584.575456101 282.081874561 584.973170862 c
+282.059216575 585.456110213 281.900610674 585.711783988 281.560740887 585.825416776 c
+281.220871099 585.939049565 280.72239541 585.910641368 280.314551665 585.569743002 c
+279.79341799 585.115211847 279.476206188 584.262965932 279.476206188 583.637985595 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+294.756610234 587.529908606 m
+293.872948786 584.547047904 l
+293.19320921 584.547047904 l
+292.875997408 584.547047904 292.717391507 584.603864298 292.64941755 585.001579059 c
+292.558785606 585.48451841 292.490811649 585.797008579 292.128283875 586.052682354 c
+291.99233596 586.166315142 291.811072073 586.279947931 291.221964441 586.365172522 c
+290.587540837 586.450397114 289.499957517 586.365172522 289.001481828 585.598151199 c
+288.774901969 585.257252833 288.684270026 584.859538073 288.797559955 584.405006918 c
+289.046797799 583.495944609 289.907801262 583.155046243 290.882094653 582.757331483 c
+291.607150201 582.473249511 l
+293.238525182 581.819860977 294.371424475 581.336921625 294.983190093 579.291531429 c
+295.345717866 578.098387148 295.164453979 576.365487121 294.348766489 575.030301855 c
+293.034603309 572.928095265 290.836778682 572.644013293 289.477299531 572.67242149 c
+288.525664125 572.700829688 286.123917625 572.928095265 285.534809992 573.751932983 c
+285.353546106 573.97919856 285.466836035 574.348505123 285.738731865 575.257567432 c
+286.373155469 577.359774022 l
+287.256816917 577.359774022 287.415422818 577.388182219 287.551370733 576.905242868 c
+287.619344691 576.649569093 287.574028719 576.223446136 287.755292606 575.88254777 c
+287.891240521 575.626873995 288.095162394 575.428016615 288.480348153 575.229159235 c
+289.069455785 574.916669066 291.108674512 574.77462808 292.014993946 575.68369039 c
+292.445495677 576.138221544 292.64941755 576.820018276 292.558785606 577.473406811 c
+292.37752172 578.694959289 291.380570342 579.064265852 290.225013064 579.518797006 c
+289.726537375 579.717654387 l
+288.208452323 580.314226527 286.871631158 580.88239047 286.395813455 582.956188863 c
+286.169233596 584.120924947 286.395813455 585.569743002 287.098211016 586.564029903 c
+288.503006139 588.552603704 291.267280413 588.438970915 292.740049493 588.183297141 c
+293.827632814 587.984439761 294.280792531 587.757174183 294.756610234 587.529908606 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+301.460258573 591.649097195 m
+301.460258573 587.927623366 l
+305.448064083 587.927623366 l
+304.858956451 585.967457762 304.858956451 585.853824974 304.065926946 585.910641368 c
+302.615815851 586.024274157 303.136949526 586.052682354 301.822786347 586.052682354 c
+301.460258573 586.052682354 l
+301.460258573 579.007449458 l
+301.460258573 577.160916642 301.392284615 576.337078924 301.91341829 575.910955967 c
+302.955685639 575.115526446 304.655034578 575.740506784 305.334774154 576.138221544 c
+304.632376592 573.78034118 304.677692564 573.609891997 303.816689102 573.268993631 c
+302.84239571 572.871278871 300.621913097 572.842870673 299.624961719 573.751932983 c
+298.58269437 574.717811686 298.695984299 576.791610079 298.695984299 577.842713374 c
+298.695984299 586.081090551 l
+297.767006879 586.081090551 l
+297.041951332 586.081090551 296.770055502 586.081090551 296.928661403 586.564029903 c
+297.336505148 587.927623366 l
+299.035854087 588.438970915 298.628010342 589.262808633 299.421039846 590.825259477 c
+299.738251648 591.450239814 299.964831507 591.365015223 301.460258573 591.649097195 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+317.888077184 582.359616723 m
+317.933393155 582.160759343 317.933393155 581.791452779 317.933393155 581.791452779 c
+310.184361994 581.791452779 l
+309.527280404 581.791452779 309.210068602 581.819860977 309.00614673 581.308513428 c
+308.779566871 580.768757682 308.802224857 579.319939626 309.481964433 577.871121571 c
+310.546889768 575.541649404 312.586108494 575.143934644 314.285457433 575.314383826 c
+315.826200471 575.456424812 317.049731707 575.825731375 317.888077184 576.308670727 c
+317.25365358 574.036014954 317.25365358 573.467851011 316.234044216 573.126952645 c
+314.240141462 572.445155913 310.818785598 572.27470673 308.643618956 574.604178897 c
+306.830980088 576.507528107 306.355162385 579.518797006 306.581742244 581.677819991 c
+306.830980088 584.09251675 307.69198355 586.223131537 309.957782136 587.671949592 c
+311.362577258 588.552603704 313.900271674 588.609420098 315.39569874 587.473092212 c
+317.072389693 586.19472334 317.502891424 584.518639707 317.888077184 582.359616723 c
+closepath
+315.259750825 584.717497087 m
+315.508988669 584.29137413 315.690252556 583.865251172 315.780884499 583.467536412 c
+309.323358532 583.467536412 l
+310.184361994 585.399293819 311.158655386 586.223131537 312.858004325 586.223131537 c
+313.401795985 586.223131537 313.990903617 585.995865959 314.557353263 585.541334805 c
+314.85190708 585.314069227 315.101144924 585.001579059 315.259750825 584.717497087 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+331.234763749 582.359616723 m
+331.280079721 582.160759343 331.280079721 581.791452779 331.280079721 581.791452779 c
+323.53104856 581.791452779 l
+322.87396697 581.791452779 322.556755168 581.819860977 322.352833296 581.308513428 c
+322.126253437 580.768757682 322.148911423 579.319939626 322.828650999 577.871121571 c
+323.893576334 575.541649404 325.93279506 575.143934644 327.632143999 575.314383826 c
+329.172887037 575.456424812 330.396418273 575.825731375 331.234763749 576.308670727 c
+330.600340146 574.036014954 330.600340146 573.467851011 329.580730782 573.126952645 c
+327.586828027 572.445155913 324.165472164 572.27470673 321.990305522 574.604178897 c
+320.177666654 576.507528107 319.701848951 579.518797006 319.92842881 581.677819991 c
+320.177666654 584.09251675 321.038670116 586.223131537 323.304468701 587.671949592 c
+324.709263824 588.552603704 327.24695824 588.609420098 328.742385306 587.473092212 c
+330.419076259 586.19472334 330.84957799 584.518639707 331.234763749 582.359616723 c
+closepath
+328.606437391 584.717497087 m
+328.855675235 584.29137413 329.036939122 583.865251172 329.127571065 583.467536412 c
+322.670045098 583.467536412 l
+323.53104856 585.399293819 324.505341952 586.223131537 326.20469089 586.223131537 c
+326.748482551 586.223131537 327.337590183 585.995865959 327.904039829 585.541334805 c
+328.198593645 585.314069227 328.44783149 585.001579059 328.606437391 584.717497087 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+345.269686635 577.814305177 m
+345.269686635 575.854139573 345.24702865 575.797323178 345.473608508 575.285975629 c
+345.564240452 575.087118249 345.836136282 575.001893658 346.130690098 575.001893658 c
+346.402585928 575.001893658 346.583849815 574.945077263 346.742455716 574.945077263 c
+346.946377588 574.945077263 347.037009532 574.632587095 346.923719603 574.291688729 c
+346.561191829 573.098544448 l
+341.440487027 573.098544448 l
+341.213907168 573.098544448 341.009985295 573.070136251 340.87403738 573.268993631 c
+340.692773493 573.524667405 340.806063423 573.808749377 341.168591196 575.001893658 c
+342.346806461 575.115526446 342.482754376 575.456424812 342.482754376 577.388182219 c
+342.482754376 582.103942948 l
+342.482754376 583.240270835 342.618702291 584.68908889 341.644408899 585.456110213 c
+340.896695366 586.052682354 339.582532187 585.768600382 338.721528724 585.172028242 c
+337.883183248 584.603864298 337.475339503 583.808434778 337.475339503 582.5868823 c
+337.475339503 577.814305177 l
+337.475339503 575.854139573 337.452681517 575.797323178 337.679261375 575.285975629 c
+337.769893319 575.087118249 338.041789149 575.001893658 338.336342965 575.001893658 c
+338.630896781 575.001893658 338.812160668 574.945077263 338.970766569 574.945077263 c
+339.174688441 574.945077263 339.265320385 574.632587095 339.152030456 574.291688729 c
+338.789502682 573.098544448 l
+333.646139894 573.098544448 l
+333.419560035 573.098544448 333.215638162 573.070136251 333.079690247 573.268993631 c
+332.898426361 573.524667405 333.01171629 573.808749377 333.374244063 575.001893658 c
+334.575117314 575.115526446 334.711065229 575.456424812 334.711065229 577.388182219 c
+334.711065229 584.433415115 l
+334.711065229 585.172028242 334.665749257 585.654967593 334.21258954 585.882233171 c
+333.850061766 586.052682354 333.260954134 585.910641368 333.079690247 586.251539734 c
+332.989058304 586.421988917 332.966400318 586.564029903 333.170322191 587.18901024 c
+333.260954134 587.529908606 333.396902049 587.984439761 333.396902049 587.984439761 c
+337.475339503 588.325338127 l
+337.475339503 586.848111874 l
+339.197346427 588.041256155 342.256174517 589.09235945 344.159445329 587.558316803 c
+345.337660593 586.564029903 345.269686635 584.68908889 345.269686635 583.38231182 c
+345.269686635 577.814305177 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+352.840657183 581.780458807 m
+352.840657183 573.098544448 l
+359.063876919 573.098544448 l
+359.063876919 581.780458807 l
+352.840657183 581.780458807 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+371.116590962 572.842870673 m
+369.417242023 573.098544448 368.080420858 573.609891997 366.92486358 574.547362503 c
+364.319195207 576.67797729 363.322243829 580.030144555 363.140979942 582.728923286 c
+362.959716056 585.314069227 363.526165702 589.745747985 365.859938245 592.501343109 c
+368.488264603 595.541020206 371.932278453 595.5978366 374.447314882 595.114897248 c
+375.0590805 595.00126446 l
+375.852110005 594.859223474 376.124005835 595.00126446 376.554507566 596.052367755 c
+377.959302689 595.541020206 378.095250604 595.541020206 378.208540534 595.228530037 c
+378.299172477 595.00126446 378.185882548 594.433100516 377.528800958 592.529751307 c
+377.075641241 591.166157843 l
+374.537946826 592.89905787 371.433802764 593.722895587 369.009398278 591.933179166 c
+366.652967749 590.200279139 365.99588616 587.103785649 365.99588616 584.660680693 c
+365.99588616 582.672106891 366.584993792 579.035857655 368.986740292 577.246141234 c
+371.320512835 575.456424812 374.696552727 575.797323178 375.263002373 576.251854333 c
+375.784136048 576.649569093 375.71616209 577.104100248 375.71616209 579.291531429 c
+375.71616209 580.143777344 l
+375.71616209 582.132351145 375.761478062 582.643698694 375.308318345 583.126638046 c
+375.0590805 583.38231182 374.447314882 583.325495426 373.563653434 583.325495426 c
+372.679991986 583.325495426 372.679991986 583.325495426 372.566702057 583.524352806 c
+372.476070113 583.666393792 372.612018028 583.865251172 372.612018028 584.035700355 c
+373.087835731 585.654967593 l
+378.820306152 585.654967593 l
+379.907889472 585.654967593 379.885231487 585.711783988 379.885231487 585.512926608 c
+379.885231487 585.200436439 379.839915515 584.973170862 379.364097812 583.325495426 c
+378.707016222 583.325495426 l
+378.707016222 573.865565771 l
+376.509191595 572.956503462 373.971497179 572.416747716 371.116590962 572.842870673 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+385.493507822 595.39897922 m
+385.493507822 580.88239047 l
+385.493507822 577.814305177 l
+385.493507822 575.854139573 385.470849836 575.797323178 385.697429695 575.285975629 c
+385.788061638 575.087118249 386.059957468 575.001893658 386.354511284 575.001893658 c
+386.649065101 575.001893658 386.830328987 575.001893658 386.988934888 574.945077263 c
+387.192856761 574.859852672 387.283488704 574.632587095 387.170198775 574.291688729 c
+386.807671001 573.098544448 l
+381.664308213 573.098544448 l
+381.437728355 573.098544448 381.233806482 573.070136251 381.097858567 573.268993631 c
+380.91659468 573.524667405 381.029884609 573.808749377 381.392412383 575.001893658 c
+382.593285633 575.115526446 382.729233548 575.456424812 382.729233548 577.388182219 c
+382.729233548 591.507056209 l
+382.729233548 592.245669335 382.683917577 592.728608687 382.230757859 592.955874264 c
+381.868230086 593.154731644 381.279122454 593.012690658 381.097858567 593.353589024 c
+381.007226624 593.524038207 380.984568638 593.666079193 381.18849051 594.291059531 c
+381.279122454 594.603549699 381.415070369 595.058080854 381.415070369 595.058080854 c
+385.493507822 595.39897922 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+401.365143686 574.717811686 m
+401.433117644 574.518954306 401.3424857 574.17805594 401.274511743 573.865565771 c
+401.229195771 573.78034118 401.047931884 573.098544448 401.047931884 573.098544448 c
+399.144661073 573.098544448 l
+397.535944077 573.098544448 397.173416304 573.013319856 396.901520473 573.411034617 c
+396.652282629 573.78034118 396.856204502 574.973485461 396.856204502 576.564344502 c
+396.856204502 579.944919964 l
+395.677989238 580.172185541 393.140294822 580.314226527 392.27929136 579.149490443 c
+391.826131643 578.524510106 391.644867756 577.814305177 391.758157685 577.160916642 c
+391.871447614 576.450711713 392.211317402 575.797323178 392.913714964 575.456424812 c
+393.910666341 574.945077263 395.542041322 575.285975629 396.380386799 575.626873995 c
+395.632673266 572.956503462 395.587357294 573.098544448 394.658379874 572.814462476 c
+393.434848638 572.445155913 390.987786166 572.729237885 389.809570902 574.746219883 c
+389.016541397 576.166629741 388.971225425 578.126795346 389.537675072 579.490388809 c
+390.625258393 582.047126554 393.502822596 582.473249511 395.496725351 582.359616723 c
+396.856204502 582.274392131 l
+396.856204502 583.865251172 396.878862488 585.48451841 396.108490969 586.137906945 c
+395.474067365 586.677662691 394.40914203 586.5924381 393.75206044 586.251539734 c
+392.845741006 585.768600382 392.369923303 584.774313481 392.098027473 583.893659369 c
+391.35031394 583.893659369 l
+391.101076096 583.893659369 390.806522279 583.922067567 390.670574364 584.234557735 c
+390.579942421 584.433415115 390.579942421 584.518639707 390.715890336 585.001579059 c
+391.463603869 587.700357789 l
+393.09497885 588.410562718 396.946836445 588.779869281 398.510237469 587.331051226 c
+399.665794747 586.251539734 399.643136762 584.547047904 399.643136762 583.013005257 c
+399.643136762 577.672264191 l
+399.643136762 576.024588756 399.575162804 575.513241207 399.983006549 575.143934644 c
+400.14161245 575.001893658 400.52679821 575.001893658 400.79869404 575.001893658 c
+400.957299941 575.001893658 401.274511743 575.030301855 401.365143686 574.717811686 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+413.060983564 587.529908606 m
+412.177322116 584.547047904 l
+411.49758254 584.547047904 l
+411.180370738 584.547047904 411.021764838 584.603864298 410.95379088 585.001579059 c
+410.863158937 585.48451841 410.795184979 585.797008579 410.432657205 586.052682354 c
+410.29670929 586.166315142 410.115445403 586.279947931 409.526337771 586.365172522 c
+408.891914167 586.450397114 407.804330847 586.365172522 407.305855158 585.598151199 c
+407.079275299 585.257252833 406.988643356 584.859538073 407.101933285 584.405006918 c
+407.35117113 583.495944609 408.212174592 583.155046243 409.186467984 582.757331483 c
+409.911523531 582.473249511 l
+411.542898512 581.819860977 412.675797805 581.336921625 413.287563423 579.291531429 c
+413.650091196 578.098387148 413.468827309 576.365487121 412.653139819 575.030301855 c
+411.338976639 572.928095265 409.141152012 572.644013293 407.781672861 572.67242149 c
+406.830037455 572.700829688 404.428290955 572.928095265 403.839183323 573.751932983 c
+403.657919436 573.97919856 403.771209365 574.348505123 404.043105195 575.257567432 c
+404.677528799 577.359774022 l
+405.561190247 577.359774022 405.719796148 577.388182219 405.855744063 576.905242868 c
+405.923718021 576.649569093 405.878402049 576.223446136 406.059665936 575.88254777 c
+406.195613851 575.626873995 406.399535724 575.428016615 406.784721483 575.229159235 c
+407.373829115 574.916669066 409.413047842 574.77462808 410.319367276 575.68369039 c
+410.749869007 576.138221544 410.95379088 576.820018276 410.863158937 577.473406811 c
+410.68189505 578.694959289 409.684943672 579.064265852 408.529386394 579.518797006 c
+408.030910705 579.717654387 l
+406.512825653 580.314226527 405.176004488 580.88239047 404.700186785 582.956188863 c
+404.473606926 584.120924947 404.700186785 585.569743002 405.402584346 586.564029903 c
+406.807379469 588.552603704 409.571653743 588.438970915 411.044422823 588.183297141 c
+412.132006144 587.984439761 412.585165861 587.757174183 413.060983564 587.529908606 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+417.962149477 581.780458807 m
+417.962149477 573.098544448 l
+424.185369213 573.098544448 l
+424.185369213 581.780458807 l
+417.962149477 581.780458807 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+429.20232549 594.972856263 m
+436.679460821 594.972856263 l
+437.699070184 594.972856263 440.621950359 595.20012184 441.845481595 593.041098856 c
+442.502563185 591.847954575 442.615853114 590.512769308 442.253325341 589.262808633 c
+441.596243751 586.961744663 439.443735095 585.569743002 438.197545873 585.08680365 c
+441.618901737 579.007449458 l
+442.479905199 577.501815008 442.729143043 577.189324839 443.136986789 576.621160896 c
+443.431540605 576.251854333 443.771410393 575.967772361 444.065964209 575.768914981 c
+444.269886081 575.655282192 444.337860039 575.655282192 444.609755869 575.598465798 c
+444.858993713 575.541649404 444.926967671 575.570057601 445.130889544 575.484833009 c
+445.380127388 575.371200221 445.402785374 575.115526446 445.266837459 574.660995292 c
+445.176205515 574.348505123 444.949625657 573.553075602 444.813677742 573.098544448 c
+442.842432973 573.098544448 l
+440.486002444 573.098544448 440.644608345 573.041728054 439.760946897 575.428016615 c
+439.03589135 577.416590416 438.061597958 579.547205204 435.931747288 583.297087229 c
+435.682509444 583.723210186 435.569219514 583.808434778 435.342639656 583.808434778 c
+435.093401811 583.808434778 434.345688278 583.467536412 433.779238632 583.240270835 c
+433.779238632 577.643855994 l
+433.779238632 576.67797729 433.84721259 576.052996953 434.005818491 575.797323178 c
+434.209740363 575.513241207 434.436320222 575.428016615 434.980111882 575.428016615 c
+435.97706326 575.428016615 l
+436.543512906 575.428016615 436.475538948 575.143934644 436.362249019 574.746219883 c
+436.226301104 574.234872334 435.886431316 573.098544448 435.886431316 573.098544448 c
+429.428905349 573.098544448 l
+429.089035561 573.098544448 428.817139731 573.041728054 428.681191815 573.297401828 c
+428.590559872 573.467851011 428.975745632 574.490546109 429.224983476 575.428016615 c
+430.289908811 575.428016615 430.312566797 575.428016615 430.539146655 575.768914981 c
+430.7883845 576.166629741 430.811042486 576.592752699 430.811042486 577.98475436 c
+430.811042486 590.313911928 l
+430.811042486 591.19456604 430.833700471 591.933179166 430.584462627 592.245669335 c
+430.357882768 592.529751307 430.357882768 592.614975898 429.383589377 592.614975898 c
+429.111693547 592.614975898 428.794481745 592.586567701 428.703849801 592.757016884 c
+428.567901886 593.041098856 428.771823759 593.49563001 428.885113688 593.89334477 c
+429.20232549 594.972856263 l
+closepath
+438.333493788 588.325338127 m
+437.132620538 586.961744663 435.070743826 586.109498748 433.779238632 585.768600382 c
+433.779238632 590.853667674 l
+433.779238632 591.478648012 433.779238632 591.989995561 434.187082377 592.330893926 c
+434.730874038 592.813833278 437.109962552 592.728608687 437.812360114 592.387710321 c
+438.492099689 592.046811955 438.990575378 591.649097195 439.126523293 590.740034885 c
+439.262471208 589.830972576 439.03589135 589.09235945 438.333493788 588.325338127 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+444.537250314 594.972856263 m
+446.281915225 594.972856263 l
+448.751635683 594.972856263 448.638345753 595.114897248 449.363401301 592.444526715 c
+449.363401301 592.444526715 449.929850947 590.001421759 451.244014126 585.541334805 c
+453.011337023 579.518797006 453.713734584 577.672264191 453.713734584 577.672264191 c
+456.817878646 589.09235945 l
+457.384328292 591.166157843 457.497618221 591.705913589 457.203064405 592.274077532 c
+456.976484547 592.70020049 456.591298787 592.614975898 454.869291863 592.614975898 c
+454.620054018 592.614975898 454.325500202 592.643384095 454.189552287 592.955874264 c
+454.12157833 593.154731644 454.348158188 593.808120179 454.710685962 594.972856263 c
+460.715052212 594.972856263 l
+461.530739703 594.972856263 461.644029632 594.972856263 461.779977547 594.603549699 c
+461.870609491 594.347875925 461.59871366 593.438813616 461.349475816 592.614975898 c
+460.579104297 592.387710321 460.39784041 592.103628349 460.012654651 590.711626688 c
+455.820927268 576.195037939 l
+455.549031438 575.257567432 l
+455.32245158 574.518954306 455.141187693 573.751932983 455.073213735 573.098544448 c
+452.331597447 573.098544448 l
+451.742489815 573.098544448 451.674515858 573.041728054 451.085408225 575.257567432 c
+451.085408225 575.257567432 450.586932537 577.501815008 449.114163456 582.700515089 c
+447.981264164 586.762887283 446.984312786 589.433257816 446.984312786 589.433257816 c
+446.735074942 590.228687337 446.372547168 591.166157843 446.168625296 591.5922808 c
+445.624833635 592.757016884 445.126357946 592.614975898 444.605224272 592.614975898 c
+444.265354484 592.614975898 444.152064555 592.643384095 444.061432611 592.757016884 c
+443.948142682 592.927466067 444.01611664 593.211548039 444.106748583 593.467221813 c
+444.537250314 594.972856263 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+463.378498449 579.149490443 m
+463.650394279 579.149490443 464.012922053 579.177898641 464.126211982 578.922224866 c
+464.262159897 578.638142894 464.171527954 578.354060923 464.148869968 578.126795346 c
+464.126211982 577.842713374 464.080896011 577.615447797 464.19418594 577.331365825 c
+464.579371699 576.337078924 465.689613006 575.825731375 466.32403661 575.712098587 c
+467.615541803 575.484833009 469.700076502 575.371200221 471.014239681 577.047283853 c
+471.716637242 577.927937965 471.988533073 579.121082246 471.807269186 580.058552753 c
+471.444741412 581.819860977 470.153236219 582.444841314 468.771099082 583.126638046 c
+466.822512299 584.064108552 l
+464.579371699 585.143620045 463.333182477 586.223131537 462.925338732 588.49578731 c
+462.630784916 590.086646351 462.99331269 591.961587363 464.126211982 593.410405419 c
+466.097456751 595.938734966 468.385913322 595.39897922 470.991581695 595.029672657 c
+471.12752961 595.00126446 471.263477525 594.972856263 471.399425441 594.972856263 c
+471.920559115 595.00126446 472.396376818 595.39897922 472.645614662 596.109184149 c
+473.733197983 595.683061192 473.937119856 595.683061192 474.050409785 595.370571023 c
+474.118383743 595.171713643 474.073067771 594.972856263 474.005093813 594.745590685 c
+473.030800422 591.336607026 l
+471.263477525 592.387710321 468.159333464 593.779711982 466.459984525 592.416118518 c
+465.734928978 591.819546378 465.485691133 590.967300463 465.576323077 590.115054548 c
+465.734928978 588.609420098 466.777196327 588.069664352 468.227307421 587.38786762 c
+470.334500106 586.365172522 l
+472.44169279 585.370885622 473.846487913 584.376598721 474.435595545 581.876677371 c
+474.888755262 579.944919964 474.616859431 577.615447797 473.348012224 575.570057601 c
+471.716637242 572.984911659 468.499203252 572.67242149 466.958460214 572.700829688 c
+465.825560921 572.729237885 462.472179015 573.354218222 461.656491524 574.433729714 c
+461.361937708 574.831444475 461.429911666 575.058710052 461.588517567 575.626873995 c
+462.630784916 579.149490443 l
+463.378498449 579.149490443 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+478.422540051 581.780458807 m
+478.422540051 573.098544448 l
+484.645759787 573.098544448 l
+484.645759787 581.780458807 l
+478.422540051 581.780458807 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+9.48206072299 585.058395453 m
+11.158751676 590.711626688 l
+12.7674686715 585.058395453 l
+9.48206072299 585.058395453 l
+closepath
+18.6812029787 576.08140515 m
+18.7718349221 575.768914981 18.9077828372 575.428016615 19.2703106108 575.428016615 c
+20.1313140732 575.428016615 20.1992880307 575.456424812 20.2672619883 575.172342841 c
+20.2899199741 575.087118249 20.2672619883 574.916669066 20.1992880307 574.717811686 c
+19.7234703279 573.098544448 l
+13.288602346 573.098544448 l
+12.6315207563 573.098544448 12.4049408978 573.070136251 12.2916509686 573.268993631 c
+12.2010190252 573.439442814 12.3143089544 573.751932983 12.5182308271 574.405321517 c
+12.8127846432 575.428016615 l
+14.1949217801 575.428016615 14.4668176103 575.399608418 14.8973193415 575.712098587 c
+15.3957950302 576.08140515 15.3051630868 576.734793685 14.5801075396 579.121082246 c
+13.5151822046 582.615290497 l
+8.75700517574 582.615290497 l
+7.78271178413 579.518797006 l
+7.21626213784 577.78589698 6.87639235007 576.337078924 7.3748680388 575.712098587 c
+7.55613192562 575.484833009 7.91865969924 575.428016615 8.41713538797 575.428016615 c
+9.27813885033 575.428016615 9.34611280788 575.456424812 9.41408676544 575.172342841 c
+9.43674475129 575.087118249 9.41408676544 574.916669066 9.34611280788 574.717811686 c
+8.870295105 573.098544448 l
+2.77529691095 573.098544448 l
+2.11821532126 573.098544448 1.89163546275 573.070136251 1.77834553349 573.268993631 c
+1.68771359008 573.439442814 1.80100351934 573.751932983 2.004925392 574.405321517 c
+2.29947920807 575.428016615 l
+3.13782468458 575.428016615 3.25111461383 575.428016615 3.61364238746 575.797323178 c
+3.99882814693 576.223446136 4.40667189226 576.87683467 4.85983160929 578.38246912 c
+9.41408676544 592.89905787 l
+10.1844582844 595.342162826 l
+12.0650711101 595.342162826 12.4502568695 595.370571023 12.6088627705 595.256938234 c
+12.9487325583 595.029672657 13.1979704026 594.461508714 13.605814148 593.126323447 c
+17.8881734739 578.609734697 l
+18.1374113183 577.842713374 l
+18.2280432617 577.501815008 18.5452550636 576.535936304 18.6812029787 576.08140515 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+26.5602343337 577.814305177 m
+26.5602343337 575.854139573 26.5375763479 575.797323178 26.7641562064 575.285975629 c
+26.8547881498 575.087118249 27.12668398 575.001893658 27.4438957819 575.001893658 c
+28.6221110462 575.001893658 28.7354009755 575.001893658 28.8940068764 574.945077263 c
+29.0979287491 574.859852672 29.1885606925 574.632587095 29.0752707632 574.291688729 c
+28.7127429896 573.098544448 l
+22.7310347248 573.098544448 l
+22.5044548663 573.098544448 22.3005329936 573.070136251 22.1645850785 573.268993631 c
+21.9833211917 573.524667405 22.096611121 573.808749377 22.4591388946 575.001893658 c
+23.6600121447 575.115526446 23.7959600598 575.456424812 23.7959600598 577.388182219 c
+23.7959600598 585.711783988 l
+22.2552170219 585.711783988 22.096611121 585.740192185 22.0059791776 585.910641368 c
+21.8700312625 586.166315142 21.9606632059 586.336764325 22.3458489653 587.700357789 c
+23.0709045126 587.927623366 23.4787482579 588.183297141 23.6826701306 589.120767647 c
+24.0225399184 590.79685128 23.3428003428 592.387710321 24.8608853949 594.120610348 c
+26.1070746167 595.512612009 28.8940068764 595.5978366 30.1628540841 595.171713643 c
+30.5706978294 595.029672657 31.0691735182 594.80240708 31.2051214333 594.319467728 c
+31.2957533767 594.006977559 31.1824634474 593.722895587 30.5027238719 591.279790631 c
+29.7776683246 591.279790631 l
+29.4377985369 591.279790631 29.25653465 591.336607026 29.1659027066 591.620688997 c
+29.0299547915 592.075220152 29.4377985369 592.70020049 28.9166648623 593.239956236 c
+28.6221110462 593.524038207 27.8743975131 593.609262799 27.3532638385 593.239956236 c
+26.4696023903 592.586567701 26.5602343337 591.19456604 26.5602343337 589.632115196 c
+26.5602343337 587.927623366 l
+30.5253818577 587.927623366 l
+29.8909582539 585.569743002 29.8456422822 585.569743002 29.5057724944 585.512926608 c
+29.1659027066 585.456110213 28.2822412584 585.711783988 26.5602343337 585.711783988 c
+26.5602343337 577.814305177 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+38.1109214898 578.212019937 m
+38.1109214898 584.916354467 l
+39.4704006409 585.910641368 41.1470915939 586.365172522 42.3932808157 585.427702016 c
+43.9340238536 584.29137413 44.2285776697 582.103942948 44.2059196838 580.711941287 c
+44.183261698 578.97904126 43.8207339243 576.649569093 42.1213849855 575.456424812 c
+41.3056974948 574.888260869 39.3117947399 574.660995292 38.5867391927 575.200751038 c
+38.0429475322 575.626873995 38.1109214898 576.564344502 38.1109214898 578.212019937 c
+closepath
+35.3466472159 591.507056209 m
+35.3466472159 592.245669335 35.3013312442 592.728608687 34.8481715272 592.955874264 c
+34.4856437535 593.154731644 33.8965361214 593.012690658 33.7152722346 593.353589024 c
+33.6246402912 593.524038207 33.6019823053 593.666079193 33.805904178 594.291059531 c
+33.8965361214 594.603549699 34.0324840365 595.058080854 34.0324840365 595.058080854 c
+38.1109214898 595.39897922 l
+38.1109214898 587.473092212 l
+40.1954561881 588.552603704 42.6651766459 588.808277478 44.7043953726 587.018561057 c
+46.5850081982 585.399293819 47.0381679153 582.5868823 46.9928519436 580.655124893 c
+46.9475359719 578.496101909 46.2904543822 575.655282192 43.9793398253 573.893973968 c
+41.6229092968 572.047441153 36.0037288056 572.644013293 34.5309597252 573.439442814 c
+34.1231159799 573.666708391 33.9871680648 573.695116588 33.9418520931 574.007606757 c
+33.8965361214 574.234872334 33.9871680648 574.518954306 34.259063895 575.456424812 c
+35.1880413149 575.541649404 35.3466472159 575.768914981 35.3466472159 576.962059262 c
+35.3466472159 591.507056209 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+60.8723552079 582.359616723 m
+60.9176711796 582.160759343 60.9176711796 581.791452779 60.9176711796 581.791452779 c
+53.1686400184 581.791452779 l
+52.5115584287 581.791452779 52.1943466268 581.819860977 51.9904247541 581.308513428 c
+51.7638448956 580.768757682 51.7865028815 579.319939626 52.466242457 577.871121571 c
+53.531167792 575.541649404 55.5703865187 575.143934644 57.2697354575 575.314383826 c
+58.8104784954 575.456424812 60.0340097314 575.825731375 60.8723552079 576.308670727 c
+60.2379316041 574.036014954 60.2379316041 573.467851011 59.2183222407 573.126952645 c
+57.2244194858 572.445155913 53.8030636222 572.27470673 51.6278969805 574.604178897 c
+49.8152581124 576.507528107 49.3394404095 579.518797006 49.566020268 581.677819991 c
+49.8152581124 584.09251675 50.6762615747 586.223131537 52.9420601599 587.671949592 c
+54.3468552827 588.552603704 56.884549698 588.609420098 58.3799767642 587.473092212 c
+60.0566677173 586.19472334 60.4871694484 584.518639707 60.8723552079 582.359616723 c
+closepath
+58.2440288491 584.717497087 m
+58.4932666935 584.29137413 58.6745305803 583.865251172 58.7651625237 583.467536412 c
+52.307636556 583.467536412 l
+53.1686400184 585.399293819 54.14293341 586.223131537 55.8422823489 586.223131537 c
+56.3860740093 586.223131537 56.9751816415 585.995865959 57.5416312877 585.541334805 c
+57.8361851038 585.314069227 58.0854229482 585.001579059 58.2440288491 584.717497087 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+74.2190417737 582.359616723 m
+74.2643577454 582.160759343 74.2643577454 581.791452779 74.2643577454 581.791452779 c
+66.5153265842 581.791452779 l
+65.8582449945 581.791452779 65.5410331926 581.819860977 65.3371113199 581.308513428 c
+65.1105314614 580.768757682 65.1331894473 579.319939626 65.8129290228 577.871121571 c
+66.8778543578 575.541649404 68.9170730845 575.143934644 70.6164220233 575.314383826 c
+72.1571650612 575.456424812 73.3806962972 575.825731375 74.2190417737 576.308670727 c
+73.5846181699 574.036014954 73.5846181699 573.467851011 72.5650088066 573.126952645 c
+70.5711060516 572.445155913 67.1497501881 572.27470673 64.9745835463 574.604178897 c
+63.1619446782 576.507528107 62.6861269753 579.518797006 62.9127068338 581.677819991 c
+63.1619446782 584.09251675 64.0229481406 586.223131537 66.2887467257 587.671949592 c
+67.6935418485 588.552603704 70.2312362639 588.609420098 71.7266633301 587.473092212 c
+73.4033542831 586.19472334 73.8338560142 584.518639707 74.2190417737 582.359616723 c
+closepath
+71.5907154149 584.717497087 m
+71.8399532593 584.29137413 72.0212171461 583.865251172 72.1118490895 583.467536412 c
+65.6543231219 583.467536412 l
+66.5153265842 585.399293819 67.4896199758 586.223131537 69.1889689147 586.223131537 c
+69.7327605751 586.223131537 70.3218682073 585.995865959 70.8883178536 585.541334805 c
+71.1828716696 585.314069227 71.432109514 585.001579059 71.5907154149 584.717497087 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+80.217106272 595.39897922 m
+80.217106272 580.88239047 l
+80.217106272 577.814305177 l
+80.217106272 575.854139573 80.1944482862 575.797323178 80.4210281447 575.285975629 c
+80.5116600881 575.087118249 80.7835559183 575.001893658 81.0781097344 575.001893658 c
+81.3726635505 575.001893658 81.5539274373 575.001893658 81.7125333382 574.945077263 c
+81.9164552109 574.859852672 82.0070871543 574.632587095 81.8937972251 574.291688729 c
+81.5312694514 573.098544448 l
+76.3879066631 573.098544448 l
+76.1613268046 573.098544448 75.957404932 573.070136251 75.8214570169 573.268993631 c
+75.64019313 573.524667405 75.7534830593 573.808749377 76.1160108329 575.001893658 c
+77.3168840831 575.115526446 77.4528319982 575.456424812 77.4528319982 577.388182219 c
+77.4528319982 591.507056209 l
+77.4528319982 592.245669335 77.4075160265 592.728608687 76.9543563094 592.955874264 c
+76.5918285358 593.154731644 76.0027209037 593.012690658 75.8214570169 593.353589024 c
+75.7308250735 593.524038207 75.7081670876 593.666079193 75.9120889603 594.291059531 c
+76.0027209037 594.603549699 76.1386688188 595.058080854 76.1386688188 595.058080854 c
+80.217106272 595.39897922 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+91.7681474591 587.842398775 m
+91.7681474591 591.507056209 l
+91.7681474591 592.245669335 91.7228314874 592.757016884 91.2923297562 592.955874264 c
+90.9524599685 593.154731644 90.3633523363 593.012690658 90.1820884495 593.353589024 c
+90.0914565061 593.524038207 90.0687985203 593.666079193 90.2727203929 594.291059531 c
+90.3633523363 594.603549699 90.4993002514 595.058080854 90.4993002514 595.058080854 c
+94.5777377047 595.39897922 l
+94.5777377047 580.88239047 l
+94.5777377047 577.814305177 l
+94.5777377047 575.854139573 94.5550797189 575.797323178 94.7816595774 575.285975629 c
+94.8722915208 575.087118249 95.144187351 575.001893658 95.4387411671 575.001893658 c
+95.7106369973 575.001893658 95.8919008841 575.001893658 96.0505067851 574.945077263 c
+96.2544286577 574.888260869 96.3450606011 574.689403489 96.2317706719 574.291688729 c
+95.8692428982 573.098544448 l
+91.9720693318 573.098544448 l
+91.790805445 573.098544448 91.7001735016 573.268993631 91.7001735016 573.524667405 c
+91.7001735016 574.064423151 91.790805445 575.342792024 91.790805445 577.388182219 c
+91.790805445 585.370885622 l
+90.4313262939 586.166315142 88.3921075673 586.279947931 87.1459183454 585.200436439 c
+85.8770711377 584.09251675 85.4918853783 582.018718357 85.4918853783 580.711941287 c
+85.4918853783 579.348347823 85.8090971802 577.189324839 87.2365502888 576.024588756 c
+88.4600815248 575.001893658 90.1367724778 575.314383826 91.2696717704 575.655282192 c
+90.6805641383 573.524667405 90.6579061524 573.098544448 89.7289287325 572.814462476 c
+88.3014756239 572.388339519 85.8770711377 572.842870673 84.3363280998 574.916669066 c
+82.7049531185 577.104100248 82.4103993025 580.371042921 83.0221649205 582.842556074 c
+83.7245624819 585.654967593 85.3332794773 587.444684015 87.5990780625 588.041256155 c
+88.890583256 588.410562718 90.4539842797 588.268521732 91.7681474591 587.842398775 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+102.94533188 588.325338127 m
+102.94533188 577.814305177 l
+102.94533188 575.854139573 102.922673894 575.797323178 103.149253752 575.285975629 c
+103.239885696 575.087118249 103.511781526 575.001893658 103.806335342 575.001893658 c
+104.100889158 575.001893658 104.282153045 575.001893658 104.440758946 574.945077263 c
+104.644680819 574.859852672 104.735312762 574.632587095 104.622022833 574.291688729 c
+104.259495059 573.098544448 l
+99.1161322708 573.098544448 l
+98.8895524122 573.098544448 98.6856305396 573.070136251 98.5496826245 573.268993631 c
+98.3684187377 573.524667405 98.4817086669 573.808749377 98.8442364405 575.001893658 c
+100.045109691 575.115526446 100.181057606 575.456424812 100.181057606 577.388182219 c
+100.181057606 584.433415115 l
+100.181057606 585.172028242 100.135741634 585.654967593 99.6825819171 585.882233171 c
+99.3200541434 586.052682354 98.7309465113 585.910641368 98.5496826245 586.251539734 c
+98.4590506811 586.421988917 98.4363926952 586.564029903 98.6403145679 587.18901024 c
+98.7309465113 587.529908606 98.8668944264 587.984439761 98.8668944264 587.984439761 c
+102.94533188 588.325338127 l
+closepath
+102.94533188 590.853667674 m
+102.650778064 590.825259477 l
+100.656875309 590.626402097 100.339663507 590.626402097 100.135741634 590.882075871 c
+99.9091617756 591.166157843 99.9544777473 591.109341449 99.9544777473 593.410405419 c
+99.9544777473 593.921752968 l
+100.045109691 593.921752968 100.566243365 593.978569362 100.566243365 593.978569362 c
+102.492172163 594.149018545 102.628120078 594.149018545 102.786725979 593.950161165 c
+102.967989866 593.722895587 102.94533188 593.779711982 102.94533188 591.336607026 c
+102.94533188 590.853667674 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+119.222333272 577.814305177 m
+119.222333272 575.854139573 119.199675286 575.797323178 119.426255145 575.285975629 c
+119.516887088 575.087118249 119.788782918 575.001893658 120.083336734 575.001893658 c
+120.355232565 575.001893658 120.536496451 574.945077263 120.695102352 574.945077263 c
+120.899024225 574.945077263 120.989656168 574.632587095 120.876366239 574.291688729 c
+120.513838465 573.098544448 l
+115.393133663 573.098544448 l
+115.166553805 573.098544448 114.962631932 573.070136251 114.826684017 573.268993631 c
+114.64542013 573.524667405 114.758710059 573.808749377 115.121237833 575.001893658 c
+116.299453097 575.115526446 116.435401012 575.456424812 116.435401012 577.388182219 c
+116.435401012 582.103942948 l
+116.435401012 583.240270835 116.571348927 584.68908889 115.597055536 585.456110213 c
+114.849342003 586.052682354 113.535178823 585.768600382 112.674175361 585.172028242 c
+111.835829884 584.603864298 111.427986139 583.808434778 111.427986139 582.5868823 c
+111.427986139 577.814305177 l
+111.427986139 575.854139573 111.405328153 575.797323178 111.631908012 575.285975629 c
+111.722539955 575.087118249 111.994435785 575.001893658 112.288989601 575.001893658 c
+112.583543417 575.001893658 112.764807304 574.945077263 112.923413205 574.945077263 c
+113.127335078 574.945077263 113.217967021 574.632587095 113.104677092 574.291688729 c
+112.742149318 573.098544448 l
+107.59878653 573.098544448 l
+107.372206672 573.098544448 107.168284799 573.070136251 107.032336884 573.268993631 c
+106.851072997 573.524667405 106.964362926 573.808749377 107.3268907 575.001893658 c
+108.52776395 575.115526446 108.663711865 575.456424812 108.663711865 577.388182219 c
+108.663711865 584.433415115 l
+108.663711865 585.172028242 108.618395893 585.654967593 108.165236176 585.882233171 c
+107.802708403 586.052682354 107.213600771 585.910641368 107.032336884 586.251539734 c
+106.94170494 586.421988917 106.919046955 586.564029903 107.122968827 587.18901024 c
+107.213600771 587.529908606 107.349548686 587.984439761 107.349548686 587.984439761 c
+111.427986139 588.325338127 l
+111.427986139 586.848111874 l
+113.149993064 588.041256155 116.208821154 589.09235945 118.112091965 587.558316803 c
+119.290307229 586.564029903 119.222333272 584.68908889 119.222333272 583.38231182 c
+119.222333272 577.814305177 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+134.573543524 587.927623366 m
+134.573543524 587.927623366 134.460253594 587.529908606 134.256331722 586.762887283 c
+134.052409849 586.024274157 133.961777906 585.711783988 133.621908118 585.740192185 c
+132.285086953 585.825416776 l
+132.692930698 584.547047904 132.806220627 583.098229849 132.08116508 581.763044582 c
+131.288135575 580.200593738 129.792708509 579.717654387 128.841073103 579.575613401 c
+128.297281443 579.490388809 127.889437697 579.490388809 127.277672079 579.575613401 c
+126.847170348 578.638142894 126.665906461 578.240428134 126.779196391 577.98475436 c
+126.937802292 577.643855994 127.322988051 577.700672388 128.09335957 577.700672388 c
+129.883340452 577.700672388 l
+131.310793561 577.700672388 132.851536599 577.757488782 133.871145962 576.052996953 c
+134.596201509 574.803036278 134.641517481 572.871278871 134.233673736 571.450869012 c
+133.531276174 569.064580451 132.262428967 567.985068959 130.268526212 567.331680424 c
+128.3652554 566.706700086 125.125163423 566.820332875 123.471130456 568.581641099 c
+122.655442966 569.462295211 122.315573178 570.683847689 122.383547135 571.67813459 c
+122.542153036 573.325810025 123.085944697 573.893973968 124.513397805 575.257567432 c
+124.014922117 575.570057601 123.652394343 576.166629741 123.652394343 576.791610079 c
+123.652394343 577.189324839 123.856316216 577.359774022 124.649345721 578.297244528 c
+125.238453353 579.007449458 125.397059254 579.263123232 125.759587027 580.001736358 c
+124.558713777 580.825574076 123.765684272 581.848269174 123.675052329 583.666393792 c
+123.607078371 584.68908889 123.924290173 586.109498748 124.830609607 587.103785649 c
+126.190088758 588.552603704 128.229307485 588.49578731 129.838024481 588.041256155 c
+130.336500169 587.927623366 l
+134.573543524 587.927623366 l
+closepath
+126.371352645 583.240270835 m
+126.280720702 584.035700355 126.303378688 585.797008579 127.300330065 586.450397114 c
+127.730831796 586.706070888 128.410571372 586.762887283 128.931705047 586.365172522 c
+129.67941858 585.825416776 129.838024481 584.859538073 129.860682466 584.007292158 c
+129.883340452 583.325495426 129.724734551 582.103942948 129.02233699 581.507370808 c
+128.614493245 581.166472442 127.912095683 581.109656048 127.413619994 581.365329822 c
+126.824512362 581.706228188 126.484642575 582.38802492 126.371352645 583.240270835 c
+closepath
+125.011873494 572.984911659 m
+125.170479395 573.411034617 125.465033211 573.922382166 126.258062716 574.660995292 c
+128.999679004 574.660995292 l
+130.087262325 574.660995292 131.333451547 574.831444475 131.922559179 573.695116588 c
+132.217112995 573.126952645 132.149139037 572.303114927 131.831927236 571.536093604 c
+131.174845646 569.97364276 129.475496707 569.490703408 128.478545329 569.405478817 c
+127.730831796 569.348662422 125.827560985 569.405478817 125.102505438 570.797480478 c
+124.76263565 571.450869012 124.694661692 572.161073942 125.011873494 572.984911659 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+146.598278227 582.359616723 m
+146.643594199 582.160759343 146.643594199 581.791452779 146.643594199 581.791452779 c
+138.894563038 581.791452779 l
+138.237481448 581.791452779 137.920269646 581.819860977 137.716347774 581.308513428 c
+137.489767915 580.768757682 137.512425901 579.319939626 138.192165476 577.871121571 c
+139.257090811 575.541649404 141.296309538 575.143934644 142.995658477 575.314383826 c
+144.536401515 575.456424812 145.759932751 575.825731375 146.598278227 576.308670727 c
+145.963854623 574.036014954 145.963854623 573.467851011 144.94424526 573.126952645 c
+142.950342505 572.445155913 139.528986642 572.27470673 137.35382 574.604178897 c
+135.541181132 576.507528107 135.065363429 579.518797006 135.291943287 581.677819991 c
+135.541181132 584.09251675 136.402184594 586.223131537 138.667983179 587.671949592 c
+140.072778302 588.552603704 142.610472717 588.609420098 144.105899784 587.473092212 c
+145.782590737 586.19472334 146.213092468 584.518639707 146.598278227 582.359616723 c
+closepath
+143.969951869 584.717497087 m
+144.219189713 584.29137413 144.4004536 583.865251172 144.491085543 583.467536412 c
+138.033559575 583.467536412 l
+138.894563038 585.399293819 139.868856429 586.223131537 141.568205368 586.223131537 c
+142.111997029 586.223131537 142.701104661 585.995865959 143.267554307 585.541334805 c
+143.562108123 585.314069227 143.811345968 585.001579059 143.969951869 584.717497087 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+160.633201113 577.814305177 m
+160.633201113 575.854139573 160.610543128 575.797323178 160.837122986 575.285975629 c
+160.927754929 575.087118249 161.19965076 575.001893658 161.494204576 575.001893658 c
+161.766100406 575.001893658 161.947364293 574.945077263 162.105970194 574.945077263 c
+162.309892066 574.945077263 162.40052401 574.632587095 162.287234081 574.291688729 c
+161.924706307 573.098544448 l
+156.804001504 573.098544448 l
+156.577421646 573.098544448 156.373499773 573.070136251 156.237551858 573.268993631 c
+156.056287971 573.524667405 156.169577901 573.808749377 156.532105674 575.001893658 c
+157.710320939 575.115526446 157.846268854 575.456424812 157.846268854 577.388182219 c
+157.846268854 582.103942948 l
+157.846268854 583.240270835 157.982216769 584.68908889 157.007923377 585.456110213 c
+156.260209844 586.052682354 154.946046665 585.768600382 154.085043202 585.172028242 c
+153.246697726 584.603864298 152.83885398 583.808434778 152.83885398 582.5868823 c
+152.83885398 577.814305177 l
+152.83885398 575.854139573 152.816195995 575.797323178 153.042775853 575.285975629 c
+153.133407797 575.087118249 153.405303627 575.001893658 153.699857443 575.001893658 c
+153.994411259 575.001893658 154.175675146 574.945077263 154.334281047 574.945077263 c
+154.538202919 574.945077263 154.628834863 574.632587095 154.515544933 574.291688729 c
+154.15301716 573.098544448 l
+149.009654372 573.098544448 l
+148.783074513 573.098544448 148.57915264 573.070136251 148.443204725 573.268993631 c
+148.261940838 573.524667405 148.375230768 573.808749377 148.737758541 575.001893658 c
+149.938631791 575.115526446 150.074579707 575.456424812 150.074579707 577.388182219 c
+150.074579707 584.433415115 l
+150.074579707 585.172028242 150.029263735 585.654967593 149.576104018 585.882233171 c
+149.213576244 586.052682354 148.624468612 585.910641368 148.443204725 586.251539734 c
+148.352572782 586.421988917 148.329914796 586.564029903 148.533836669 587.18901024 c
+148.624468612 587.529908606 148.760416527 587.984439761 148.760416527 587.984439761 c
+152.83885398 588.325338127 l
+152.83885398 586.848111874 l
+154.560860905 588.041256155 157.619688995 589.09235945 159.522959807 587.558316803 c
+160.701175071 586.564029903 160.633201113 584.68908889 160.633201113 583.38231182 c
+160.633201113 577.814305177 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+175.415271083 588.211705338 m
+177.159935993 588.552603704 179.720288395 588.240113535 181.60090122 585.512926608 c
+183.005696343 583.495944609 183.209618216 580.143777344 182.711142527 578.013162557 c
+182.144692881 575.541649404 180.989135602 573.837157574 178.813968961 573.041728054 c
+177.114620022 572.416747716 174.169081861 572.445155913 172.356442993 574.320096926 c
+170.634436068 576.109813347 170.090644408 579.717654387 170.249250309 581.422146216 c
+170.453172181 583.780026581 171.291517658 586.081090551 173.398710342 587.444684015 c
+174.078449918 587.870806972 174.780847479 588.098072549 175.415271083 588.211705338 c
+closepath
+173.35339437 582.842556074 m
+173.670606172 584.234557735 174.327687762 585.48451841 175.528561012 586.024274157 c
+176.366906489 586.39358072 177.884991541 586.308356128 178.836626946 585.143620045 c
+180.218764083 583.467536412 180.12813214 580.115369147 179.85623631 578.524510106 c
+179.58434048 576.990467459 178.904600904 575.655282192 177.477147795 575.172342841 c
+176.593486347 574.888260869 175.075401295 574.973485461 174.214397833 576.138221544 c
+172.945550625 577.842713374 172.968208611 581.109656048 173.35339437 582.842556074 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+188.194091878 579.433572415 m
+188.194091878 584.802721679 l
+189.553571029 586.024274157 191.162288025 586.365172522 192.363161275 585.598151199 c
+194.017194242 584.575456101 194.379722016 582.245983934 194.35706403 580.598308499 c
+194.334406044 579.007449458 194.130484171 576.621160896 192.476451204 575.513241207 c
+191.434183855 574.831444475 189.780150888 574.973485461 188.964463397 575.598465798 c
+188.126117921 576.28026253 188.194091878 577.587039599 188.194091878 579.433572415 c
+closepath
+188.194091878 573.325810025 m
+188.194091878 571.706542787 l
+188.194091878 569.746377183 188.171433892 569.689560788 188.398013751 569.17821324 c
+188.488645694 568.979355859 188.760541525 568.894131268 189.055095341 568.894131268 c
+190.255968591 568.894131268 190.323942548 568.837314874 190.482548449 568.837314874 c
+190.709128308 568.723682085 190.75444428 568.496416508 190.663812336 568.183926339 c
+190.301284562 566.990782058 l
+184.364892269 566.990782058 l
+184.138312411 566.990782058 183.934390538 566.962373861 183.798442623 567.161231241 c
+183.617178736 567.416905015 183.730468666 567.700986987 184.092996439 568.894131268 c
+185.293869689 569.007764057 185.429817604 569.348662422 185.429817604 571.280419829 c
+185.429817604 584.433415115 l
+185.429817604 585.172028242 185.384501633 585.654967593 184.931341916 585.882233171 c
+184.568814142 586.052682354 183.97970651 585.910641368 183.798442623 586.251539734 c
+183.70781068 586.421988917 183.685152694 586.564029903 183.889074567 587.18901024 c
+183.97970651 587.529908606 184.115654425 587.984439761 184.115654425 587.984439761 c
+188.194091878 588.325338127 l
+188.194091878 587.359459423 l
+190.255968591 588.410562718 192.49910919 588.865093873 194.515669931 587.331051226 c
+196.373624771 585.882233171 197.008048375 583.495944609 197.121338304 581.478962611 c
+197.234628233 579.547205204 196.804126502 576.28026253 194.968829648 574.348505123 c
+193.314796681 572.615605096 191.02634011 572.388339519 189.123069298 572.956503462 c
+188.919147426 573.013319856 188.488645694 573.183769039 188.194091878 573.325810025 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+218.483740524 572.700829688 m
+216.308573883 572.700829688 l
+216.331231868 574.831444475 216.036678052 576.507528107 214.337329113 578.97904126 c
+214.337329113 578.97904126 212.77392809 581.422146216 210.802683321 584.149333144 c
+207.834487174 588.268521732 207.018799683 589.035543056 207.018799683 589.035543056 c
+207.018799683 577.871121571 l
+207.018799683 576.251854333 207.086773641 576.08140515 207.336011485 575.740506784 c
+207.517275372 575.513241207 208.287646891 575.428016615 208.78612258 575.428016615 c
+209.647126042 575.428016615 209.851047915 575.456424812 209.896363887 575.172342841 c
+209.896363887 575.172342841 209.919021872 574.945077263 209.851047915 574.717811686 c
+209.375230212 573.098544448 l
+203.574785834 573.098544448 l
+202.895046258 573.098544448 202.6684664 573.070136251 202.555176471 573.268993631 c
+202.464544527 573.439442814 202.577834457 573.751932983 202.781756329 574.405321517 c
+203.076310145 575.428016615 l
+203.914655622 575.428016615 204.027945551 575.371200221 204.390473325 575.797323178 c
+204.707685127 576.28026253 204.662369155 577.018875656 204.662369155 577.871121571 c
+204.662369155 590.200279139 l
+204.662369155 591.819546378 204.594395197 591.989995561 204.345157353 592.302485729 c
+204.163893466 592.529751307 204.027945551 592.614975898 203.529469862 592.614975898 c
+202.645808414 592.614975898 202.577834457 592.614975898 202.509860499 592.870649673 c
+202.509860499 592.870649673 202.532518485 593.154731644 202.577834457 593.353589024 c
+203.053652159 594.972856263 l
+206.497666009 594.972856263 l
+206.497666009 594.972856263 207.879803146 593.438813616 211.18786908 589.035543056 c
+214.745172859 584.29137413 216.081994024 582.132351145 216.081994024 582.132351145 c
+216.081994024 590.200279139 l
+216.081994024 591.819546378 216.014020066 591.989995561 215.764782222 592.302485729 c
+215.583518335 592.529751307 215.44757042 592.614975898 214.949094731 592.614975898 c
+213.498983637 592.614975898 213.340377736 592.586567701 213.272403778 592.870649673 c
+213.249745793 592.955874264 213.272403778 593.154731644 213.340377736 593.353589024 c
+213.816195439 594.972856263 l
+219.571323845 594.972856263 l
+220.228405435 594.972856263 220.454985293 595.00126446 220.568275223 594.80240708 c
+220.658907166 594.631957897 220.545617237 594.319467728 220.341695364 593.666079193 c
+220.047141548 592.614975898 l
+219.231454057 592.614975898 219.118164128 592.671792292 218.755636354 592.245669335 c
+218.438424553 591.79113818 218.483740524 591.052525054 218.483740524 590.200279139 c
+218.483740524 575.68369039 l
+218.483740524 572.700829688 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+233.245843144 574.717811686 m
+233.313817101 574.518954306 233.223185158 574.17805594 233.1552112 573.865565771 c
+233.109895229 573.78034118 232.928631342 573.098544448 232.928631342 573.098544448 c
+231.02536053 573.098544448 l
+229.416643535 573.098544448 229.054115761 573.013319856 228.782219931 573.411034617 c
+228.532982087 573.78034118 228.736903959 574.973485461 228.736903959 576.564344502 c
+228.736903959 579.944919964 l
+227.558688695 580.172185541 225.02099428 580.314226527 224.159990817 579.149490443 c
+223.7068311 578.524510106 223.525567213 577.814305177 223.638857143 577.160916642 c
+223.752147072 576.450711713 224.09201686 575.797323178 224.794414421 575.456424812 c
+225.791365799 574.945077263 227.42274078 575.285975629 228.261086256 575.626873995 c
+227.513372723 572.956503462 227.468056752 573.098544448 226.539079332 572.814462476 c
+225.315548096 572.445155913 222.868485624 572.729237885 221.690270359 574.746219883 c
+220.897240855 576.166629741 220.851924883 578.126795346 221.418374529 579.490388809 c
+222.50595785 582.047126554 225.383522053 582.473249511 227.377424808 582.359616723 c
+228.736903959 582.274392131 l
+228.736903959 583.865251172 228.759561945 585.48451841 227.989190426 586.137906945 c
+227.354766822 586.677662691 226.289841487 586.5924381 225.632759898 586.251539734 c
+224.726440464 585.768600382 224.250622761 584.774313481 223.97872693 583.893659369 c
+223.231013397 583.893659369 l
+222.981775553 583.893659369 222.687221737 583.922067567 222.551273822 584.234557735 c
+222.460641878 584.433415115 222.460641878 584.518639707 222.596589794 585.001579059 c
+223.344303327 587.700357789 l
+224.975678308 588.410562718 228.827535903 588.779869281 230.390936926 587.331051226 c
+231.546494205 586.251539734 231.523836219 584.547047904 231.523836219 583.013005257 c
+231.523836219 577.672264191 l
+231.523836219 576.024588756 231.455862261 575.513241207 231.863706007 575.143934644 c
+232.022311908 575.001893658 232.407497667 575.001893658 232.679393497 575.001893658 c
+232.837999398 575.001893658 233.1552112 575.030301855 233.245843144 574.717811686 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+238.316346346 591.649097195 m
+238.316346346 587.927623366 l
+242.304151856 587.927623366 l
+241.715044224 585.967457762 241.715044224 585.853824974 240.922014719 585.910641368 c
+239.471903625 586.024274157 239.993037299 586.052682354 238.67887412 586.052682354 c
+238.316346346 586.052682354 l
+238.316346346 579.007449458 l
+238.316346346 577.160916642 238.248372389 576.337078924 238.769506063 575.910955967 c
+239.811773412 575.115526446 241.511122351 575.740506784 242.190861927 576.138221544 c
+241.488464365 573.78034118 241.533780337 573.609891997 240.672776875 573.268993631 c
+239.698483483 572.871278871 237.47800087 572.842870673 236.481049492 573.751932983 c
+235.438782143 574.717811686 235.552072072 576.791610079 235.552072072 577.842713374 c
+235.552072072 586.081090551 l
+234.623094652 586.081090551 l
+233.898039105 586.081090551 233.626143275 586.081090551 233.784749176 586.564029903 c
+234.192592921 587.927623366 l
+235.89194186 588.438970915 235.484098115 589.262808633 236.27712762 590.825259477 c
+236.594339422 591.450239814 236.82091928 591.365015223 238.316346346 591.649097195 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+253.942992738 584.433415115 m
+253.942992738 585.172028242 253.897676767 585.654967593 253.44451705 585.882233171 c
+253.104647262 586.052682354 252.51553963 585.910641368 252.334275743 586.251539734 c
+252.2436438 586.421988917 252.220985814 586.564029903 252.424907686 587.18901024 c
+252.51553963 587.529908606 252.651487545 587.984439761 252.651487545 587.984439761 c
+256.729924998 588.325338127 l
+256.729924998 577.814305177 l
+256.729924998 575.854139573 256.707267012 575.797323178 256.933846871 575.285975629 c
+257.024478814 575.087118249 257.296374644 575.001893658 257.59092846 575.001893658 c
+257.862824291 575.001893658 258.044088178 575.001893658 258.202694078 574.945077263 c
+258.406615951 574.859852672 258.497247895 574.632587095 258.383957965 574.291688729 c
+258.021430192 573.098544448 l
+254.690706271 573.098544448 l
+254.328178498 573.098544448 254.078940654 573.098544448 254.010966696 573.240585434 c
+253.942992738 573.382626419 253.942992738 573.467851011 253.942992738 574.17805594 c
+252.085037899 572.644013293 248.890261894 572.07584935 247.236228926 573.439442814 c
+246.058013662 574.405321517 246.171303591 576.308670727 246.171303591 577.757488782 c
+246.171303591 584.433415115 l
+246.171303591 585.172028242 246.12598762 585.654967593 245.672827903 585.882233171 c
+245.310300129 586.052682354 244.721192497 585.910641368 244.53992861 586.251539734 c
+244.449296667 586.421988917 244.426638681 586.564029903 244.630560553 587.18901024 c
+244.721192497 587.529908606 244.857140412 587.984439761 244.857140412 587.984439761 c
+248.935577865 588.325338127 l
+248.935577865 579.149490443 l
+248.935577865 577.018875656 248.935577865 576.109813347 249.796581328 575.513241207 c
+250.566952847 575.001893658 251.85845804 575.285975629 252.674145531 575.88254777 c
+254.010966696 576.87683467 253.942992738 578.410877317 253.942992738 580.48467571 c
+253.942992738 584.433415115 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+268.57835225 584.433415115 m
+268.57835225 585.172028242 268.533036278 585.654967593 268.079876561 585.882233171 c
+267.740006773 586.052682354 267.150899141 585.910641368 266.969635254 586.251539734 c
+266.879003311 586.421988917 266.856345325 586.564029903 267.060267197 587.18901024 c
+267.150899141 587.529908606 267.286847056 587.984439761 267.286847056 587.984439761 c
+271.365284509 588.325338127 l
+271.365284509 577.814305177 l
+271.365284509 575.854139573 271.342626523 575.797323178 271.569206382 575.285975629 c
+271.659838325 575.087118249 271.931734156 575.001893658 272.226287972 575.001893658 c
+272.498183802 575.001893658 272.679447689 575.001893658 272.83805359 574.945077263 c
+273.041975462 574.859852672 273.132607406 574.632587095 273.019317476 574.291688729 c
+272.656789703 573.098544448 l
+269.326065783 573.098544448 l
+268.963538009 573.098544448 268.714300165 573.098544448 268.646326207 573.240585434 c
+268.57835225 573.382626419 268.57835225 573.467851011 268.57835225 574.17805594 c
+266.72039741 572.644013293 263.525621405 572.07584935 261.871588437 573.439442814 c
+260.693373173 574.405321517 260.806663102 576.308670727 260.806663102 577.757488782 c
+260.806663102 584.433415115 l
+260.806663102 585.172028242 260.761347131 585.654967593 260.308187414 585.882233171 c
+259.94565964 586.052682354 259.356552008 585.910641368 259.175288121 586.251539734 c
+259.084656178 586.421988917 259.061998192 586.564029903 259.265920065 587.18901024 c
+259.356552008 587.529908606 259.492499923 587.984439761 259.492499923 587.984439761 c
+263.570937376 588.325338127 l
+263.570937376 579.149490443 l
+263.570937376 577.018875656 263.570937376 576.109813347 264.431940839 575.513241207 c
+265.202312358 575.001893658 266.493817551 575.285975629 267.309505042 575.88254777 c
+268.646326207 576.87683467 268.57835225 578.410877317 268.57835225 580.48467571 c
+268.57835225 584.433415115 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+279.476206188 583.637985595 m
+279.476206188 577.814305177 l
+279.476206188 575.854139573 279.453548202 575.797323178 279.680128061 575.285975629 c
+279.770760004 575.087118249 280.042655835 575.001893658 280.337209651 575.001893658 c
+281.515424915 575.001893658 281.628714844 574.945077263 281.787320745 574.945077263 c
+281.991242618 574.945077263 282.081874561 574.632587095 281.968584632 574.291688729 c
+281.606056858 573.098544448 l
+275.647006579 573.098544448 l
+275.420426721 573.098544448 275.216504848 573.070136251 275.080556933 573.268993631 c
+274.899293046 573.524667405 275.012582975 573.808749377 275.375110749 575.001893658 c
+276.575983999 575.115526446 276.711931914 575.456424812 276.711931914 577.388182219 c
+276.711931914 584.433415115 l
+276.711931914 585.172028242 276.666615943 585.654967593 276.213456226 585.882233171 c
+275.873586438 586.052682354 275.26182082 585.910641368 275.080556933 586.251539734 c
+274.98992499 586.421988917 274.967267004 586.564029903 275.171188876 587.18901024 c
+275.26182082 587.529908606 275.397768735 587.984439761 275.397768735 587.984439761 c
+279.476206188 588.325338127 l
+279.476206188 587.132193846 l
+280.699737424 587.813990578 283.396037741 588.836685676 284.143751274 588.041256155 c
+284.43830509 587.728765986 284.460963076 587.245826635 284.257041203 586.564029903 c
+284.189067245 586.365172522 283.486669684 584.035700355 283.486669684 584.035700355 c
+282.920220038 584.035700355 l
+282.58035025 584.035700355 282.512376292 584.007292158 282.30845442 584.120924947 c
+282.081874561 584.234557735 282.104532547 584.575456101 282.081874561 584.973170862 c
+282.059216575 585.456110213 281.900610674 585.711783988 281.560740887 585.825416776 c
+281.220871099 585.939049565 280.72239541 585.910641368 280.314551665 585.569743002 c
+279.79341799 585.115211847 279.476206188 584.262965932 279.476206188 583.637985595 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+294.756610234 587.529908606 m
+293.872948786 584.547047904 l
+293.19320921 584.547047904 l
+292.875997408 584.547047904 292.717391507 584.603864298 292.64941755 585.001579059 c
+292.558785606 585.48451841 292.490811649 585.797008579 292.128283875 586.052682354 c
+291.99233596 586.166315142 291.811072073 586.279947931 291.221964441 586.365172522 c
+290.587540837 586.450397114 289.499957517 586.365172522 289.001481828 585.598151199 c
+288.774901969 585.257252833 288.684270026 584.859538073 288.797559955 584.405006918 c
+289.046797799 583.495944609 289.907801262 583.155046243 290.882094653 582.757331483 c
+291.607150201 582.473249511 l
+293.238525182 581.819860977 294.371424475 581.336921625 294.983190093 579.291531429 c
+295.345717866 578.098387148 295.164453979 576.365487121 294.348766489 575.030301855 c
+293.034603309 572.928095265 290.836778682 572.644013293 289.477299531 572.67242149 c
+288.525664125 572.700829688 286.123917625 572.928095265 285.534809992 573.751932983 c
+285.353546106 573.97919856 285.466836035 574.348505123 285.738731865 575.257567432 c
+286.373155469 577.359774022 l
+287.256816917 577.359774022 287.415422818 577.388182219 287.551370733 576.905242868 c
+287.619344691 576.649569093 287.574028719 576.223446136 287.755292606 575.88254777 c
+287.891240521 575.626873995 288.095162394 575.428016615 288.480348153 575.229159235 c
+289.069455785 574.916669066 291.108674512 574.77462808 292.014993946 575.68369039 c
+292.445495677 576.138221544 292.64941755 576.820018276 292.558785606 577.473406811 c
+292.37752172 578.694959289 291.380570342 579.064265852 290.225013064 579.518797006 c
+289.726537375 579.717654387 l
+288.208452323 580.314226527 286.871631158 580.88239047 286.395813455 582.956188863 c
+286.169233596 584.120924947 286.395813455 585.569743002 287.098211016 586.564029903 c
+288.503006139 588.552603704 291.267280413 588.438970915 292.740049493 588.183297141 c
+293.827632814 587.984439761 294.280792531 587.757174183 294.756610234 587.529908606 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+301.460258573 591.649097195 m
+301.460258573 587.927623366 l
+305.448064083 587.927623366 l
+304.858956451 585.967457762 304.858956451 585.853824974 304.065926946 585.910641368 c
+302.615815851 586.024274157 303.136949526 586.052682354 301.822786347 586.052682354 c
+301.460258573 586.052682354 l
+301.460258573 579.007449458 l
+301.460258573 577.160916642 301.392284615 576.337078924 301.91341829 575.910955967 c
+302.955685639 575.115526446 304.655034578 575.740506784 305.334774154 576.138221544 c
+304.632376592 573.78034118 304.677692564 573.609891997 303.816689102 573.268993631 c
+302.84239571 572.871278871 300.621913097 572.842870673 299.624961719 573.751932983 c
+298.58269437 574.717811686 298.695984299 576.791610079 298.695984299 577.842713374 c
+298.695984299 586.081090551 l
+297.767006879 586.081090551 l
+297.041951332 586.081090551 296.770055502 586.081090551 296.928661403 586.564029903 c
+297.336505148 587.927623366 l
+299.035854087 588.438970915 298.628010342 589.262808633 299.421039846 590.825259477 c
+299.738251648 591.450239814 299.964831507 591.365015223 301.460258573 591.649097195 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+317.888077184 582.359616723 m
+317.933393155 582.160759343 317.933393155 581.791452779 317.933393155 581.791452779 c
+310.184361994 581.791452779 l
+309.527280404 581.791452779 309.210068602 581.819860977 309.00614673 581.308513428 c
+308.779566871 580.768757682 308.802224857 579.319939626 309.481964433 577.871121571 c
+310.546889768 575.541649404 312.586108494 575.143934644 314.285457433 575.314383826 c
+315.826200471 575.456424812 317.049731707 575.825731375 317.888077184 576.308670727 c
+317.25365358 574.036014954 317.25365358 573.467851011 316.234044216 573.126952645 c
+314.240141462 572.445155913 310.818785598 572.27470673 308.643618956 574.604178897 c
+306.830980088 576.507528107 306.355162385 579.518797006 306.581742244 581.677819991 c
+306.830980088 584.09251675 307.69198355 586.223131537 309.957782136 587.671949592 c
+311.362577258 588.552603704 313.900271674 588.609420098 315.39569874 587.473092212 c
+317.072389693 586.19472334 317.502891424 584.518639707 317.888077184 582.359616723 c
+closepath
+315.259750825 584.717497087 m
+315.508988669 584.29137413 315.690252556 583.865251172 315.780884499 583.467536412 c
+309.323358532 583.467536412 l
+310.184361994 585.399293819 311.158655386 586.223131537 312.858004325 586.223131537 c
+313.401795985 586.223131537 313.990903617 585.995865959 314.557353263 585.541334805 c
+314.85190708 585.314069227 315.101144924 585.001579059 315.259750825 584.717497087 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+331.234763749 582.359616723 m
+331.280079721 582.160759343 331.280079721 581.791452779 331.280079721 581.791452779 c
+323.53104856 581.791452779 l
+322.87396697 581.791452779 322.556755168 581.819860977 322.352833296 581.308513428 c
+322.126253437 580.768757682 322.148911423 579.319939626 322.828650999 577.871121571 c
+323.893576334 575.541649404 325.93279506 575.143934644 327.632143999 575.314383826 c
+329.172887037 575.456424812 330.396418273 575.825731375 331.234763749 576.308670727 c
+330.600340146 574.036014954 330.600340146 573.467851011 329.580730782 573.126952645 c
+327.586828027 572.445155913 324.165472164 572.27470673 321.990305522 574.604178897 c
+320.177666654 576.507528107 319.701848951 579.518797006 319.92842881 581.677819991 c
+320.177666654 584.09251675 321.038670116 586.223131537 323.304468701 587.671949592 c
+324.709263824 588.552603704 327.24695824 588.609420098 328.742385306 587.473092212 c
+330.419076259 586.19472334 330.84957799 584.518639707 331.234763749 582.359616723 c
+closepath
+328.606437391 584.717497087 m
+328.855675235 584.29137413 329.036939122 583.865251172 329.127571065 583.467536412 c
+322.670045098 583.467536412 l
+323.53104856 585.399293819 324.505341952 586.223131537 326.20469089 586.223131537 c
+326.748482551 586.223131537 327.337590183 585.995865959 327.904039829 585.541334805 c
+328.198593645 585.314069227 328.44783149 585.001579059 328.606437391 584.717497087 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+345.269686635 577.814305177 m
+345.269686635 575.854139573 345.24702865 575.797323178 345.473608508 575.285975629 c
+345.564240452 575.087118249 345.836136282 575.001893658 346.130690098 575.001893658 c
+346.402585928 575.001893658 346.583849815 574.945077263 346.742455716 574.945077263 c
+346.946377588 574.945077263 347.037009532 574.632587095 346.923719603 574.291688729 c
+346.561191829 573.098544448 l
+341.440487027 573.098544448 l
+341.213907168 573.098544448 341.009985295 573.070136251 340.87403738 573.268993631 c
+340.692773493 573.524667405 340.806063423 573.808749377 341.168591196 575.001893658 c
+342.346806461 575.115526446 342.482754376 575.456424812 342.482754376 577.388182219 c
+342.482754376 582.103942948 l
+342.482754376 583.240270835 342.618702291 584.68908889 341.644408899 585.456110213 c
+340.896695366 586.052682354 339.582532187 585.768600382 338.721528724 585.172028242 c
+337.883183248 584.603864298 337.475339503 583.808434778 337.475339503 582.5868823 c
+337.475339503 577.814305177 l
+337.475339503 575.854139573 337.452681517 575.797323178 337.679261375 575.285975629 c
+337.769893319 575.087118249 338.041789149 575.001893658 338.336342965 575.001893658 c
+338.630896781 575.001893658 338.812160668 574.945077263 338.970766569 574.945077263 c
+339.174688441 574.945077263 339.265320385 574.632587095 339.152030456 574.291688729 c
+338.789502682 573.098544448 l
+333.646139894 573.098544448 l
+333.419560035 573.098544448 333.215638162 573.070136251 333.079690247 573.268993631 c
+332.898426361 573.524667405 333.01171629 573.808749377 333.374244063 575.001893658 c
+334.575117314 575.115526446 334.711065229 575.456424812 334.711065229 577.388182219 c
+334.711065229 584.433415115 l
+334.711065229 585.172028242 334.665749257 585.654967593 334.21258954 585.882233171 c
+333.850061766 586.052682354 333.260954134 585.910641368 333.079690247 586.251539734 c
+332.989058304 586.421988917 332.966400318 586.564029903 333.170322191 587.18901024 c
+333.260954134 587.529908606 333.396902049 587.984439761 333.396902049 587.984439761 c
+337.475339503 588.325338127 l
+337.475339503 586.848111874 l
+339.197346427 588.041256155 342.256174517 589.09235945 344.159445329 587.558316803 c
+345.337660593 586.564029903 345.269686635 584.68908889 345.269686635 583.38231182 c
+345.269686635 577.814305177 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+352.840657183 581.780458807 m
+352.840657183 573.098544448 l
+359.063876919 573.098544448 l
+359.063876919 581.780458807 l
+352.840657183 581.780458807 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+1 0 0.301961 setrgbcolor
+eofill
+closepath
+n
+false setoverprint
+n
+false setoverprint
+371.116590962 572.842870673 m
+369.417242023 573.098544448 368.080420858 573.609891997 366.92486358 574.547362503 c
+364.319195207 576.67797729 363.322243829 580.030144555 363.140979942 582.728923286 c
+362.959716056 585.314069227 363.526165702 589.745747985 365.859938245 592.501343109 c
+368.488264603 595.541020206 371.932278453 595.5978366 374.447314882 595.114897248 c
+375.0590805 595.00126446 l
+375.852110005 594.859223474 376.124005835 595.00126446 376.554507566 596.052367755 c
+377.959302689 595.541020206 378.095250604 595.541020206 378.208540534 595.228530037 c
+378.299172477 595.00126446 378.185882548 594.433100516 377.528800958 592.529751307 c
+377.075641241 591.166157843 l
+374.537946826 592.89905787 371.433802764 593.722895587 369.009398278 591.933179166 c
+366.652967749 590.200279139 365.99588616 587.103785649 365.99588616 584.660680693 c
+365.99588616 582.672106891 366.584993792 579.035857655 368.986740292 577.246141234 c
+371.320512835 575.456424812 374.696552727 575.797323178 375.263002373 576.251854333 c
+375.784136048 576.649569093 375.71616209 577.104100248 375.71616209 579.291531429 c
+375.71616209 580.143777344 l
+375.71616209 582.132351145 375.761478062 582.643698694 375.308318345 583.126638046 c
+375.0590805 583.38231182 374.447314882 583.325495426 373.563653434 583.325495426 c
+372.679991986 583.325495426 372.679991986 583.325495426 372.566702057 583.524352806 c
+372.476070113 583.666393792 372.612018028 583.865251172 372.612018028 584.035700355 c
+373.087835731 585.654967593 l
+378.820306152 585.654967593 l
+379.907889472 585.654967593 379.885231487 585.711783988 379.885231487 585.512926608 c
+379.885231487 585.200436439 379.839915515 584.973170862 379.364097812 583.325495426 c
+378.707016222 583.325495426 l
+378.707016222 573.865565771 l
+376.509191595 572.956503462 373.971497179 572.416747716 371.116590962 572.842870673 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+385.493507822 595.39897922 m
+385.493507822 580.88239047 l
+385.493507822 577.814305177 l
+385.493507822 575.854139573 385.470849836 575.797323178 385.697429695 575.285975629 c
+385.788061638 575.087118249 386.059957468 575.001893658 386.354511284 575.001893658 c
+386.649065101 575.001893658 386.830328987 575.001893658 386.988934888 574.945077263 c
+387.192856761 574.859852672 387.283488704 574.632587095 387.170198775 574.291688729 c
+386.807671001 573.098544448 l
+381.664308213 573.098544448 l
+381.437728355 573.098544448 381.233806482 573.070136251 381.097858567 573.268993631 c
+380.91659468 573.524667405 381.029884609 573.808749377 381.392412383 575.001893658 c
+382.593285633 575.115526446 382.729233548 575.456424812 382.729233548 577.388182219 c
+382.729233548 591.507056209 l
+382.729233548 592.245669335 382.683917577 592.728608687 382.230757859 592.955874264 c
+381.868230086 593.154731644 381.279122454 593.012690658 381.097858567 593.353589024 c
+381.007226624 593.524038207 380.984568638 593.666079193 381.18849051 594.291059531 c
+381.279122454 594.603549699 381.415070369 595.058080854 381.415070369 595.058080854 c
+385.493507822 595.39897922 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+401.365143686 574.717811686 m
+401.433117644 574.518954306 401.3424857 574.17805594 401.274511743 573.865565771 c
+401.229195771 573.78034118 401.047931884 573.098544448 401.047931884 573.098544448 c
+399.144661073 573.098544448 l
+397.535944077 573.098544448 397.173416304 573.013319856 396.901520473 573.411034617 c
+396.652282629 573.78034118 396.856204502 574.973485461 396.856204502 576.564344502 c
+396.856204502 579.944919964 l
+395.677989238 580.172185541 393.140294822 580.314226527 392.27929136 579.149490443 c
+391.826131643 578.524510106 391.644867756 577.814305177 391.758157685 577.160916642 c
+391.871447614 576.450711713 392.211317402 575.797323178 392.913714964 575.456424812 c
+393.910666341 574.945077263 395.542041322 575.285975629 396.380386799 575.626873995 c
+395.632673266 572.956503462 395.587357294 573.098544448 394.658379874 572.814462476 c
+393.434848638 572.445155913 390.987786166 572.729237885 389.809570902 574.746219883 c
+389.016541397 576.166629741 388.971225425 578.126795346 389.537675072 579.490388809 c
+390.625258393 582.047126554 393.502822596 582.473249511 395.496725351 582.359616723 c
+396.856204502 582.274392131 l
+396.856204502 583.865251172 396.878862488 585.48451841 396.108490969 586.137906945 c
+395.474067365 586.677662691 394.40914203 586.5924381 393.75206044 586.251539734 c
+392.845741006 585.768600382 392.369923303 584.774313481 392.098027473 583.893659369 c
+391.35031394 583.893659369 l
+391.101076096 583.893659369 390.806522279 583.922067567 390.670574364 584.234557735 c
+390.579942421 584.433415115 390.579942421 584.518639707 390.715890336 585.001579059 c
+391.463603869 587.700357789 l
+393.09497885 588.410562718 396.946836445 588.779869281 398.510237469 587.331051226 c
+399.665794747 586.251539734 399.643136762 584.547047904 399.643136762 583.013005257 c
+399.643136762 577.672264191 l
+399.643136762 576.024588756 399.575162804 575.513241207 399.983006549 575.143934644 c
+400.14161245 575.001893658 400.52679821 575.001893658 400.79869404 575.001893658 c
+400.957299941 575.001893658 401.274511743 575.030301855 401.365143686 574.717811686 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+413.060983564 587.529908606 m
+412.177322116 584.547047904 l
+411.49758254 584.547047904 l
+411.180370738 584.547047904 411.021764838 584.603864298 410.95379088 585.001579059 c
+410.863158937 585.48451841 410.795184979 585.797008579 410.432657205 586.052682354 c
+410.29670929 586.166315142 410.115445403 586.279947931 409.526337771 586.365172522 c
+408.891914167 586.450397114 407.804330847 586.365172522 407.305855158 585.598151199 c
+407.079275299 585.257252833 406.988643356 584.859538073 407.101933285 584.405006918 c
+407.35117113 583.495944609 408.212174592 583.155046243 409.186467984 582.757331483 c
+409.911523531 582.473249511 l
+411.542898512 581.819860977 412.675797805 581.336921625 413.287563423 579.291531429 c
+413.650091196 578.098387148 413.468827309 576.365487121 412.653139819 575.030301855 c
+411.338976639 572.928095265 409.141152012 572.644013293 407.781672861 572.67242149 c
+406.830037455 572.700829688 404.428290955 572.928095265 403.839183323 573.751932983 c
+403.657919436 573.97919856 403.771209365 574.348505123 404.043105195 575.257567432 c
+404.677528799 577.359774022 l
+405.561190247 577.359774022 405.719796148 577.388182219 405.855744063 576.905242868 c
+405.923718021 576.649569093 405.878402049 576.223446136 406.059665936 575.88254777 c
+406.195613851 575.626873995 406.399535724 575.428016615 406.784721483 575.229159235 c
+407.373829115 574.916669066 409.413047842 574.77462808 410.319367276 575.68369039 c
+410.749869007 576.138221544 410.95379088 576.820018276 410.863158937 577.473406811 c
+410.68189505 578.694959289 409.684943672 579.064265852 408.529386394 579.518797006 c
+408.030910705 579.717654387 l
+406.512825653 580.314226527 405.176004488 580.88239047 404.700186785 582.956188863 c
+404.473606926 584.120924947 404.700186785 585.569743002 405.402584346 586.564029903 c
+406.807379469 588.552603704 409.571653743 588.438970915 411.044422823 588.183297141 c
+412.132006144 587.984439761 412.585165861 587.757174183 413.060983564 587.529908606 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+417.962149477 581.780458807 m
+417.962149477 573.098544448 l
+424.185369213 573.098544448 l
+424.185369213 581.780458807 l
+417.962149477 581.780458807 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+1 0 0.301961 setrgbcolor
+eofill
+closepath
+n
+false setoverprint
+n
+false setoverprint
+429.20232549 594.972856263 m
+436.679460821 594.972856263 l
+437.699070184 594.972856263 440.621950359 595.20012184 441.845481595 593.041098856 c
+442.502563185 591.847954575 442.615853114 590.512769308 442.253325341 589.262808633 c
+441.596243751 586.961744663 439.443735095 585.569743002 438.197545873 585.08680365 c
+441.618901737 579.007449458 l
+442.479905199 577.501815008 442.729143043 577.189324839 443.136986789 576.621160896 c
+443.431540605 576.251854333 443.771410393 575.967772361 444.065964209 575.768914981 c
+444.269886081 575.655282192 444.337860039 575.655282192 444.609755869 575.598465798 c
+444.858993713 575.541649404 444.926967671 575.570057601 445.130889544 575.484833009 c
+445.380127388 575.371200221 445.402785374 575.115526446 445.266837459 574.660995292 c
+445.176205515 574.348505123 444.949625657 573.553075602 444.813677742 573.098544448 c
+442.842432973 573.098544448 l
+440.486002444 573.098544448 440.644608345 573.041728054 439.760946897 575.428016615 c
+439.03589135 577.416590416 438.061597958 579.547205204 435.931747288 583.297087229 c
+435.682509444 583.723210186 435.569219514 583.808434778 435.342639656 583.808434778 c
+435.093401811 583.808434778 434.345688278 583.467536412 433.779238632 583.240270835 c
+433.779238632 577.643855994 l
+433.779238632 576.67797729 433.84721259 576.052996953 434.005818491 575.797323178 c
+434.209740363 575.513241207 434.436320222 575.428016615 434.980111882 575.428016615 c
+435.97706326 575.428016615 l
+436.543512906 575.428016615 436.475538948 575.143934644 436.362249019 574.746219883 c
+436.226301104 574.234872334 435.886431316 573.098544448 435.886431316 573.098544448 c
+429.428905349 573.098544448 l
+429.089035561 573.098544448 428.817139731 573.041728054 428.681191815 573.297401828 c
+428.590559872 573.467851011 428.975745632 574.490546109 429.224983476 575.428016615 c
+430.289908811 575.428016615 430.312566797 575.428016615 430.539146655 575.768914981 c
+430.7883845 576.166629741 430.811042486 576.592752699 430.811042486 577.98475436 c
+430.811042486 590.313911928 l
+430.811042486 591.19456604 430.833700471 591.933179166 430.584462627 592.245669335 c
+430.357882768 592.529751307 430.357882768 592.614975898 429.383589377 592.614975898 c
+429.111693547 592.614975898 428.794481745 592.586567701 428.703849801 592.757016884 c
+428.567901886 593.041098856 428.771823759 593.49563001 428.885113688 593.89334477 c
+429.20232549 594.972856263 l
+closepath
+438.333493788 588.325338127 m
+437.132620538 586.961744663 435.070743826 586.109498748 433.779238632 585.768600382 c
+433.779238632 590.853667674 l
+433.779238632 591.478648012 433.779238632 591.989995561 434.187082377 592.330893926 c
+434.730874038 592.813833278 437.109962552 592.728608687 437.812360114 592.387710321 c
+438.492099689 592.046811955 438.990575378 591.649097195 439.126523293 590.740034885 c
+439.262471208 589.830972576 439.03589135 589.09235945 438.333493788 588.325338127 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+444.537250314 594.972856263 m
+446.281915225 594.972856263 l
+448.751635683 594.972856263 448.638345753 595.114897248 449.363401301 592.444526715 c
+449.363401301 592.444526715 449.929850947 590.001421759 451.244014126 585.541334805 c
+453.011337023 579.518797006 453.713734584 577.672264191 453.713734584 577.672264191 c
+456.817878646 589.09235945 l
+457.384328292 591.166157843 457.497618221 591.705913589 457.203064405 592.274077532 c
+456.976484547 592.70020049 456.591298787 592.614975898 454.869291863 592.614975898 c
+454.620054018 592.614975898 454.325500202 592.643384095 454.189552287 592.955874264 c
+454.12157833 593.154731644 454.348158188 593.808120179 454.710685962 594.972856263 c
+460.715052212 594.972856263 l
+461.530739703 594.972856263 461.644029632 594.972856263 461.779977547 594.603549699 c
+461.870609491 594.347875925 461.59871366 593.438813616 461.349475816 592.614975898 c
+460.579104297 592.387710321 460.39784041 592.103628349 460.012654651 590.711626688 c
+455.820927268 576.195037939 l
+455.549031438 575.257567432 l
+455.32245158 574.518954306 455.141187693 573.751932983 455.073213735 573.098544448 c
+452.331597447 573.098544448 l
+451.742489815 573.098544448 451.674515858 573.041728054 451.085408225 575.257567432 c
+451.085408225 575.257567432 450.586932537 577.501815008 449.114163456 582.700515089 c
+447.981264164 586.762887283 446.984312786 589.433257816 446.984312786 589.433257816 c
+446.735074942 590.228687337 446.372547168 591.166157843 446.168625296 591.5922808 c
+445.624833635 592.757016884 445.126357946 592.614975898 444.605224272 592.614975898 c
+444.265354484 592.614975898 444.152064555 592.643384095 444.061432611 592.757016884 c
+443.948142682 592.927466067 444.01611664 593.211548039 444.106748583 593.467221813 c
+444.537250314 594.972856263 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+463.378498449 579.149490443 m
+463.650394279 579.149490443 464.012922053 579.177898641 464.126211982 578.922224866 c
+464.262159897 578.638142894 464.171527954 578.354060923 464.148869968 578.126795346 c
+464.126211982 577.842713374 464.080896011 577.615447797 464.19418594 577.331365825 c
+464.579371699 576.337078924 465.689613006 575.825731375 466.32403661 575.712098587 c
+467.615541803 575.484833009 469.700076502 575.371200221 471.014239681 577.047283853 c
+471.716637242 577.927937965 471.988533073 579.121082246 471.807269186 580.058552753 c
+471.444741412 581.819860977 470.153236219 582.444841314 468.771099082 583.126638046 c
+466.822512299 584.064108552 l
+464.579371699 585.143620045 463.333182477 586.223131537 462.925338732 588.49578731 c
+462.630784916 590.086646351 462.99331269 591.961587363 464.126211982 593.410405419 c
+466.097456751 595.938734966 468.385913322 595.39897922 470.991581695 595.029672657 c
+471.12752961 595.00126446 471.263477525 594.972856263 471.399425441 594.972856263 c
+471.920559115 595.00126446 472.396376818 595.39897922 472.645614662 596.109184149 c
+473.733197983 595.683061192 473.937119856 595.683061192 474.050409785 595.370571023 c
+474.118383743 595.171713643 474.073067771 594.972856263 474.005093813 594.745590685 c
+473.030800422 591.336607026 l
+471.263477525 592.387710321 468.159333464 593.779711982 466.459984525 592.416118518 c
+465.734928978 591.819546378 465.485691133 590.967300463 465.576323077 590.115054548 c
+465.734928978 588.609420098 466.777196327 588.069664352 468.227307421 587.38786762 c
+470.334500106 586.365172522 l
+472.44169279 585.370885622 473.846487913 584.376598721 474.435595545 581.876677371 c
+474.888755262 579.944919964 474.616859431 577.615447797 473.348012224 575.570057601 c
+471.716637242 572.984911659 468.499203252 572.67242149 466.958460214 572.700829688 c
+465.825560921 572.729237885 462.472179015 573.354218222 461.656491524 574.433729714 c
+461.361937708 574.831444475 461.429911666 575.058710052 461.588517567 575.626873995 c
+462.630784916 579.149490443 l
+463.378498449 579.149490443 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+gsave %spot color
+[/Separation
+(Black)/DeviceRGB {0 0 0 SepTintProc}
+]setcolorspace
+eofill
+grestore %spot color
+closepath
+n
+false setoverprint
+n
+false setoverprint
+478.422540051 581.780458807 m
+478.422540051 573.098544448 l
+484.645759787 573.098544448 l
+484.645759787 581.780458807 l
+478.422540051 581.780458807 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+1 0 0.301961 setrgbcolor
+eofill
+closepath
+n
+false setoverprint
+n
+false setoverprint
+10.9926738245 618.538557874 m
+27.3634837675 618.538557874 l
+25.767773051 610.500903894 l
+-3.93386111088e-16 610.500903894 l
+2.0094134948 620.843473353 l
+7.8603527885 651.102876569 l
+17.3164162935 651.102876569 l
+16.8436131182 648.79796109 l
+10.9926738245 618.538557874 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+1 0 0.301961 setrgbcolor
+eofill
+closepath
+n
+false setoverprint
+63.0735319013 651.102876569 m
+64.3146402363 640.76030711 l
+67.9197644476 610.500903894 l
+57.6362953859 610.500903894 l
+56.7497894323 618.834059858 l
+43.6295013192 618.834059858 l
+39.4924735358 610.500903894 l
+31.159317572 610.500903894 l
+36.5374536905 620.843473353 l
+52.0217576798 651.102876569 l
+63.0735319013 651.102876569 l
+closepath
+47.4119267212 626.280709868 m
+56.0405846694 626.280709868 l
+54.5039743499 640.58300592 l
+47.4119267212 626.280709868 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+1 0 0.301961 setrgbcolor
+eofill
+closepath
+n
+false setoverprint
+108.200858905 642.178716636 m
+99.6313013532 639.460098378 l
+99.099397781 642.947021796 97.1490846831 644.306330925 93.5439604718 644.306330925 c
+91.0026434049 644.306330925 87.811221972 643.656226559 87.2202180029 640.523905523 c
+86.6292140338 637.509785281 89.9979366575 636.800580518 92.2437517399 636.386877739 c
+95.4351731728 635.677672976 99.749502147 634.85026742 102.231718817 632.959054719 c
+105.127638265 630.772340033 106.486947394 627.40361741 105.659541838 623.38479042 c
+104.891236678 619.425063827 102.290819214 615.642638425 98.6265946058 613.219522152 c
+94.9032696007 610.678205085 90.293438642 609.909899925 86.2155112555 609.909899925 c
+78.5915600546 609.909899925 72.3269179826 613.219522152 72.0314159981 621.138975338 c
+81.1919775185 623.148388832 l
+81.5465798999 618.893160255 84.3242985545 617.415650333 88.5204267348 617.415650333 c
+91.2390449925 617.415650333 95.0214703945 618.42035708 95.6715747605 621.789079704 c
+96.3216791264 625.157802327 91.8300489616 625.807906693 89.4660330853 626.339810265 c
+82.5512866473 627.817320188 75.8729417969 629.944934477 77.5868533072 638.809994012 c
+78.355158467 642.651519811 80.4236723587 645.961142038 83.7923949823 648.384258311 c
+87.2793183998 650.866474981 90.8844426111 651.693880538 94.6077676161 651.693880538 c
+101.758915642 651.693880538 107.077951363 649.211663868 108.200858905 642.178716636 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+1 0 0.301961 setrgbcolor
+eofill
+closepath
+n
+false setoverprint
+143.855500416 643.24252378 m
+124.29326904 643.24252378 l
+122.697558324 634.968468214 l
+138.122761916 634.968468214 l
+136.645251994 627.344517013 l
+121.220048401 627.344517013 l
+119.506136891 618.361256683 l
+139.068368267 618.361256683 l
+137.531757947 610.500903894 l
+108.513463066 610.500903894 l
+110.522876561 620.843473353 l
+116.373815855 651.102876569 l
+145.392110736 651.102876569 l
+143.855500416 643.24252378 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+1 0 0.301961 setrgbcolor
+eofill
+closepath
+n
+false setoverprint
+156.146092832 626.517111456 m
+153.013771796 610.500903894 l
+143.557708291 610.500903894 l
+145.567121786 620.843473353 l
+151.41806108 651.102876569 l
+168.498075786 651.102876569 l
+172.162300394 651.102876569 175.826525002 651.043776172 178.604243657 649.034362677 c
+181.441062708 646.847647992 182.504869852 642.887921399 181.736564693 638.869094409 c
+180.850058739 634.259263451 177.363135322 630.004034873 172.694203966 628.408324157 c
+176.713030956 610.500903894 l
+166.134059909 610.500903894 l
+163.06083927 626.517111456 l
+156.146092832 626.517111456 l
+closepath
+159.514815456 643.892628146 m
+157.505401961 633.490958291 l
+162.706236889 633.490958291 l
+164.656549987 633.490958291 166.725063878 633.3136571 168.616276579 634.318363848 c
+170.389288487 635.263970198 171.630396822 637.155182899 171.925898806 638.928194806 c
+172.280501188 640.58300592 171.630396822 642.29691743 170.448388884 643.124322987 c
+168.970878961 644.129029734 166.252260703 643.892628146 164.479248796 643.892628146 c
+159.514815456 643.892628146 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+1 0 0.301961 setrgbcolor
+eofill
+closepath
+n
+false setoverprint
+218.25093229 651.102876569 m
+216.714321971 643.06522259 l
+206.489953306 643.06522259 l
+206.017150131 640.76030711 l
+200.166210837 610.500903894 l
+190.710147332 610.500903894 l
+191.182950508 612.805819374 l
+197.033889801 643.06522259 l
+186.75042074 643.06522259 l
+188.287031059 651.102876569 l
+218.25093229 651.102876569 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+1 0 0.301961 setrgbcolor
+eofill
+closepath
+n
+false setoverprint
+255.688558901 643.24252378 m
+236.126327525 643.24252378 l
+234.530616809 634.968468214 l
+249.955820401 634.968468214 l
+248.478310479 627.344517013 l
+233.053106886 627.344517013 l
+231.339195376 618.361256683 l
+250.901426752 618.361256683 l
+249.364816432 610.500903894 l
+220.346521552 610.500903894 l
+222.355935046 620.843473353 l
+228.20687434 651.102876569 l
+257.225169221 651.102876569 l
+255.688558901 643.24252378 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+1 0 0.301961 setrgbcolor
+eofill
+closepath
+n
+false setoverprint
+295.33598629 635.973174961 m
+285.288918816 635.323070595 l
+286.057223976 639.81470076 285.348019213 644.069929337 280.088083888 644.069929337 c
+273.409739038 644.069929337 271.045723162 635.263970198 270.100116811 630.358637255 c
+269.036309667 624.803199946 268.327104904 617.65205192 275.47825293 617.65205192 c
+279.910782698 617.65205192 282.688501352 621.375376925 284.047810481 625.276003121 c
+293.149271605 624.684999152 l
+290.312452553 615.406236838 282.806702146 609.909899925 273.468839435 609.909899925 c
+261.412358466 609.909899925 257.452631873 619.720565812 259.639346559 630.772340033 c
+261.826061245 642.060515842 269.686414033 651.693880538 281.861095796 651.693880538 c
+292.08546446 651.693880538 296.163391847 645.783840847 295.33598629 635.973174961 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+1 0 0.301961 setrgbcolor
+eofill
+closepath
+n
+false setoverprint
+339.142604111 651.102876569 m
+337.133190617 640.76030711 l
+331.282251323 610.500903894 l
+321.767087421 610.500903894 l
+325.017609251 627.226316219 l
+312.488325107 627.226316219 l
+309.237803277 610.500903894 l
+299.781739772 610.500903894 l
+301.791153267 620.843473353 l
+307.64209256 651.102876569 l
+317.098156065 651.102876569 l
+314.024935426 635.204869801 l
+326.613319967 635.204869801 l
+329.686540606 651.102876569 l
+339.142604111 651.102876569 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+1 0 0.301961 setrgbcolor
+eofill
+closepath
+n
+false setoverprint
+381.757979557 651.102876569 m
+379.748566063 640.76030711 l
+373.897626769 610.500903894 l
+365.741771996 610.500903894 l
+355.517403331 637.746186868 l
+355.281001744 637.746186868 l
+349.961966022 610.500903894 l
+342.633516806 610.500903894 l
+344.6429303 620.843473353 l
+350.493869594 651.102876569 l
+360.718238259 651.102876569 l
+369.701498589 627.226316219 l
+369.819699382 627.226316219 l
+374.429530341 651.102876569 l
+381.757979557 651.102876569 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+1 0 0.301961 setrgbcolor
+eofill
+closepath
+n
+false setoverprint
+402.226404707 651.102876569 m
+400.216991212 640.76030711 l
+394.366051918 610.500903894 l
+384.909988413 610.500903894 l
+386.919401908 620.843473353 l
+392.770341202 651.102876569 l
+402.226404707 651.102876569 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+1 0 0.301961 setrgbcolor
+eofill
+closepath
+n
+false setoverprint
+441.238502829 643.24252378 m
+421.676271453 643.24252378 l
+420.080560736 634.968468214 l
+435.505764329 634.968468214 l
+434.028254406 627.344517013 l
+418.603050814 627.344517013 l
+416.889139304 618.361256683 l
+436.451370679 618.361256683 l
+434.91476036 610.500903894 l
+405.896465479 610.500903894 l
+407.905878974 620.843473353 l
+413.756818267 651.102876569 l
+442.775113148 651.102876569 l
+441.238502829 643.24252378 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+1 0 0.301961 setrgbcolor
+eofill
+closepath
+n
+false setoverprint
+462.080922677 651.102876569 m
+458.416698069 631.954347971 l
+474.846608409 651.102876569 l
+483.948069532 651.102876569 l
+471.418785388 636.56417893 l
+478.510833017 610.500903894 l
+467.990962368 610.500903894 l
+463.381131409 628.053721776 l
+456.052682193 619.838766606 l
+454.220569889 610.500903894 l
+445.000907971 610.500903894 l
+447.010321466 620.843473353 l
+452.86126076 651.102876569 l
+462.080922677 651.102876569 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+1 0 0.301961 setrgbcolor
+eofill
+closepath
+n
+false setoverprint
+n
+false setoverprint
+closepath
+139.950758353 680.786693011 m
+139.401309105 819.2439249 l
+139.401309105 819.2439249 139.665819406 823.737952287 141.45335923 827.525412904 c
+142.748665074 830.269922317 144.630453211 832.742349742 146.803347056 834.927450855 c
+149.124504335 837.261648344 151.61664792 839.427079426 154.498535024 840.643876204 c
+157.174505848 841.773730551 160.234784739 841.968180467 163.29303556 841.88976378 c
+167.17056854 841.790339857 171.046478811 841.472588323 174.506023744 840.130863672 c
+177.59500521 838.932855651 180.352194205 836.918865749 182.567649235 834.414438324 c
+186.113555387 830.406022673 187.990924565 824.887062744 187.990924565 824.887062744 c
+230.244366355 709.798048279 l
+230.244366355 709.798048279 231.127422782 706.519658405 232.828530075 703.960707437 c
+233.555918373 702.866507795 234.615434289 702.064399439 234.999501984 702.644966885 c
+235.64880923 703.626477839 235.651440788 705.931765801 235.65737226 708.236864228 c
+235.825072814 773.408926664 235.349387234 838.617942828 235.349387234 838.617942828 c
+258.923493817 838.67870098 l
+258.502239057 714.066660597 l
+258.502239057 714.066660597 258.821645815 703.158467212 255.793061537 693.683324969 c
+254.765419678 690.468274012 252.340166459 687.851447046 249.471647323 685.813809315 c
+245.639492454 683.091657925 241.463826596 680.818351935 237.086835802 680.395454274 c
+232.191843711 679.922508178 227.132226148 680.962660016 222.766897481 683.233640248 c
+217.762085861 685.837299472 214.768373374 692.006215075 214.768373374 692.006215075 c
+167.540166996 816.437674517 l
+167.540166996 816.437674517 166.998819738 818.534701913 165.803633906 819.132294829 c
+164.967812868 819.550205348 163.849945302 819.321304397 163.109013594 818.653251218 c
+162.158074121 817.795846775 162.150926372 815.838870003 162.150926372 815.838870003 c
+162.416354678 680.470276161 l
+139.950758353 680.786693011 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+0 0 0 setrgbcolor
+eofill
+closepath
+n
+false setoverprint
+closepath
+268.15677906 836.532277607 m
+290.342417264 837.066871298 l
+290.523962815 700.111098841 l
+290.523962815 700.111098841 290.869599201 697.750183348 291.99613487 696.640978997 c
+292.525747276 696.119514474 293.418746953 696.180526984 293.941505086 696.746134144 c
+294.981392395 697.871258118 295.203366847 700.111098841 295.203366847 700.111098841 c
+295.153760489 749.126209021 l
+295.153760489 749.126209021 294.887726208 752.546293157 295.673008152 755.71755994 c
+296.295027937 758.229512106 297.08294224 760.702201646 298.519530136 762.71846536 c
+300.093343889 764.927326767 302.08598343 766.841490025 304.443373185 768.026844196 c
+307.824253027 769.726834625 312.136675845 769.565504728 312.136675845 769.565504728 c
+337.447641596 769.719370781 l
+337.38666213 817.821498399 l
+337.38666213 817.821498399 336.780008816 822.559051166 338.417031991 826.434450124 c
+339.896470751 829.936792373 342.067306821 833.173458697 344.911036377 835.63428967 c
+347.760671662 838.100231187 351.31295698 839.756028532 355.028253954 840.80902714 c
+361.656151914 842.687522284 369.035375096 841.360350729 374.999923364 837.907191205 c
+377.679249365 836.356002468 380.105929813 834.383734295 381.602161156 831.846120445 c
+383.997733952 827.78322019 384.16361015 822.365544778 384.16361015 822.365544778 c
+384.257527624 680.314068009 l
+377.447459418 680.314068009 370.637391212 680.314068009 363.827323006 680.314068009 c
+363.849049867 817.286904707 l
+363.849049867 817.286904707 364.047272995 818.694439588 363.499672424 819.552172314 c
+363.186707843 820.042383568 362.556740873 820.298908769 361.907685528 820.327755674 c
+361.122286759 820.362662286 360.319557986 820.19086373 359.825856511 819.715453021 c
+359.20756585 819.120068936 359.305003488 817.821498399 359.305003488 817.821498399 c
+359.572300334 764.896722925 l
+359.572300334 764.896722925 359.028051248 760.691517519 357.276849405 757.134469389 c
+356.434787351 755.424069606 355.095803433 753.980526598 353.584165298 752.733599288 c
+351.302478079 750.8514702 348.952774548 749.046796935 346.299966511 748.079805619 c
+342.420882908 746.66581708 337.90290402 747.017526629 337.90290402 747.017526629 c
+315.735617618 746.987834254 l
+315.953150942 706.623926105 l
+315.953150942 706.623926105 316.697465382 696.31653356 313.158851385 688.150501258 c
+311.44985575 684.206665177 307.764112048 681.25115514 303.844519529 678.680930538 c
+300.970729495 676.796478056 297.613638537 675.708304167 294.219709945 675.731392117 c
+289.606987467 675.762771181 284.965410261 676.664595891 281.024406483 678.836169402 c
+276.964887184 681.073047383 273.445234834 684.288402972 271.399596898 688.305740122 c
+267.889124878 695.199799632 268.139580749 704.140104277 268.139580749 704.140104277 c
+268.15677906 836.532277607 l
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+0 0 0 setrgbcolor
+eofill
+closepath
+n
+false setoverprint
+closepath
+3.73027188418 837.372683286 m
+3.74123689869 680.089839577 l
+59.2811554561 680.128703714 l
+59.2811554561 680.128703714 73.2254341152 680.878002751 84.9472383965 686.401703249 c
+93.2539901363 690.316118438 100.658946343 696.167804064 107.306245242 702.759708805 c
+112.760464099 708.168475838 117.208050516 714.560706723 120.397133123 721.556182186 c
+124.442917762 730.430893399 127.414911369 739.820309943 128.581987628 749.429535885 c
+129.76613404 759.17931045 129.540833166 769.100732632 127.321255936 778.566561812 c
+124.935337479 788.741786291 120.91493459 798.543612337 115.062061886 807.087952052 c
+109.117620675 815.765968419 101.871927216 823.551033153 93.0455501214 828.604088549 c
+79.6275878656 836.285802785 62.3363910517 837.273126858 62.3363910517 837.273126858 c
+3.73027188418 837.372683286 l
+closepath
+25.857028413 813.593850025 m
+25.626088435 702.74266058 l
+60.3181274553 702.804035391 l
+60.3181274553 702.804035391 71.471553924 702.966919101 80.1109853441 707.82610381 c
+87.058924604 711.733921185 92.9762440176 717.567001308 98.0493027951 724.025657668 c
+101.818311815 728.824090949 104.338586735 734.547805293 105.805119439 740.538041491 c
+107.349167353 746.844898251 107.295543036 753.555852482 106.916960694 760.246715105 c
+106.576449918 766.264721151 105.403704319 772.231271517 103.683801002 778.029093411 c
+102.233240912 782.918954933 100.336757262 787.671305828 97.5489275278 791.826506397 c
+94.7435738688 796.007826 91.012753789 799.569136626 87.0410469129 802.834762279 c
+83.3497232686 805.869850609 79.3795663115 808.56267518 75.032040496 810.34039129 c
+68.3383762132 813.077450328 60.7289650924 813.593850025 60.7289650924 813.593850025 c
+49.1049861993 813.593850025 37.4810073062 813.593850025 25.857028413 813.593850025 c
+0 w
+1 J
+1 j
+10 M
+/GHighlight false def
+0 0 0 setrgbcolor
+eofill
+closepath
+n
+grestore %end of tile clipping
+end %Signlab5Dict
+end %userdict
