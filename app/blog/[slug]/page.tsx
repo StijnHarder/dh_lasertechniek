@@ -1,4 +1,4 @@
-import { getPostBySlug, getPosts } from "@/lib/server";
+import { getPostBySlug } from "@/lib/server";
 import Image from "next/image";
 
 // export async function generateStaticParams() {
