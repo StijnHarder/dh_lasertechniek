@@ -15,6 +15,7 @@ export default function BlogOverview() {
       .then((data) => {
         if (data) {
           setPost(data);
+          console.log(data);
         } else {
           console.error("Failed to load posts");
         }
