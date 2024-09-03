@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -13,10 +13,16 @@ export default function BlogOverview() {
   useEffect(() => {
     getPosts()
       .then((data) => {
-        setPost(data);
-        setLoading(false);
-        console.log(data);
-      });
+        if (data) {
+          setPost(data);
+        } else {
+          console.error("Failed to load posts");
+        }
+      })
+      .catch((error) => {
+        console.error(error);
+      })
+      .finally(() => setLoading(false));
   }, []);
 
   return (

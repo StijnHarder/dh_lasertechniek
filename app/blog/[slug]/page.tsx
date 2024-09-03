@@ -2,7 +2,7 @@ import { getPostBySlug, getPosts } from "@/lib/server";
 import Image from "next/image";
 
 export async function generateStaticParams() {
-  const posts = await getPosts();
+  const posts = await getPosts() || "Posts not found";
   const postSlugs = posts.map((post: { slug: string }) => ({
     slug: post.slug,
   }));
@@ -27,9 +27,9 @@ export default async function PostDetails({ params }: { params: any }) {
             </div>
             <div className="p-6">
               <div className="flex flex-col gap-6">
-                <h1 className="text-2xl font-bold">{post.title}</h1>
-                <div key={post.uri}>
-                  <p dangerouslySetInnerHTML={{ __html: post.content }}></p>
+                <h1 className="text-2xl font-bold">{post.title || "Not found"}</h1>
+                <div key={post.uri || "Not found"}>
+                  <p dangerouslySetInnerHTML={{ __html: post.content || "Not found" }}></p>
                 </div>
               </div>
             </div>
