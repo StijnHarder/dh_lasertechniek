@@ -16,10 +16,9 @@ export default async function PostPage({
     title
   }
 }`;
-  const variables = { slug: params.slug };
 
   const res = await fetch(`${process.env.NEXT_PUBLIC_WORDPRESS_API_ENDPOINT}`, {
-    body: JSON.stringify({ variables, query }),
+    body: JSON.stringify({ variables: { slug: params.slug }, query }),
     method: "POST",
     headers: {
       "Content-Type": "application/json",
