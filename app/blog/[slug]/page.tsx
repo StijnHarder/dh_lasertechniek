@@ -26,7 +26,7 @@ export default async function PostPage({
   });
 
   if (!res.ok) {
-    throw new Error(`Failed to fetch posts: ${res.status}`);
+    throw new Error(`Failed to fetch POST: ${res.status}`);
   }
 
   const post = await res.json();
