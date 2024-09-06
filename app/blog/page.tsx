@@ -69,7 +69,7 @@ export default async function PostList() {
               <Link href={`/blog/${post.slug}`} className="post-content my-4">
                 <div>
                   <h3 className="text-2xl pt-4 pb-2">{post.title}</h3>
-                  <p dangerouslySetInnerHTML={{ __html: post.excerpt }}></p>
+                  <p>{post.excerpt.slice(3, -5)}</p>
                 </div>
               </Link>
             </div>
