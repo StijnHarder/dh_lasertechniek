@@ -4,7 +4,7 @@ import Link from "next/link";
 async function getPosts() {
   const query = `
     {
-    posts {
+    posts(first: 10) {
       nodes {
         featuredImage {
           node {
