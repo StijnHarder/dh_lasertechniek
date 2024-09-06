@@ -37,12 +37,13 @@ async function getPosts() {
   }
 
   const { data } = await res.json();
-  console.log(data.posts.nodes);
+  // console.log(data.posts.nodes);
   return data.posts.nodes;
 }
 
 export default async function PostList() {
   const posts = await getPosts();
+  if (!posts) return <div className="px-20">No posts found</div>;
 
   return (
     <div className="px-20 mt-[50px] text-[#454A63]">
