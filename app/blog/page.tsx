@@ -1,45 +1,46 @@
+import { getPosts } from "@/lib/service";
 import Image from "next/image";
 import Link from "next/link";
 
-async function getPosts() {
-  const query = `
-    {
-    posts(first: 10) {
-      nodes {
-        featuredImage {
-          node {
-            sourceUrl
-            altText
-          }
-        }
-        content
-        slug
-        excerpt
-        title
-      }
-    }
-  }`;
+// async function getPosts() {
+//   const query = `
+//     {
+//     posts(first: 10) {
+//       nodes {
+//         featuredImage {
+//           node {
+//             sourceUrl
+//             altText
+//           }
+//         }
+//         content
+//         slug
+//         excerpt
+//         title
+//       }
+//     }
+//   }`;
 
-  const res = await fetch(
-    `${
-      process.env.NEXT_PUBLIC_WORDPRESS_API_ENDPOINT
-    }?query=${encodeURIComponent(query)}`,
-    {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    }
-  );
+//   const res = await fetch(
+//     `${
+//       process.env.NEXT_PUBLIC_WORDPRESS_API_ENDPOINT
+//     }?query=${encodeURIComponent(query)}`,
+//     {
+//       method: "GET",
+//       headers: {
+//         "Content-Type": "application/json",
+//       },
+//     }
+//   );
 
-  if (!res.ok) {
-    throw new Error(`Failed to fetch posts: ${res.status}`);
-  }
+//   if (!res.ok) {
+//     throw new Error(`Failed to fetch posts: ${res.status}`);
+//   }
 
-  const { data } = await res.json();
-  // console.log(data.posts.nodes);
-  return data.posts.nodes;
-}
+//   const { data } = await res.json();
+
+//   return data.posts.nodes;
+// }
 
 export default async function PostList() {
   const posts = await getPosts();
