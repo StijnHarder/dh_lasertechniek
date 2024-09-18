@@ -13,7 +13,7 @@ const ServicesBlock = () => {
             contact met ons op.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10 w-full">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10 w-full">
           <div className="flex flex-col border-[1px] border-border_gray items-start rounded-md p-8 gap-2">
             <div className="flex flex-col gap-3">
               <div className="rounded-full p-2 bg-icon_purple mb-5 w-fit">
@@ -50,7 +50,7 @@ const ServicesBlock = () => {
               Zie projecten
             </button>
           </div>
-          <div className="flex flex-col border-[1px] border-border_gray items-start rounded-md p-8 gap-2">
+          <div className="flex flex-col border-[1px] border-border_gray items-start justify-between rounded-md p-8 gap-2">
             <div className="flex flex-col gap-3">
               <div className="rounded-full p-2 bg-icon_blue mb-5 w-fit">
                 <GiLaserBurst size={25} color="#FFFFFF" />
