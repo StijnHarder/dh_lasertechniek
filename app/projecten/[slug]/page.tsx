@@ -1,5 +1,5 @@
 import GlobalWidth from "@/components/ui/GlobalWidth";
-import { getPostBySLug, getProjectBySLug } from "@/lib/service";
+import { getProjectBySLug } from "@/lib/service";
 import { getProjects } from "@/lib/service";
 import Image from "next/image";
 
