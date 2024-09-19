@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: false,
   images: {
     remotePatterns: [
       {
-        protocol: "http",
-        hostname: "headlesscmsblogmcstinna.local",
-        pathname: "/**"
+        protocol: "https",
+        hostname: process.env.WORDPRESS_HOSTNAME,
+        port: "",
+        pathname: "/**",
       },
     ],
   },

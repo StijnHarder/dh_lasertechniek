@@ -26,6 +26,9 @@ const Navbar = () => {
               <div className="cursor-pointer">
                 <Link href="/blog">Blog</Link>
               </div>
+              <div className="cursor-pointer">
+                <Link href="/projecten">Projecten</Link>
+              </div>
             </div>
             <button className="bg-button_yellow text-white flex gap-6 items-center justify-between font-extralight px-5 py-2 rounded-lg">
               06-53549588
