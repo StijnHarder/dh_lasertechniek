@@ -3,7 +3,6 @@ import { FaArrowUp, FaPhoneAlt } from "react-icons/fa";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { TbMapSearch } from "react-icons/tb";
 import GlobalWidth from "./ui/GlobalWidth";
-import FlexContainer from "./ui/FlexContainer";
 import Link from "next/link";
 
 const Footer = () => {
@@ -21,7 +20,7 @@ const Footer = () => {
               helpen je graag op weg.
             </span>
           </div>
-          <FlexContainer className="flex-wrap mt-10 gap-4">
+          <div className="flex flex-wrap mt-10 gap-4">
             <div className="flex-1 flex gap-5 items-center bg-border_gray p-4 rounded-md border-[1px] border-border_gray hover:bg-white hover:text-primary-dark cursor-pointer">
               <div>
                 <BiConversation size={25} />
@@ -58,7 +57,7 @@ const Footer = () => {
                 <span className="text-sm">Open google maps</span>
               </div>
             </div>
-          </FlexContainer>
+          </div>
           <div className="flex gap-[1px] pt-10 items-center cursor-pointer">
             <FaArrowUp />
             <Link href="/#home" className="underline">
