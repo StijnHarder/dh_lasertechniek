@@ -5,7 +5,9 @@ import Image from "next/image";
 
 export async function generateStaticParams() {
   const projectSlugs = await getProjects();
-  return projectSlugs.map((post: { slug: string }) => ({ slug: post.slug }));
+  return projectSlugs.map((project: { slug: string }) => ({
+    slug: project.slug,
+  }));
 }
 
 export default async function PostPage({
