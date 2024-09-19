@@ -1,12 +1,13 @@
 import { GiLaserBurst } from "react-icons/gi";
 import GlobalWidth from "./ui/GlobalWidth";
+import Container from "./ui/Container";
 
 const ServicesBlock = () => {
   return (
     <GlobalWidth>
-      <div
+      <Container
         id="services"
-        className="bg-white border-[1px] border-border_gray p-8 rounded-lg text-primary-dark mt-[400px] md:mt-[100px]"
+        className="flex-col text-primary-dark mt-[500px] md:mt-[100px]"
       >
         <div className="flex flex-col gap-1">
           <h2 className="font-bold text-2xl">Welke services leveren wij?</h2>
@@ -16,8 +17,8 @@ const ServicesBlock = () => {
             contact met ons op.
           </p>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10 w-full">
-          <div className="flex flex-col border-[1px] border-border_gray items-start rounded-md p-8 gap-2">
+        <div className="flex flex-wrap gap-4 mt-10 w-full">
+          <Container className="flex-1 flex-col items-start gap-2">
             <div className="flex flex-col gap-3">
               <div className="rounded-full p-2 bg-icon_purple mb-5 w-fit">
                 <GiLaserBurst size={25} color="#FFFFFF" />
@@ -34,8 +35,8 @@ const ServicesBlock = () => {
             <button className="p-2 border-[1px] border-border_gray bg-border_gray hover:bg-white rounded-sm mt-5">
               Zie projecten
             </button>
-          </div>
-          <div className="flex flex-col border-[1px] border-border_gray items-start justify-between rounded-md p-8 gap-2">
+          </Container>
+          <Container className="flex-1 flex-col items-start justify-between gap-2">
             <div className="flex flex-col gap-3">
               <div className="rounded-full p-2 bg-icon_light_blue mb-5 w-fit">
                 <GiLaserBurst size={25} color="#FFFFFF" />
@@ -52,8 +53,8 @@ const ServicesBlock = () => {
             <button className="p-2 border-[1px] border-border_gray bg-border_gray hover:bg-white rounded-sm mt-5">
               Zie projecten
             </button>
-          </div>
-          <div className="flex flex-col border-[1px] border-border_gray items-start justify-between rounded-md p-8 gap-2">
+          </Container>
+          <Container className="flex-1 flex-col items-start justify-between gap-2">
             <div className="flex flex-col gap-3">
               <div className="rounded-full p-2 bg-icon_blue mb-5 w-fit">
                 <GiLaserBurst size={25} color="#FFFFFF" />
@@ -70,9 +71,9 @@ const ServicesBlock = () => {
             <button className="p-2 border-[1px] border-border_gray bg-border_gray hover:bg-white rounded-sm mt-5">
               Zie projecten
             </button>
-          </div>
+          </Container>
         </div>
-      </div>
+      </Container>
     </GlobalWidth>
   );
 };

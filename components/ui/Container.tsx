@@ -10,7 +10,7 @@ export default function Container({
   return (
     <div
       id={`${id}`}
-      className={`flex ${className} bg-white border-[1px] border-border_gray p-8 rounded-lg`}
+      className={`flex ${className} bg-white border-[1px] border-border_gray p-6 md:p-8 rounded-lg`}
     >
       {children}
     </div>
