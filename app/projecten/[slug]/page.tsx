@@ -10,7 +10,7 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function PostPage({
+export default async function ProjectPage({
   params,
 }: {
   params: { slug: string };
