@@ -6,7 +6,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav className="flex flex-col text-primary-dark relative">
+    <nav id="home" className="flex flex-col text-primary-dark relative">
       <div className="bg-primary-dark">
         <GlobalWidth>
           <div className="flex gap-4 py-4 w-full items-center justify-between md:pl-[200px]">
@@ -21,8 +21,12 @@ const Navbar = () => {
               <div className="cursor-pointer">
                 <Link href="/">Home</Link>
               </div>
-              <div className="cursor-pointer">Diensten</div>
-              <div className="cursor-pointer">Contact</div>
+              <div className="cursor-pointer">
+                <Link href="/#services">Diensten</Link>
+              </div>
+              <div className="cursor-pointer">
+                <Link href="/#contact">Contact</Link>
+              </div>
               <div className="cursor-pointer">
                 <Link href="/blog">Blog</Link>
               </div>

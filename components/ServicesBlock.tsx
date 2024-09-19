@@ -4,7 +4,10 @@ import GlobalWidth from "./ui/GlobalWidth";
 const ServicesBlock = () => {
   return (
     <GlobalWidth>
-      <div className="bg-white border-[1px] border-border_gray p-8 rounded-lg text-primary-dark mt-[400px] md:mt-[100px]">
+      <div
+        id="services"
+        className="bg-white border-[1px] border-border_gray p-8 rounded-lg text-primary-dark mt-[400px] md:mt-[100px]"
+      >
         <div className="flex flex-col gap-1">
           <h2 className="font-bold text-2xl">Welke services leveren wij?</h2>
           <p>
