@@ -1,11 +1,13 @@
 import GlobalWidth from "@/components/ui/GlobalWidth";
-import { getPostBySLug } from "@/lib/service";
-import { getPosts } from "@/lib/service";
+import { getProjectBySLug } from "@/lib/service";
+import { getProjects } from "@/lib/service";
 import Image from "next/image";
 
 export async function generateStaticParams() {
-  const postSlugs = await getPosts();
-  return postSlugs.map((post: { slug: string }) => ({ slug: post.slug }));
+  const projectSlugs = await getProjects();
+  return projectSlugs.map((project: { slug: string }) => ({
+    slug: project.slug,
+  }));
 }
 
 export default async function PostPage({
@@ -13,9 +15,9 @@ export default async function PostPage({
 }: {
   params: { slug: string };
 }) {
-  const post = await getPostBySLug(params.slug);
+  const project = await getProjectBySLug(params.slug);
 
-  if (!post) return <div className="px-20">Post has not been found.</div>;
+  if (!project) return <div className="px-20">Project has not been found.</div>;
 
   return (
     <GlobalWidth className="mt-[50px] text-[#454A63]">
@@ -23,15 +25,18 @@ export default async function PostPage({
         <div className="h-[300px] overflow-hidden rounded-t-lg">
           <Image
             className="w-full"
-            src={post.featuredImage || "/placeholder_background.jpg"}
+            src={
+              project.featuredImage.node.sourceUrl ||
+              "/placeholder_background.jpg"
+            }
             width={500}
             height={500}
-            alt=""
+            alt={project.featuredImage.node.altText}
           />
         </div>
         <div className="flex flex-col p-8 gap-2">
-          <h1 className="text-4xl font-bold">{post.title}</h1>
-          <p>{post.content.slice(4, -5)}</p>
+          <h1 className="text-4xl font-bold">{project.title}</h1>
+          <p>{project.content.slice(3, -5)}</p>
         </div>
       </div>
     </GlobalWidth>

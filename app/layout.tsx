@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="nl" className="bg-[#FBFBFC]">
+    <html lang="nl" className="bg-background">
       <body className={palanquin.className}>
         <Navbar />
         {children}
