@@ -23,6 +23,7 @@ export async function getPosts(first=10) {
 });
   return data.posts.nodes;
 }
+
 export async function getProjects(first=10) {
     const data = await fetchAPI(`query FetchProjects($first: Int = 10) {
   projecten(first: $first) {

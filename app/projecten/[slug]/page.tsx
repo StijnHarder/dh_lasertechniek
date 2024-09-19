@@ -23,7 +23,10 @@ export default async function PostPage({
         <div className="h-[300px] overflow-hidden rounded-t-lg">
           <Image
             className="w-full"
-            src={project.featuredImage || "/placeholder_background.jpg"}
+            src={
+              project.featuredImage.node.sourceUrl ||
+              "/placeholder_background.jpg"
+            }
             width={500}
             height={500}
             alt={project.featuredImage.node.altText}
@@ -31,7 +34,7 @@ export default async function PostPage({
         </div>
         <div className="flex flex-col p-8 gap-2">
           <h1 className="text-4xl font-bold">{project.title}</h1>
-          <p>{project.content.slice(4, -5)}</p>
+          <p>{project.content.slice(3, -5)}</p>
         </div>
       </div>
     </GlobalWidth>

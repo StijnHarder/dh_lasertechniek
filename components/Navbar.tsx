@@ -14,7 +14,7 @@ const Navbar = () => {
               className="md:absolute md:left-10 lg:left-20 md:bottom-7"
               src="/logo.jpg"
               width={150}
-              height={150}
+              height={100}
               alt="logo dnh lasertechniek"
             />
             <div className="hidden md:flex md:gap-10 text-white">
